@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software or its study records, please cite them as below."
+type: software
+title: "Telohelm on ArduPilot: code, protocols and analysis for \"Code that never ran: testing and repairing flight procedures that a language model writes for ArduPilot in simulation\""
+abstract: >-
+  Telohelm has a language model write a short Python procedure that flies a
+  multirotor under the ArduPilot autopilot in simulation, and a monitor adopts
+  the procedure only if it meets its goal on every test flight. This
+  repository holds the code as each of the paper's two studies flew it, the
+  protocols fixed before each study, the validation check, the analysis and an
+  independent recomputation of the main results. A script checks the paper's
+  results from the study records, which are archived with it on Zenodo.
+authors:
+  - family-names: Vajda
+    given-names: Simon
+    affiliation: "Applied Artificial Intelligence Initiative, Deakin University, Burwood, Victoria, Australia"
+    orcid: "https://orcid.org/0000-0002-2751-4816"
+version: 1.0.0
+doi: 10.5281/zenodo.24022881
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24022881
+    description: "The software on Zenodo"
+  - type: doi
+    value: 10.5281/zenodo.24022883
+    description: "The study records on Zenodo"
+license: MIT
+repository-code: "https://github.com/Rainierraoul/telohelm-ardupilot"
+keywords:
+  - language models
+  - program synthesis
+  - robot learning
+  - self-repair
+  - simulation-based testing
+  - ArduPilot
+references:
+  - type: software
+    title: "Telohelm: source code and reproduction readers for \"Telohelm: replacing repeated language-model decisions with tested procedures in a changing task\""
+    version: 0.1.0
+    doi: 10.5281/zenodo.23993336
+    authors:
+      - family-names: Vajda
+        given-names: Simon

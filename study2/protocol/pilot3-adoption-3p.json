@@ -1,0 +1,225 @@
+{
+ "delay_expected_sha256": "6f141d1bda08e0b66bfed1e4cfa22665a2437e5fbfcab3027e3cb533e57edc15",
+ "delay_periods": 3,
+ "flight_code_sha256": {
+  "battle.py": "d298e50f89aaadc38713f8b1b6ad739cae41e6a88e3190769a5a5f6adb53b756",
+  "ladder.py": "654897d48108636c800822c8044adb707442c01138c522dba1ef51cdb156c1e0",
+  "pack.py": "3fda114ae9b7b07fe9c244862d9d418aea6fe191d097e4acb876b8027eca0dcb"
+ },
+ "made_by": "protocol/pilot_pass3.py expected-adoption",
+ "pilot_source_sha256": [
+  "8700e012b2d85b7f57bfd8c5d2958aa80edcfd9ab3e515527ae7f3de60563afa",
+  "8700e012b2d85b7f57bfd8c5d2958aa80edcfd9ab3e515527ae7f3de60563afa"
+ ],
+ "reply_set_sha256": "c528b8802de9c238e353f789572da66228e1aa53577cb3a8e7d4827b9fc91a74",
+ "route": "netns-per-process+keyring-per-call/2",
+ "rule": "notes/TAKEOVER-20261111.md, round five, ruling 21: an arm is judged only if both pilots agree on it and every layout its scripted trials flew has an expected end reason in the free check file",
+ "seeds_sha256": "1d39a62cf7ee7d23076b2c2878162457d555a86cd965ab7d7e17a312b876a64c",
+ "tasks": {
+  "land": {
+   "A": {
+    "adopted": true,
+    "candidate_id": "f1",
+    "judged": true,
+    "not_judged_because": [],
+    "seen": [
+     [
+      true,
+      "f1"
+     ],
+     [
+      true,
+      "f1"
+     ]
+    ]
+   },
+   "B": {
+    "adopted": false,
+    "candidate_id": null,
+    "judged": true,
+    "not_judged_because": [],
+    "seen": [
+     [
+      false,
+      null
+     ],
+     [
+      false,
+      null
+     ]
+    ]
+   },
+   "C": {
+    "adopted": false,
+    "candidate_id": null,
+    "judged": true,
+    "not_judged_because": [],
+    "seen": [
+     [
+      false,
+      null
+     ],
+     [
+      false,
+      null
+     ]
+    ]
+   },
+   "D": {
+    "adopted": false,
+    "candidate_id": null,
+    "judged": true,
+    "not_judged_because": [],
+    "seen": [
+     [
+      false,
+      null
+     ],
+     [
+      false,
+      null
+     ]
+    ]
+   }
+  },
+  "reach": {
+   "A": {
+    "adopted": true,
+    "candidate_id": "f1",
+    "judged": true,
+    "not_judged_because": [],
+    "seen": [
+     [
+      true,
+      "f1"
+     ],
+     [
+      true,
+      "f1"
+     ]
+    ]
+   },
+   "B": {
+    "adopted": false,
+    "candidate_id": null,
+    "judged": true,
+    "not_judged_because": [],
+    "seen": [
+     [
+      false,
+      null
+     ],
+     [
+      false,
+      null
+     ]
+    ]
+   },
+   "C": {
+    "adopted": false,
+    "candidate_id": null,
+    "judged": true,
+    "not_judged_because": [],
+    "seen": [
+     [
+      false,
+      null
+     ],
+     [
+      false,
+      null
+     ]
+    ]
+   },
+   "D": {
+    "adopted": false,
+    "candidate_id": null,
+    "judged": true,
+    "not_judged_because": [],
+    "seen": [
+     [
+      false,
+      null
+     ],
+     [
+      false,
+      null
+     ]
+    ]
+   }
+  },
+  "reach3d": {
+   "A": {
+    "adopted": true,
+    "candidate_id": "f1",
+    "judged": true,
+    "not_judged_because": [],
+    "seen": [
+     [
+      true,
+      "f1"
+     ],
+     [
+      true,
+      "f1"
+     ]
+    ]
+   },
+   "B": {
+    "adopted": true,
+    "candidate_id": "f1",
+    "judged": true,
+    "not_judged_because": [],
+    "seen": [
+     [
+      true,
+      "f1"
+     ],
+     [
+      true,
+      "f1"
+     ]
+    ]
+   },
+   "C": {
+    "adopted": null,
+    "candidate_id": null,
+    "judged": false,
+    "not_judged_because": [
+     "reach3d/first/threat-close-4010001 has no expected end reason at the delay",
+     "the pilots differ: [[False, None], [True, 'rC1']]"
+    ],
+    "seen": [
+     [
+      false,
+      null
+     ],
+     [
+      true,
+      "rC1"
+     ]
+    ]
+   },
+   "D": {
+    "adopted": null,
+    "candidate_id": null,
+    "judged": false,
+    "not_judged_because": [
+     "reach3d/first/threat-close-4010001 has no expected end reason at the delay",
+     "the pilots differ: [[False, None], [True, 'c1']]"
+    ],
+    "seen": [
+     [
+      false,
+      null
+     ],
+     [
+      true,
+      "c1"
+     ]
+    ]
+   }
+  }
+ },
+ "wheel_sha256": "36d36b86028643cdec9c3bbc5c90b6e6abe5dcdf31e5877367c38df995ab34b5"
+}

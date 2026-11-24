@@ -1,0 +1,26 @@
+{
+ "schema_version": 1,
+ "written": "2026-11-20T19:58:05+11:00",
+ "source_fingerprint": {
+  "sha256": "8700e012b2d85b7f57bfd8c5d2958aa80edcfd9ab3e515527ae7f3de60563afa",
+  "files": 86
+ },
+ "wheel_sha256": "36d36b86028643cdec9c3bbc5c90b6e6abe5dcdf31e5877367c38df995ab34b5",
+ "seeds_sha256": "1d39a62cf7ee7d23076b2c2878162457d555a86cd965ab7d7e17a312b876a64c",
+ "protocol_sha256": "06fbf29de34f5a8dd5e520a879df45d65ea344392f9cd4929b509182698710b7",
+ "delay_check_expected_sha256": "6f141d1bda08e0b66bfed1e4cfa22665a2437e5fbfcab3027e3cb533e57edc15",
+ "pilot_adoption_sha256": "e65d2cde84c9dcc847023000d27908ead91c9524c1b70d65fb95a08de9b7ad94",
+ "platform": {
+  "partition": "gpu",
+  "node_type": "l40s-f",
+  "cpu_model": "Intel(R) Xeon(R) Gold 6448Y",
+  "taken_from": {
+   "manifest": "/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/cluster-20261120/chain-4869829/runs/late-call-check3-20261120-R3/manifest.json",
+   "fields": {
+    "partition": "platform.slurm_job_partition",
+    "cpu_model": "platform.cpu_model",
+    "node_type": "platform.node, with the trailing -NN removed"
+   }
+  }
+ }
+}

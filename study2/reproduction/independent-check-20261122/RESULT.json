@@ -1,0 +1,1502 @@
+{
+ "what": "Independent recomputation of the nine intervals of PROTOCOL-3 sections 6.2 to 6.4 from the raw records of scored-20261120-S.",
+ "environment": {
+  "python": "3.12.13",
+  "numpy": "2.5.4",
+  "platform": "macOS-27.2.1-arm64-arm-64bit"
+ },
+ "choices": {
+  "generator": "numpy.random.default_rng([20261112, 0, task_index]); task_index 0 reach, 1 reach3d, 2 land. One generator per task, used for nothing else.",
+  "sets": "Five complete sets of 10,000 resamples are drawn one after another from the task's generator: all bands; close; middle; wide; middle and wide together. A set is finished before the next begins. The middle-only and wide-only sets are drawn and not used.",
+  "calls_within_a_set": "Main reading (per resample): for each resample, first rng.integers(0, 40, size=40) for the blocks, then for each band of the set in the order close, middle, wide one rng.integers(0, 8, size=8) for that band's scenarios.",
+  "alternate_calls_within_a_set": "Sensitivity only (set at once): rng.integers(0, 40, size=(10000, 40)) for the blocks of all resamples, then for each band of the set rng.integers(0, 8, size=(10000, 8)).",
+  "index_order": "Block index i is block number i. Scenario index j within a band is the j-th smallest seed number of that band.",
+  "statistic": "A resample's arm mean is the mean over its 40 drawn blocks and its drawn scenarios (8 per band, so the bands have equal weight). A contrast is the difference of two arm means from the same resample.",
+  "pooling": "The pooled contrast of resample r is the mean of the three tasks' contrasts at resample r of their all-band sets. Every task has 960 cells per arm, so this equals the difference of means over the 2,880 cells taken together.",
+  "which_set_feeds_which_interval": "Per-task steps and pooled steps: the all-band set. D - A close: the close set. D - A distant: the set of middle and wide together.",
+  "percentiles": "numpy.percentile with its default linear interpolation, at 2.5 and 97.5 for the 95% interval and at 5 and 95 for the 90% interval.",
+  "exact_comparisons": "Each resample's contrast is kept as a whole-number numerator over a fixed denominator (960 per task, 320 close, 640 distant, 2,880 pooled). The percentiles are taken on the numerators, and the strict comparisons with 0 and with 0.20 are made on numerators (0.20 is 192, 64, 128 and 576 of those denominators), so no rounding of a division can decide a name.",
+  "order_of_naming_rules": "First the three names for nothing to compare, tested on the cells. Then, for a pooled step, task-dependence from the three per-task 95% intervals of the all-band set. Then the four-way table, with the larger-than-the-margin label."
+ },
+ "outcome_field": "goal_met in each flight's outcome.json",
+ "margin": 0.2,
+ "resamples": 10000,
+ "seed": 20261112,
+ "arm_means": {
+  "reach": {
+   "A": {
+    "mean": 0.465625,
+    "successes": 447,
+    "cells": 960,
+    "blocks_adopted": 40,
+    "blocks": 40,
+    "mean_close": 0.140625,
+    "successes_close": 45,
+    "mean_distant": 0.628125,
+    "successes_distant": 402
+   },
+   "B": {
+    "mean": 0.2833333333333333,
+    "successes": 272,
+    "cells": 960,
+    "blocks_adopted": 13,
+    "blocks": 40,
+    "mean_close": 0.25625,
+    "successes_close": 82,
+    "mean_distant": 0.296875,
+    "successes_distant": 190
+   },
+   "C": {
+    "mean": 0.6958333333333333,
+    "successes": 668,
+    "cells": 960,
+    "blocks_adopted": 32,
+    "blocks": 40,
+    "mean_close": 0.66875,
+    "successes_close": 214,
+    "mean_distant": 0.709375,
+    "successes_distant": 454
+   },
+   "D": {
+    "mean": 0.7052083333333333,
+    "successes": 677,
+    "cells": 960,
+    "blocks_adopted": 33,
+    "blocks": 40,
+    "mean_close": 0.715625,
+    "successes_close": 229,
+    "mean_distant": 0.7,
+    "successes_distant": 448
+   }
+  },
+  "reach3d": {
+   "A": {
+    "mean": 0.5552083333333333,
+    "successes": 533,
+    "cells": 960,
+    "blocks_adopted": 40,
+    "blocks": 40,
+    "mean_close": 0.1875,
+    "successes_close": 60,
+    "mean_distant": 0.7390625,
+    "successes_distant": 473
+   },
+   "B": {
+    "mean": 0.353125,
+    "successes": 339,
+    "cells": 960,
+    "blocks_adopted": 15,
+    "blocks": 40,
+    "mean_close": 0.340625,
+    "successes_close": 109,
+    "mean_distant": 0.359375,
+    "successes_distant": 230
+   },
+   "C": {
+    "mean": 0.9,
+    "successes": 864,
+    "cells": 960,
+    "blocks_adopted": 38,
+    "blocks": 40,
+    "mean_close": 0.871875,
+    "successes_close": 279,
+    "mean_distant": 0.9140625,
+    "successes_distant": 585
+   },
+   "D": {
+    "mean": 0.78125,
+    "successes": 750,
+    "cells": 960,
+    "blocks_adopted": 34,
+    "blocks": 40,
+    "mean_close": 0.759375,
+    "successes_close": 243,
+    "mean_distant": 0.7921875,
+    "successes_distant": 507
+   }
+  },
+  "land": {
+   "A": {
+    "mean": 0.31666666666666665,
+    "successes": 304,
+    "cells": 960,
+    "blocks_adopted": 40,
+    "blocks": 40,
+    "mean_close": 0.0875,
+    "successes_close": 28,
+    "mean_distant": 0.43125,
+    "successes_distant": 276
+   },
+   "B": {
+    "mean": 0.06666666666666667,
+    "successes": 64,
+    "cells": 960,
+    "blocks_adopted": 3,
+    "blocks": 40,
+    "mean_close": 0.053125,
+    "successes_close": 17,
+    "mean_distant": 0.0734375,
+    "successes_distant": 47
+   },
+   "C": {
+    "mean": 0.590625,
+    "successes": 567,
+    "cells": 960,
+    "blocks_adopted": 26,
+    "blocks": 40,
+    "mean_close": 0.540625,
+    "successes_close": 173,
+    "mean_distant": 0.615625,
+    "successes_distant": 394
+   },
+   "D": {
+    "mean": 0.5645833333333333,
+    "successes": 542,
+    "cells": 960,
+    "blocks_adopted": 25,
+    "blocks": 40,
+    "mean_close": 0.58125,
+    "successes_close": 186,
+    "mean_distant": 0.55625,
+    "successes_distant": 356
+   }
+  }
+ },
+ "pooled_steps": {
+  "C-B": {
+   "estimate": 0.49444444444444446,
+   "estimate_numerator": 1424,
+   "denominator": 2880,
+   "ci95": [
+    0.39826388888888886,
+    0.5861111111111111
+   ],
+   "ci90": [
+    0.4135243055555556,
+    0.571875
+   ],
+   "ci95_numerators": [
+    1147.0,
+    1688.0
+   ],
+   "ci90_numerators": [
+    1190.95,
+    1647.0
+   ],
+   "bootstrap_mean": 0.4938783333333333,
+   "bootstrap_sd": 0.04809535676403859,
+   "n_blocks": 120,
+   "four_way_table": {
+    "key": "different_not_equivalent",
+    "name": "a gain larger than the margin",
+    "useful_gain": true,
+    "useful_loss": false
+   },
+   "four_way_key_from_divided_values": "different_not_equivalent",
+   "division_changes_the_key": false,
+   "key": "different_not_equivalent",
+   "name": "a gain larger than the margin",
+   "nearest_threshold_distance": 0.19826388888888888,
+   "per_task_95_wholly_above_0": [
+    "reach",
+    "reach3d",
+    "land"
+   ],
+   "per_task_95_wholly_below_0": [],
+   "task_dependent": false,
+   "per_task_signs": {
+    "reach": "+",
+    "reach3d": "+",
+    "land": "+"
+   },
+   "per_task_signs_differ": false,
+   "pooled_name_before_task_dependence": "a gain larger than the margin",
+   "reading_with_per_task_estimates": "a pooled gain over these three tasks"
+  },
+  "B-A": {
+   "estimate": -0.21145833333333333,
+   "estimate_numerator": -609,
+   "denominator": 2880,
+   "ci95": [
+    -0.28680555555555554,
+    -0.13159722222222223
+   ],
+   "ci90": [
+    -0.2746527777777778,
+    -0.14548611111111112
+   ],
+   "ci95_numerators": [
+    -826.0,
+    -379.0
+   ],
+   "ci90_numerators": [
+    -791.0,
+    -419.0
+   ],
+   "bootstrap_mean": -0.21057781250000002,
+   "bootstrap_sd": 0.03936733275589543,
+   "n_blocks": 120,
+   "four_way_table": {
+    "key": "different_not_equivalent",
+    "name": "a loss",
+    "useful_gain": false,
+    "useful_loss": false
+   },
+   "four_way_key_from_divided_values": "different_not_equivalent",
+   "division_changes_the_key": false,
+   "key": "different_not_equivalent",
+   "name": "a loss",
+   "nearest_threshold_distance": 0.06840277777777778,
+   "per_task_95_wholly_above_0": [],
+   "per_task_95_wholly_below_0": [
+    "reach",
+    "reach3d",
+    "land"
+   ],
+   "task_dependent": false,
+   "per_task_signs": {
+    "reach": "-",
+    "reach3d": "-",
+    "land": "-"
+   },
+   "per_task_signs_differ": false,
+   "pooled_name_before_task_dependence": "a loss",
+   "reading_with_per_task_estimates": "a pooled loss over these three tasks"
+  },
+  "D-C": {
+   "estimate": -0.04513888888888889,
+   "estimate_numerator": -130,
+   "denominator": 2880,
+   "ci95": [
+    -0.13576388888888888,
+    0.04722222222222222
+   ],
+   "ci90": [
+    -0.12083333333333333,
+    0.03159722222222222
+   ],
+   "ci95_numerators": [
+    -391.0,
+    136.0
+   ],
+   "ci90_numerators": [
+    -348.0,
+    91.0
+   ],
+   "bootstrap_mean": -0.04513621527777778,
+   "bootstrap_sd": 0.046516959000498445,
+   "n_blocks": 120,
+   "four_way_table": {
+    "key": "equivalent_not_different",
+    "name": "no gain or loss as large as the margin",
+    "useful_gain": false,
+    "useful_loss": false
+   },
+   "four_way_key_from_divided_values": "equivalent_not_different",
+   "division_changes_the_key": false,
+   "key": "equivalent_not_different",
+   "name": "no gain or loss as large as the margin",
+   "nearest_threshold_distance": 0.04722222222222222,
+   "per_task_95_wholly_above_0": [],
+   "per_task_95_wholly_below_0": [],
+   "task_dependent": false,
+   "per_task_signs": {
+    "reach": "+",
+    "reach3d": "-",
+    "land": "-"
+   },
+   "per_task_signs_differ": true,
+   "pooled_name_before_task_dependence": "no gain or loss as large as the margin",
+   "reading_with_per_task_estimates": "not settled: the average is near zero while the tasks' estimates point in opposite directions"
+  }
+ },
+ "per_task_steps": {
+  "C-B": {
+   "reach": {
+    "estimate": 0.4125,
+    "estimate_numerator": 396,
+    "denominator": 960,
+    "ci95": [
+     0.2520833333333333,
+     0.5625
+    ],
+    "ci90": [
+     0.278125,
+     0.5395833333333333
+    ],
+    "ci95_numerators": [
+     242.0,
+     540.0
+    ],
+    "ci90_numerators": [
+     267.0,
+     518.0
+    ],
+    "bootstrap_mean": 0.41044989583333336,
+    "bootstrap_sd": 0.0795771818641262,
+    "n_blocks": 40,
+    "four_way_table": {
+     "key": "different_not_equivalent",
+     "name": "a gain larger than the margin",
+     "useful_gain": true,
+     "useful_loss": false
+    },
+    "four_way_key_from_divided_values": "different_not_equivalent",
+    "division_changes_the_key": false,
+    "key": "different_not_equivalent",
+    "name": "a gain larger than the margin",
+    "nearest_threshold_distance": 0.052083333333333336
+   },
+   "reach3d": {
+    "estimate": 0.546875,
+    "estimate_numerator": 525,
+    "denominator": 960,
+    "ci95": [
+     0.3614583333333333,
+     0.7125
+    ],
+    "ci90": [
+     0.3927083333333333,
+     0.6875
+    ],
+    "ci95_numerators": [
+     347.0,
+     684.0
+    ],
+    "ci90_numerators": [
+     377.0,
+     660.0
+    ],
+    "bootstrap_mean": 0.5465894791666667,
+    "bootstrap_sd": 0.0891440972112206,
+    "n_blocks": 40,
+    "four_way_table": {
+     "key": "different_not_equivalent",
+     "name": "a gain larger than the margin",
+     "useful_gain": true,
+     "useful_loss": false
+    },
+    "four_way_key_from_divided_values": "different_not_equivalent",
+    "division_changes_the_key": false,
+    "key": "different_not_equivalent",
+    "name": "a gain larger than the margin",
+    "nearest_threshold_distance": 0.16145833333333334
+   },
+   "land": {
+    "estimate": 0.5239583333333333,
+    "estimate_numerator": 503,
+    "denominator": 960,
+    "ci95": [
+     0.36354166666666665,
+     0.6770833333333334
+    ],
+    "ci90": [
+     0.390625,
+     0.65625
+    ],
+    "ci95_numerators": [
+     349.0,
+     650.0
+    ],
+    "ci90_numerators": [
+     375.0,
+     630.0
+    ],
+    "bootstrap_mean": 0.524595625,
+    "bootstrap_sd": 0.08127967904331741,
+    "n_blocks": 40,
+    "four_way_table": {
+     "key": "different_not_equivalent",
+     "name": "a gain larger than the margin",
+     "useful_gain": true,
+     "useful_loss": false
+    },
+    "four_way_key_from_divided_values": "different_not_equivalent",
+    "division_changes_the_key": false,
+    "key": "different_not_equivalent",
+    "name": "a gain larger than the margin",
+    "nearest_threshold_distance": 0.16354166666666667
+   }
+  },
+  "B-A": {
+   "reach": {
+    "estimate": -0.18229166666666666,
+    "estimate_numerator": -175,
+    "denominator": 960,
+    "ci95": [
+     -0.32502604166666665,
+     -0.029166666666666667
+    ],
+    "ci90": [
+     -0.303125,
+     -0.053125
+    ],
+    "ci95_numerators": [
+     -312.025,
+     -28.0
+    ],
+    "ci90_numerators": [
+     -291.0,
+     -51.0
+    ],
+    "bootstrap_mean": -0.18050760416666664,
+    "bootstrap_sd": 0.07567996310426137,
+    "n_blocks": 40,
+    "four_way_table": {
+     "key": "different_not_equivalent",
+     "name": "a loss",
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "four_way_key_from_divided_values": "different_not_equivalent",
+    "division_changes_the_key": false,
+    "key": "different_not_equivalent",
+    "name": "a loss",
+    "nearest_threshold_distance": 0.029166666666666667
+   },
+   "reach3d": {
+    "estimate": -0.20208333333333334,
+    "estimate_numerator": -194,
+    "denominator": 960,
+    "ci95": [
+     -0.3416666666666667,
+     -0.04791666666666667
+    ],
+    "ci90": [
+     -0.31979166666666664,
+     -0.075
+    ],
+    "ci95_numerators": [
+     -328.0,
+     -46.0
+    ],
+    "ci90_numerators": [
+     -307.0,
+     -72.0
+    ],
+    "bootstrap_mean": -0.201256875,
+    "bootstrap_sd": 0.07485248571153863,
+    "n_blocks": 40,
+    "four_way_table": {
+     "key": "different_not_equivalent",
+     "name": "a loss",
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "four_way_key_from_divided_values": "different_not_equivalent",
+    "division_changes_the_key": false,
+    "key": "different_not_equivalent",
+    "name": "a loss",
+    "nearest_threshold_distance": 0.04791666666666667
+   },
+   "land": {
+    "estimate": -0.25,
+    "estimate_numerator": -240,
+    "denominator": 960,
+    "ci95": [
+     -0.35104166666666664,
+     -0.15104166666666666
+    ],
+    "ci90": [
+     -0.33541666666666664,
+     -0.16666666666666666
+    ],
+    "ci95_numerators": [
+     -337.0,
+     -145.0
+    ],
+    "ci90_numerators": [
+     -322.0,
+     -160.0
+    ],
+    "bootstrap_mean": -0.24996895833333335,
+    "bootstrap_sd": 0.05126390931010535,
+    "n_blocks": 40,
+    "four_way_table": {
+     "key": "different_not_equivalent",
+     "name": "a loss",
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "four_way_key_from_divided_values": "different_not_equivalent",
+    "division_changes_the_key": false,
+    "key": "different_not_equivalent",
+    "name": "a loss",
+    "nearest_threshold_distance": 0.04895833333333333
+   }
+  },
+  "D-C": {
+   "reach": {
+    "estimate": 0.009375,
+    "estimate_numerator": 9,
+    "denominator": 960,
+    "ci95": [
+     -0.1375,
+     0.16145833333333334
+    ],
+    "ci90": [
+     -0.115625,
+     0.1375
+    ],
+    "ci95_numerators": [
+     -132.0,
+     155.0
+    ],
+    "ci90_numerators": [
+     -111.0,
+     132.0
+    ],
+    "bootstrap_mean": 0.010203020833333333,
+    "bootstrap_sd": 0.07666160152550096,
+    "n_blocks": 40,
+    "four_way_table": {
+     "key": "equivalent_not_different",
+     "name": "no gain or loss as large as the margin",
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "four_way_key_from_divided_values": "equivalent_not_different",
+    "division_changes_the_key": false,
+    "key": "equivalent_not_different",
+    "name": "no gain or loss as large as the margin",
+    "nearest_threshold_distance": 0.0625
+   },
+   "reach3d": {
+    "estimate": -0.11875,
+    "estimate_numerator": -114,
+    "denominator": 960,
+    "ci95": [
+     -0.2562760416666666,
+     0.021875
+    ],
+    "ci90": [
+     -0.23442708333333329,
+     -0.004166666666666667
+    ],
+    "ci95_numerators": [
+     -246.02499999999998,
+     21.0
+    ],
+    "ci90_numerators": [
+     -225.04999999999995,
+     -4.0
+    ],
+    "bootstrap_mean": -0.11870197916666667,
+    "bootstrap_sd": 0.07066927719843985,
+    "n_blocks": 40,
+    "four_way_table": {
+     "key": "unresolved",
+     "name": "unresolved",
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "four_way_key_from_divided_values": "unresolved",
+    "division_changes_the_key": false,
+    "key": "unresolved",
+    "name": "unresolved",
+    "nearest_threshold_distance": 0.021875
+   },
+   "land": {
+    "estimate": -0.026041666666666668,
+    "estimate_numerator": -25,
+    "denominator": 960,
+    "ci95": [
+     -0.20729166666666668,
+     0.15729166666666666
+    ],
+    "ci90": [
+     -0.17604166666666668,
+     0.125
+    ],
+    "ci95_numerators": [
+     -199.0,
+     151.0
+    ],
+    "ci90_numerators": [
+     -169.0,
+     120.0
+    ],
+    "bootstrap_mean": -0.0269096875,
+    "bootstrap_sd": 0.09270145862642251,
+    "n_blocks": 40,
+    "four_way_table": {
+     "key": "equivalent_not_different",
+     "name": "no gain or loss as large as the margin",
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "four_way_key_from_divided_values": "equivalent_not_different",
+    "division_changes_the_key": false,
+    "key": "equivalent_not_different",
+    "name": "no gain or loss as large as the margin",
+    "nearest_threshold_distance": 0.023958333333333335
+   }
+  }
+ },
+ "rq4": {
+  "reach": {
+   "close": {
+    "estimate": 0.575,
+    "estimate_numerator": 184,
+    "denominator": 320,
+    "ci95": [
+     0.415625,
+     0.728125
+    ],
+    "ci90": [
+     0.440625,
+     0.703125
+    ],
+    "ci95_numerators": [
+     133.0,
+     233.0
+    ],
+    "ci90_numerators": [
+     141.0,
+     225.0
+    ],
+    "bootstrap_mean": 0.5740278125,
+    "bootstrap_sd": 0.07935042636649028,
+    "n_blocks": 40,
+    "four_way_table": {
+     "key": "different_not_equivalent",
+     "name": "a gain larger than the margin",
+     "useful_gain": true,
+     "useful_loss": false
+    },
+    "four_way_key_from_divided_values": "different_not_equivalent",
+    "division_changes_the_key": false,
+    "key": "different_not_equivalent",
+    "name": "a gain larger than the margin",
+    "nearest_threshold_distance": 0.215625
+   },
+   "distant": {
+    "estimate": 0.071875,
+    "estimate_numerator": 46,
+    "denominator": 640,
+    "ci95": [
+     -0.06875,
+     0.2140625
+    ],
+    "ci90": [
+     -0.0453125,
+     0.190625
+    ],
+    "ci95_numerators": [
+     -44.0,
+     137.0
+    ],
+    "ci90_numerators": [
+     -29.0,
+     122.0
+    ],
+    "bootstrap_mean": 0.07245281249999999,
+    "bootstrap_sd": 0.07253319453504228,
+    "n_blocks": 40,
+    "four_way_table": {
+     "key": "equivalent_not_different",
+     "name": "no gain or loss as large as the margin",
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "four_way_key_from_divided_values": "equivalent_not_different",
+    "division_changes_the_key": false,
+    "key": "equivalent_not_different",
+    "name": "no gain or loss as large as the margin",
+    "nearest_threshold_distance": 0.009375
+   }
+  },
+  "reach3d": {
+   "close": {
+    "estimate": 0.571875,
+    "estimate_numerator": 183,
+    "denominator": 320,
+    "ci95": [
+     0.39375,
+     0.73125
+    ],
+    "ci90": [
+     0.425,
+     0.70625
+    ],
+    "ci95_numerators": [
+     126.0,
+     234.0
+    ],
+    "ci90_numerators": [
+     136.0,
+     226.0
+    ],
+    "bootstrap_mean": 0.5715628125000001,
+    "bootstrap_sd": 0.08666370598293044,
+    "n_blocks": 40,
+    "four_way_table": {
+     "key": "different_not_equivalent",
+     "name": "a gain larger than the margin",
+     "useful_gain": true,
+     "useful_loss": false
+    },
+    "four_way_key_from_divided_values": "different_not_equivalent",
+    "division_changes_the_key": false,
+    "key": "different_not_equivalent",
+    "name": "a gain larger than the margin",
+    "nearest_threshold_distance": 0.19375
+   },
+   "distant": {
+    "estimate": 0.053125,
+    "estimate_numerator": 34,
+    "denominator": 640,
+    "ci95": [
+     -0.1,
+     0.1984375
+    ],
+    "ci90": [
+     -0.0765625,
+     0.1765625
+    ],
+    "ci95_numerators": [
+     -64.0,
+     127.0
+    ],
+    "ci90_numerators": [
+     -49.0,
+     113.0
+    ],
+    "bootstrap_mean": 0.052476875,
+    "bootstrap_sd": 0.0766325871923629,
+    "n_blocks": 40,
+    "four_way_table": {
+     "key": "equivalent_not_different",
+     "name": "no gain or loss as large as the margin",
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "four_way_key_from_divided_values": "equivalent_not_different",
+    "division_changes_the_key": false,
+    "key": "equivalent_not_different",
+    "name": "no gain or loss as large as the margin",
+    "nearest_threshold_distance": 0.0234375
+   }
+  },
+  "land": {
+   "close": {
+    "estimate": 0.49375,
+    "estimate_numerator": 158,
+    "denominator": 320,
+    "ci95": [
+     0.321875,
+     0.659375
+    ],
+    "ci90": [
+     0.35,
+     0.63125
+    ],
+    "ci95_numerators": [
+     103.0,
+     211.0
+    ],
+    "ci90_numerators": [
+     112.0,
+     202.0
+    ],
+    "bootstrap_mean": 0.49289625,
+    "bootstrap_sd": 0.08556451625940961,
+    "n_blocks": 40,
+    "four_way_table": {
+     "key": "different_not_equivalent",
+     "name": "a gain larger than the margin",
+     "useful_gain": true,
+     "useful_loss": false
+    },
+    "four_way_key_from_divided_values": "different_not_equivalent",
+    "division_changes_the_key": false,
+    "key": "different_not_equivalent",
+    "name": "a gain larger than the margin",
+    "nearest_threshold_distance": 0.121875
+   },
+   "distant": {
+    "estimate": 0.125,
+    "estimate_numerator": 80,
+    "denominator": 640,
+    "ci95": [
+     -0.078125,
+     0.31875
+    ],
+    "ci90": [
+     -0.04375,
+     0.290625
+    ],
+    "ci95_numerators": [
+     -50.0,
+     204.0
+    ],
+    "ci90_numerators": [
+     -28.0,
+     186.0
+    ],
+    "bootstrap_mean": 0.12353,
+    "bootstrap_sd": 0.102167898149645,
+    "n_blocks": 40,
+    "four_way_table": {
+     "key": "unresolved",
+     "name": "unresolved",
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "four_way_key_from_divided_values": "unresolved",
+    "division_changes_the_key": false,
+    "key": "unresolved",
+    "name": "unresolved",
+    "nearest_threshold_distance": 0.078125
+   }
+  }
+ },
+ "division_changes_any_key": false,
+ "sensitivity_to_call_order": {
+  "what": "The same analysis with the alternate call order inside a set (CHOICES: alternate_calls_within_a_set). Same seed, same sets, same percentiles.",
+  "largest_shift_of_any_interval_end": 0.006250000000000033,
+  "shift_by_interval": {
+   "pooled C-B": 0.0007031249999998046,
+   "pooled B-A": 0.001388888888888884,
+   "pooled D-C": 0.001388888888888891,
+   "reach C-B": 0.0031250000000000444,
+   "reach3d C-B": 0.005208333333333315,
+   "land C-B": 0.0010416666666667185,
+   "reach B-A": 0.002083333333333333,
+   "reach3d B-A": 0.00518229166666704,
+   "land B-A": 0.002083333333333326,
+   "reach D-C": 0.004166666666666652,
+   "reach3d D-C": 0.005208333333333332,
+   "land D-C": 0.0020833333333333537,
+   "reach D-A close": 0.003124999999999989,
+   "reach D-A distant": 0.0015625000000000014,
+   "reach3d D-A close": 0.006250000000000033,
+   "reach3d D-A distant": 0.0031250000000000167,
+   "land D-A close": 0.0031250000000000444,
+   "land D-A distant": 0.0015625000000000222
+  },
+  "names_that_change": [],
+  "intervals_with_an_end_nearer_a_threshold_than_the_largest_shift": [],
+  "alternate_intervals": {
+   "pooled C-B": {
+    "ci95": [
+     0.39790798611111106,
+     0.5868142361111109
+    ],
+    "ci90": [
+     0.4131944444444444,
+     0.5722222222222222
+    ],
+    "name": "a gain larger than the margin",
+    "key": "different_not_equivalent"
+   },
+   "pooled B-A": {
+    "ci95": [
+     -0.28680555555555554,
+     -0.1329861111111111
+    ],
+    "ci90": [
+     -0.27467013888888886,
+     -0.14583333333333334
+    ],
+    "name": "a loss",
+    "key": "different_not_equivalent"
+   },
+   "pooled D-C": {
+    "ci95": [
+     -0.13645833333333332,
+     0.04583333333333333
+    ],
+    "ci90": [
+     -0.12222222222222222,
+     0.03125
+    ],
+    "name": "no gain or loss as large as the margin",
+    "key": "equivalent_not_different"
+   },
+   "reach C-B": {
+    "ci95": [
+     0.2520833333333333,
+     0.565625
+    ],
+    "ci90": [
+     0.27708333333333335,
+     0.540625
+    ],
+    "name": "a gain larger than the margin",
+    "key": "different_not_equivalent"
+   },
+   "reach3d C-B": {
+    "ci95": [
+     0.36354166666666665,
+     0.7135416666666666
+    ],
+    "ci90": [
+     0.39791666666666664,
+     0.6885416666666667
+    ],
+    "name": "a gain larger than the margin",
+    "key": "different_not_equivalent"
+   },
+   "land C-B": {
+    "ci95": [
+     0.363515625,
+     0.678125
+    ],
+    "ci90": [
+     0.39166666666666666,
+     0.6552083333333333
+    ],
+    "name": "a gain larger than the margin",
+    "key": "different_not_equivalent"
+   },
+   "reach B-A": {
+    "ci95": [
+     -0.32395833333333335,
+     -0.030208333333333334
+    ],
+    "ci90": [
+     -0.30104166666666665,
+     -0.05520833333333333
+    ],
+    "name": "a loss",
+    "key": "different_not_equivalent"
+   },
+   "reach3d B-A": {
+    "ci95": [
+     -0.3458333333333333,
+     -0.05309895833333371
+    ],
+    "ci90": [
+     -0.3229166666666667,
+     -0.07604166666666666
+    ],
+    "name": "a loss",
+    "key": "different_not_equivalent"
+   },
+   "land B-A": {
+    "ci95": [
+     -0.35104166666666664,
+     -0.14895833333333333
+    ],
+    "ci90": [
+     -0.33541666666666664,
+     -0.16458333333333333
+    ],
+    "name": "a loss",
+    "key": "different_not_equivalent"
+   },
+   "reach D-C": {
+    "ci95": [
+     -0.14166666666666666,
+     0.16041666666666668
+    ],
+    "ci90": [
+     -0.11770833333333333,
+     0.13645833333333332
+    ],
+    "name": "no gain or loss as large as the margin",
+    "key": "equivalent_not_different"
+   },
+   "reach3d D-C": {
+    "ci95": [
+     -0.25729166666666664,
+     0.016666666666666666
+    ],
+    "ci90": [
+     -0.23541666666666666,
+     -0.00625
+    ],
+    "name": "unresolved",
+    "key": "unresolved"
+   },
+   "land D-C": {
+    "ci95": [
+     -0.20520833333333333,
+     0.159375
+    ],
+    "ci90": [
+     -0.17609374999999997,
+     0.12401041666666592
+    ],
+    "name": "no gain or loss as large as the margin",
+    "key": "equivalent_not_different"
+   },
+   "reach D-A close": {
+    "ci95": [
+     0.41875,
+     0.728125
+    ],
+    "ci90": [
+     0.44375,
+     0.703125
+    ],
+    "name": "a gain larger than the margin",
+    "key": "different_not_equivalent"
+   },
+   "reach D-A distant": {
+    "ci95": [
+     -0.06875,
+     0.2125
+    ],
+    "ci90": [
+     -0.046875,
+     0.190625
+    ],
+    "name": "no gain or loss as large as the margin",
+    "key": "equivalent_not_different"
+   },
+   "reach3d D-A close": {
+    "ci95": [
+     0.4,
+     0.734375
+    ],
+    "ci90": [
+     0.425,
+     0.709375
+    ],
+    "name": "a gain larger than the margin",
+    "key": "different_not_equivalent"
+   },
+   "reach3d D-A distant": {
+    "ci95": [
+     -0.1015625,
+     0.2015625
+    ],
+    "ci90": [
+     -0.075,
+     0.178125
+    ],
+    "name": "no gain or loss as large as the margin",
+    "key": "equivalent_not_different"
+   },
+   "land D-A close": {
+    "ci95": [
+     0.31875,
+     0.659375
+    ],
+    "ci90": [
+     0.35,
+     0.634375
+    ],
+    "name": "a gain larger than the margin",
+    "key": "different_not_equivalent"
+   },
+   "land D-A distant": {
+    "ci95": [
+     -0.078125,
+     0.3203125
+    ],
+    "ci90": [
+     -0.0453125,
+     0.290625
+    ],
+    "name": "unresolved",
+    "key": "unresolved"
+   }
+  }
+ },
+ "stream_check": {
+  "what": "The same analysis on 20 other random streams, seeds [20261112, 1001..1020, task_index]. For each interval: the lowest and highest value each end took, and how many streams gave each name.",
+  "streams": 20,
+  "by_interval": {
+   "pooled C-B": {
+    "ci95_low_range": [
+     0.39652777777777776,
+     0.4013888888888889
+    ],
+    "ci95_high_range": [
+     0.5829861111111111,
+     0.5888975694444443
+    ],
+    "ci90_low_range": [
+     0.4131944444444444,
+     0.41631944444444446
+    ],
+    "ci90_high_range": [
+     0.5694444444444444,
+     0.5739583333333333
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.0031250000000000444,
+    "names": {
+     "a gain larger than the margin": 20
+    }
+   },
+   "pooled B-A": {
+    "ci95_low_range": [
+     -0.28889756944444445,
+     -0.2847222222222222
+    ],
+    "ci95_high_range": [
+     -0.13540798611111124,
+     -0.13125
+    ],
+    "ci90_low_range": [
+     -0.2767361111111111,
+     -0.27361111111111114
+    ],
+    "ci90_high_range": [
+     -0.14756944444444445,
+     -0.14479166666666668
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.0038107638888890127,
+    "names": {
+     "a loss": 20
+    }
+   },
+   "pooled D-C": {
+    "ci95_low_range": [
+     -0.13819444444444445,
+     -0.13299479166666667
+    ],
+    "ci95_high_range": [
+     0.044444444444444446,
+     0.04826388888888889
+    ],
+    "ci90_low_range": [
+     -0.1232638888888889,
+     -0.11909722222222222
+    ],
+    "ci90_high_range": [
+     0.029861111111111113,
+     0.03335069444444419
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.002777777777777775,
+    "names": {
+     "no gain or loss as large as the margin": 20
+    }
+   },
+   "reach C-B": {
+    "ci95_low_range": [
+     0.25309895833333335,
+     0.2604166666666667
+    ],
+    "ci95_high_range": [
+     0.5625,
+     0.571875
+    ],
+    "ci90_low_range": [
+     0.2791666666666667,
+     0.28541666666666665
+    ],
+    "ci90_high_range": [
+     0.5385416666666667,
+     0.546875
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.009375000000000022,
+    "names": {
+     "a gain larger than the margin": 20
+    }
+   },
+   "reach3d C-B": {
+    "ci95_low_range": [
+     0.3625,
+     0.3697916666666667
+    ],
+    "ci95_high_range": [
+     0.709375,
+     0.7166666666666667
+    ],
+    "ci90_low_range": [
+     0.3927083333333333,
+     0.39895833333333336
+    ],
+    "ci90_high_range": [
+     0.6854166666666667,
+     0.6916666666666667
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.00833333333333336,
+    "names": {
+     "a gain larger than the margin": 20
+    }
+   },
+   "land C-B": {
+    "ci95_low_range": [
+     0.36041666666666666,
+     0.36666666666666664
+    ],
+    "ci95_high_range": [
+     0.6708333333333333,
+     0.6802083333333333
+    ],
+    "ci90_low_range": [
+     0.3874479166666667,
+     0.39166666666666666
+    ],
+    "ci90_high_range": [
+     0.6510416666666666,
+     0.6583333333333333
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.006250000000000089,
+    "names": {
+     "a gain larger than the margin": 20
+    }
+   },
+   "reach B-A": {
+    "ci95_low_range": [
+     -0.328125,
+     -0.321875
+    ],
+    "ci95_high_range": [
+     -0.035416666666666666,
+     -0.027083333333333334
+    ],
+    "ci90_low_range": [
+     -0.30625,
+     -0.30104166666666665
+    ],
+    "ci90_high_range": [
+     -0.058333333333333334,
+     -0.052083333333333336
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.006249999999999999,
+    "names": {
+     "a loss": 20
+    }
+   },
+   "reach3d B-A": {
+    "ci95_low_range": [
+     -0.346875,
+     -0.3375
+    ],
+    "ci95_high_range": [
+     -0.057291666666666664,
+     -0.05
+    ],
+    "ci90_low_range": [
+     -0.325,
+     -0.31875
+    ],
+    "ci90_high_range": [
+     -0.08020833333333334,
+     -0.07395833333333333
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.009374999999999994,
+    "names": {
+     "a loss": 20
+    }
+   },
+   "land B-A": {
+    "ci95_low_range": [
+     -0.353125,
+     -0.35
+    ],
+    "ci95_high_range": [
+     -0.15104166666666666,
+     -0.14583333333333334
+    ],
+    "ci90_low_range": [
+     -0.33645833333333336,
+     -0.3333333333333333
+    ],
+    "ci90_high_range": [
+     -0.16666666666666666,
+     -0.1625
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.005208333333333315,
+    "names": {
+     "a loss": 20
+    }
+   },
+   "reach D-C": {
+    "ci95_low_range": [
+     -0.14583333333333334,
+     -0.13854166666666667
+    ],
+    "ci95_high_range": [
+     0.15729166666666666,
+     0.165625
+    ],
+    "ci90_low_range": [
+     -0.121875,
+     -0.11458333333333333
+    ],
+    "ci90_high_range": [
+     0.13333333333333333,
+     0.13854166666666667
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.008333333333333331,
+    "names": {
+     "no gain or loss as large as the margin": 20
+    }
+   },
+   "reach3d D-C": {
+    "ci95_low_range": [
+     -0.26145833333333335,
+     -0.2552083333333333
+    ],
+    "ci95_high_range": [
+     0.015625,
+     0.020833333333333332
+    ],
+    "ci90_low_range": [
+     -0.23854166666666668,
+     -0.23229166666666667
+    ],
+    "ci90_high_range": [
+     -0.00625,
+     -0.0010416666666666667
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.006249999999999999,
+    "names": {
+     "unresolved": 20
+    }
+   },
+   "land D-C": {
+    "ci95_low_range": [
+     -0.21041666666666667,
+     -0.203125
+    ],
+    "ci95_high_range": [
+     0.15104166666666666,
+     0.16145833333333334
+    ],
+    "ci90_low_range": [
+     -0.18125,
+     -0.17291666666666666
+    ],
+    "ci90_high_range": [
+     0.12395833333333334,
+     0.13229166666666667
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.0072916666666666685,
+    "names": {
+     "no gain or loss as large as the margin": 20
+    }
+   },
+   "reach D-A close": {
+    "ci95_low_range": [
+     0.4125,
+     0.41875
+    ],
+    "ci95_high_range": [
+     0.725,
+     0.73125
+    ],
+    "ci90_low_range": [
+     0.440625,
+     0.44375
+    ],
+    "ci90_high_range": [
+     0.7,
+     0.70625
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.0031250000000000444,
+    "names": {
+     "a gain larger than the margin": 20
+    }
+   },
+   "reach D-A distant": {
+    "ci95_low_range": [
+     -0.075,
+     -0.06875
+    ],
+    "ci95_high_range": [
+     0.2125,
+     0.21875
+    ],
+    "ci90_low_range": [
+     -0.05,
+     -0.0453125
+    ],
+    "ci90_high_range": [
+     0.190625,
+     0.1953125
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.006249999999999992,
+    "names": {
+     "no gain or loss as large as the margin": 20
+    }
+   },
+   "reach3d D-A close": {
+    "ci95_low_range": [
+     0.390625,
+     0.4
+    ],
+    "ci95_high_range": [
+     0.73125,
+     0.7375
+    ],
+    "ci90_low_range": [
+     0.421875,
+     0.428125
+    ],
+    "ci90_high_range": [
+     0.70625,
+     0.7125
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.006250000000000089,
+    "names": {
+     "a gain larger than the margin": 20
+    }
+   },
+   "reach3d D-A distant": {
+    "ci95_low_range": [
+     -0.1015625,
+     -0.0953125
+    ],
+    "ci95_high_range": [
+     0.196875,
+     0.20625
+    ],
+    "ci90_low_range": [
+     -0.078125,
+     -0.0703125
+    ],
+    "ci90_high_range": [
+     0.1734375,
+     0.1828125
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.0078125,
+    "names": {
+     "no gain or loss as large as the margin": 20
+    }
+   },
+   "land D-A close": {
+    "ci95_low_range": [
+     0.315625,
+     0.325
+    ],
+    "ci95_high_range": [
+     0.6532031249999989,
+     0.6625
+    ],
+    "ci90_low_range": [
+     0.34375,
+     0.353125
+    ],
+    "ci90_high_range": [
+     0.63125,
+     0.6375
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.006250000000000033,
+    "names": {
+     "a gain larger than the margin": 20
+    }
+   },
+   "land D-A distant": {
+    "ci95_low_range": [
+     -0.08125,
+     -0.0703125
+    ],
+    "ci95_high_range": [
+     0.3172265624999994,
+     0.325
+    ],
+    "ci90_low_range": [
+     -0.05,
+     -0.0390625
+    ],
+    "ci90_high_range": [
+     0.2859375,
+     0.2953125
+    ],
+    "largest_distance_of_an_end_from_the_main_run": 0.0078125,
+    "names": {
+     "unresolved": 20
+    }
+   }
+  },
+  "intervals_whose_name_is_not_the_same_on_every_stream": []
+ }
+}

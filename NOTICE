@@ -1,0 +1,70 @@
+Telohelm on ArduPilot
+Copyright (c) 2026 Simon Vajda
+
+The code in this repository is licensed under the MIT License (LICENSE), except
+the third-party material listed below. Documentation, the protocols, figures
+and the archived analysis output are licensed under CC BY 4.0 (LICENSE-data).
+
+Third-party material
+
+1. ArduPilot's Gazebo plugin. The folders study1/ardupilot/gazebo/ardupilot_gazebo/
+   and study2/ardupilot/gazebo/ardupilot_gazebo/ hold the same files. Each holds files added to a local checkout of https://github.com/ArduPilot/ardupilot_gazebo
+   at commit f116b035, which is licensed under the GNU Lesser General Public
+   License, version 3 (LICENSES/LGPL-3.0.txt, which supplements
+   LICENSES/GPL-3.0.txt). These files keep that licence:
+
+     models/iris_cine/ and models/iris_cine_standoffs/, adapted from the
+     plugin's iris_with_ardupilot and iris_with_standoffs models (their authors
+     are listed in each model.config);
+     CMakeLists.patch, a change to the plugin's CMakeLists.txt that leaves out
+     the camera-streaming plugins.
+
+   The three world files in that folder (cine_splits_arena.sdf,
+   cine_splits_field3x.sdf, course3d-7-cam.sdf) were written for this project
+   and load the plugin's models.
+
+2. Gazebo Fuel models. The other folders under
+   ardupilot/gazebo/ardupilot_gazebo/models/, in study1/ and in study2/, hold model definitions
+   (model.sdf and model.config) adapted from models published on
+   https://fuel.gazebosim.org by Open Robotics. Depot, from which cine_depot and
+   cine_arena_hall are built, is licensed under CC BY 4.0. Collapsed Fire
+   Station, Collapsed House, Collapsed Industrial Building, Construction Barrel,
+   Construction Cone, Gas Station, Power Plant, Tower Crane, Truss Bridge and
+   Water Tower are licensed under CC0 1.0 (licences read from Fuel on 7 November
+   2026). Their authors are listed in each model.config. No meshes or textures
+   are included; Gazebo downloads them from Fuel. cine_field_ground was written
+   for this project; its texture, ambientCG Ground037, is CC0 1.0 and is not
+   included.
+
+3. The Split-S track. The seven gate positions and the start position in
+   ardupilot/course_splits.py, in study1/ and in study2/, are copied from tracks/track.yaml in
+   https://github.com/uzh-rpg/rpg_time_optimal (University of Zurich, Robotics
+   and Perception Group), which is licensed under the GNU General Public
+   License, version 3 (LICENSES/GPL-3.0.txt). They describe the track published
+   in Foehn P, Romero A and Scaramuzza D (2021) 'Time-optimal planning for
+   quadrotor waypoint flight', Science Robotics 6(56):eabh1221,
+   doi:10.1126/scirobotics.abh1221.
+
+4. The learning core. study1/protocol/telohelm-0.1.0.dev0-py3-none-any.whl is
+   Telohelm's learning core, by the same author under the MIT License. Its
+   Python source is identical to Telohelm 0.1.0,
+   https://doi.org/10.5281/zenodo.23993336.
+   study2/protocol/telohelm-0.1.0.dev0+paper3.2-py3-none-any.whl is the same
+   core with study2/protocol/wheel3/sandbox.patch applied to
+   telohelm/runtime/sandbox.py. Each wheel also holds three files
+   copied unmodified from the Qwen/Qwen3.8-27B model repository at revision
+   1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0, published by the Qwen team under
+   the Apache License, Version 2.0 (LICENSES/Apache-2.0.txt):
+
+     telohelm/model_files/Qwen3.8-27B-1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0/tokenizer.json
+       SHA-256 0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3
+     telohelm/model_files/Qwen3.8-27B-1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0/tokenizer_config.json
+       SHA-256 b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27
+     telohelm/model_files/Qwen3.8-27B-1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0/chat_template.jinja
+       SHA-256 c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041
+
+   They come with each wheel as built; the core uses them with local models.
+
+5. ArduPilot itself (https://github.com/ArduPilot/ardupilot, GPL-3.0) is not
+   included. Both studies used ArduPilot Copter 4.7.2 at commit fb773567; see
+   docs/SETUP.md.

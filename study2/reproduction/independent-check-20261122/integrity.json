@@ -1,0 +1,169 @@
+{
+ "tasks": {
+  "reach": {
+   "root": "/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-20261120-S-extract/data/runs/scored-20261120-S-reach",
+   "threat3_folders_in_root": 106,
+   "threat3_folders_used": 106,
+   "threat3_folders_unused_c0_only": 0,
+   "outcome_files_read": 2544,
+   "end_reason_by_goal_met": {
+    "entered_threat|goal_met=False": 391,
+    "held|goal_met=True": 1838,
+    "timed_out|goal_met=False": 315
+   },
+   "cells_disagreeing_with_results_jsonl": 0,
+   "bands_disagreeing_with_summary_json": 0,
+   "kept_late_folders": [],
+   "blocks_by_which_arms_share_a_source": {
+    "A": 2,
+    "ABC|D": 6,
+    "A|B": 1,
+    "A|B|C|D": 6,
+    "A|C": 4,
+    "A|C|D": 16,
+    "A|D": 5
+   },
+   "adopted_blocks": {
+    "A": 40,
+    "B": 13,
+    "C": 32,
+    "D": 33
+   }
+  },
+  "reach3d": {
+   "root": "/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-20261120-S-extract/data/runs/scored-20261120-S-reach3d",
+   "threat3_folders_in_root": 117,
+   "threat3_folders_used": 117,
+   "threat3_folders_unused_c0_only": 0,
+   "outcome_files_read": 2808,
+   "end_reason_by_goal_met": {
+    "entered_threat|goal_met=False": 229,
+    "held|goal_met=True": 2278,
+    "timed_out|goal_met=False": 301
+   },
+   "cells_disagreeing_with_results_jsonl": 0,
+   "bands_disagreeing_with_summary_json": 0,
+   "kept_late_folders": [
+    {
+     "block": 34,
+     "source_sha256": "2d669a2968434af865746c9612bbff6dd12f18c4e47ab879a1ffd6efef4a2e90",
+     "arms": [
+      "A"
+     ],
+     "record": {
+      "late_attempts_set_aside": 2,
+      "attempt_folders": [
+       "threat3-reach3d-b34-2d669a2968434af865746c9612bbff6dd12f18c4e47ab879a1ffd6efef4a2e90-attempt1",
+       "threat3-reach3d-b34-2d669a2968434af865746c9612bbff6dd12f18c4e47ab879a1ffd6efef4a2e90-attempt2"
+      ],
+      "kept_late_flights": [
+       "threat-close-3110004"
+      ]
+     },
+     "recorded_goal_met": {
+      "threat-close-3110004": false
+     },
+     "recorded_end_reason": {
+      "threat-close-3110004": "timed_out"
+     }
+    },
+    {
+     "block": 37,
+     "source_sha256": "ed35838d9990e1fde0f337b627235eeb0e7660578101ba37ab38ba3866069f2d",
+     "arms": [
+      "A",
+      "B",
+      "C"
+     ],
+     "record": {
+      "late_attempts_set_aside": 2,
+      "attempt_folders": [
+       "threat3-reach3d-b37-ed35838d9990e1fde0f337b627235eeb0e7660578101ba37ab38ba3866069f2d-attempt1",
+       "threat3-reach3d-b37-ed35838d9990e1fde0f337b627235eeb0e7660578101ba37ab38ba3866069f2d-attempt2"
+      ],
+      "kept_late_flights": [
+       "threat-close-3110008"
+      ]
+     },
+     "recorded_goal_met": {
+      "threat-close-3110008": true
+     },
+     "recorded_end_reason": {
+      "threat-close-3110008": "held"
+     }
+    },
+    {
+     "block": 39,
+     "source_sha256": "bdb9eede7bdeeb1e7ccf696959ee253c00a4195833b1775c3aad237a767c551f",
+     "arms": [
+      "A"
+     ],
+     "record": {
+      "late_attempts_set_aside": 2,
+      "attempt_folders": [
+       "threat3-reach3d-b39-bdb9eede7bdeeb1e7ccf696959ee253c00a4195833b1775c3aad237a767c551f-attempt1",
+       "threat3-reach3d-b39-bdb9eede7bdeeb1e7ccf696959ee253c00a4195833b1775c3aad237a767c551f-attempt2"
+      ],
+      "kept_late_flights": [
+       "threat-wide-3110202"
+      ]
+     },
+     "recorded_goal_met": {
+      "threat-wide-3110202": true
+     },
+     "recorded_end_reason": {
+      "threat-wide-3110202": "held"
+     }
+    }
+   ],
+   "blocks_by_which_arms_share_a_source": {
+    "ABC": 1,
+    "ABC|D": 4,
+    "A|B|C": 3,
+    "A|B|C|D": 5,
+    "A|B|D": 2,
+    "A|C": 2,
+    "A|C|D": 23
+   },
+   "adopted_blocks": {
+    "A": 40,
+    "B": 15,
+    "C": 38,
+    "D": 34
+   }
+  },
+  "land": {
+   "root": "/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-20261120-S-extract/data/runs/scored-20261120-S-land",
+   "threat3_folders_in_root": 98,
+   "threat3_folders_used": 91,
+   "threat3_folders_unused_c0_only": 7,
+   "outcome_files_read": 2184,
+   "end_reason_by_goal_met": {
+    "entered_threat|goal_met=False": 557,
+    "hard_landing|goal_met=False": 17,
+    "landed_off_point|goal_met=False": 35,
+    "landed|goal_met=True": 1412,
+    "timed_out|goal_met=False": 163
+   },
+   "cells_disagreeing_with_results_jsonl": 0,
+   "bands_disagreeing_with_summary_json": 0,
+   "kept_late_folders": [],
+   "blocks_by_which_arms_share_a_source": {
+    "A": 6,
+    "AB": 1,
+    "ABC|D": 1,
+    "A|B|C|D": 1,
+    "A|C": 8,
+    "A|C|D": 16,
+    "A|D": 7
+   },
+   "adopted_blocks": {
+    "A": 40,
+    "B": 3,
+    "C": 26,
+    "D": 25
+   }
+  }
+ },
+ "problems": []
+}

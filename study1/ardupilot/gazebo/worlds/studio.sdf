@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<sdf version="1.9"><world name="studio">
+<plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
+<plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+<plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors"><render_engine>ogre2</render_engine></plugin>
+<scene><ambient>0.5 0.5 0.5 1</ambient><background>0.7 0.8 0.9 1</background><sky></sky><shadows>true</shadows></scene>
+<light type="directional" name="sun"><cast_shadows>true</cast_shadows><direction>-0.4 0.3 -0.8</direction><diffuse>1 1 1 1</diffuse><specular>0.3 0.3 0.3 1</specular></light>
+<model name="ground"><static>true</static><link name="l"><visual name="v"><geometry><plane><normal>0 0 1</normal><size>3000 600</size></plane></geometry>
+<material><ambient>0.35 0.33 0.3 1</ambient><diffuse>0.45 0.42 0.38 1</diffuse></material></visual></link></model>
+<include><uri>model://cine_collapsed_industrial</uri><name>ind</name><pose>0.0 0 0 0 0 0</pose></include>
+<model name="cam_ind0"><static>true</static><pose>38.97 22.50 30.25 0 0.4229 -2.6180</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/ind0</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_ind1"><static>true</static><pose>-38.97 22.50 30.25 0 0.4229 -0.5236</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/ind1</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_ind2"><static>true</static><pose>-0.00 -45.00 30.25 0 0.4229 1.5708</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/ind2</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_indtop"><static>true</static><pose>0.01 0.00 82.00 0 1.5707 3.1416</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/indtop</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<include><uri>model://cine_collapsed_fire_station</uri><name>fire</name><pose>300.0 0 0 0 0 0</pose></include>
+<model name="cam_fire0"><static>true</static><pose>334.64 20.00 23.00 0 0.4229 -2.6180</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/fire0</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_fire1"><static>true</static><pose>265.36 20.00 23.00 0 0.4229 -0.5236</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/fire1</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_fire2"><static>true</static><pose>300.00 -40.00 23.00 0 0.4229 1.5708</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/fire2</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_firetop"><static>true</static><pose>300.01 0.00 69.00 0 1.5707 3.1416</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/firetop</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<include><uri>model://cine_truss_bridge</uri><name>bridge</name><pose>600.0 0 0 0 0 0</pose></include>
+<model name="cam_bridge0"><static>true</static><pose>619.05 11.00 11.90 0 0.4229 -2.6180</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/bridge0</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_bridge1"><static>true</static><pose>580.95 11.00 11.90 0 0.4229 -0.5236</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/bridge1</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_bridge2"><static>true</static><pose>600.00 -22.00 11.90 0 0.4229 1.5708</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/bridge2</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_bridgetop"><static>true</static><pose>600.01 0.00 37.20 0 1.5705 3.1416</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/bridgetop</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<include><uri>model://cine_water_tower</uri><name>tower</name><pose>900.0 0 0 0 0 0</pose></include>
+<model name="cam_tower0"><static>true</static><pose>930.31 17.50 26.75 0 0.4229 -2.6180</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/tower0</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_tower1"><static>true</static><pose>869.69 17.50 26.75 0 0.4229 -0.5236</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/tower1</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_tower2"><static>true</static><pose>900.00 -35.00 26.75 0 0.4229 1.5708</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/tower2</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_towertop"><static>true</static><pose>900.01 0.00 67.00 0 1.5706 3.1416</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/towertop</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<include><uri>model://cine_tower_crane</uri><name>crane</name><pose>1200.0 0 0 0 0 0</pose></include>
+<model name="cam_crane0"><static>true</static><pose>1251.96 30.00 43.00 0 0.4229 -2.6180</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/crane0</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_crane1"><static>true</static><pose>1148.04 30.00 43.00 0 0.4229 -0.5236</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/crane1</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_crane2"><static>true</static><pose>1200.00 -60.00 43.00 0 0.4229 1.5708</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/crane2</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_cranetop"><static>true</static><pose>1200.01 0.00 112.00 0 1.5707 3.1416</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/cranetop</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<include><uri>model://cine_power_plant</uri><name>plant</name><pose>1500.0 0 0 0 0 0</pose></include>
+<model name="cam_plant0"><static>true</static><pose>1612.58 65.00 78.50 0 0.4229 -2.6180</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/plant0</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_plant1"><static>true</static><pose>1387.42 65.00 78.50 0 0.4229 -0.5236</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/plant1</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_plant2"><static>true</static><pose>1500.00 -130.00 78.50 0 0.4229 1.5708</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/plant2</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_planttop"><static>true</static><pose>1500.01 0.00 228.00 0 1.5708 3.1416</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/planttop</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<include><uri>model://cine_collapsed_house</uri><name>house</name><pose>1800.0 0 0 0 0 0</pose></include>
+<model name="cam_house0"><static>true</static><pose>1819.05 11.00 11.90 0 0.4229 -2.6180</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/house0</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_house1"><static>true</static><pose>1780.95 11.00 11.90 0 0.4229 -0.5236</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/house1</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_house2"><static>true</static><pose>1800.00 -22.00 11.90 0 0.4229 1.5708</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/house2</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_housetop"><static>true</static><pose>1800.01 0.00 37.20 0 1.5705 3.1416</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/housetop</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<include><uri>model://cine_gas_station</uri><name>gas</name><pose>2100.0 0 0 0 0 0</pose></include>
+<model name="cam_gas0"><static>true</static><pose>2134.64 20.00 22.00 0 0.4229 -2.6180</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/gas0</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_gas1"><static>true</static><pose>2065.36 20.00 22.00 0 0.4229 -0.5236</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/gas1</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_gas2"><static>true</static><pose>2100.00 -40.00 22.00 0 0.4229 1.5708</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/gas2</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+<model name="cam_gastop"><static>true</static><pose>2100.01 0.00 68.00 0 1.5706 3.1416</pose>
+  <link name="l"><sensor name="c" type="camera"><always_on>1</always_on><update_rate>5</update_rate><topic>/studio/gastop</topic>
+  <camera><horizontal_fov>1.2</horizontal_fov><image><width>960</width><height>540</height><format>R8G8B8</format></image>
+  <clip><near>0.2</near><far>800</far></clip></camera></sensor></link></model>
+</world></sdf>

@@ -1,0 +1,45 @@
+{
+ "earlier_build": "0.1.0.dev0+paper3.1 (SHA-256 3e89c366e45697792a03882c11d98ec77e34a0943dac15051a17bb0e67373b4d) existed at commit 427ba57a, was reviewed, and was replaced after its review; it was never flown of record",
+ "new_wheel": {
+  "name": "telohelm-0.1.0.dev0+paper3.2-py3-none-any.whl",
+  "sha256": "36d36b86028643cdec9c3bbc5c90b6e6abe5dcdf31e5877367c38df995ab34b5",
+  "version": "0.1.0.dev0+paper3.2"
+ },
+ "old_wheel": {
+  "name": "telohelm-0.1.0.dev0-py3-none-any.whl",
+  "sha256": "bb2c6e779b7526c85fb6ced29bd0db01f0d30a88a16e2252f2f058cab3ce2f8c"
+ },
+ "patch": {
+  "path": "protocol/wheel3/sandbox.patch",
+  "sha256": "399985c7eeff3c1caa2fe3d365f559da35925642e54d1df2893c347effd7d5c5"
+ },
+ "sandbox": {
+  "new_sha256": "0a69040f4bda6b7c7f95922c56a452e2b12e3f952d4ae230bf683221be65b114",
+  "old_sha256": "34d3dfdfcde9304b0d234a4bf222c2774b9a7a2c9711de65acad69ee2c2a9a3d",
+  "path": "telohelm/runtime/sandbox.py"
+ },
+ "script": {
+  "path": "protocol/wheel3/build_wheel3.py",
+  "sha256": "d8d2a94ae1e6d782596ce0a92ba9ae282d86fdf721e3e3705a975584959cb809"
+ },
+ "test_copies": [
+  {
+   "commit": "90027cda8a8bbd22a8e2361e5d78519aecb212b4",
+   "copy": "protocol/wheel3/core_tests/test_sandbox_linux.py",
+   "sha256": "2755f7b0665495dce645ea46666be5cd7c4c1f1fdb89c067154b6b8f460fae79",
+   "source": "paper2/telohelm/tests/test_sandbox_linux.py"
+  },
+  {
+   "commit": "90027cda8a8bbd22a8e2361e5d78519aecb212b4",
+   "copy": "protocol/wheel3/core_tests/test_sandbox.py",
+   "sha256": "e35038f5ba86a303da504cd2fafa7e61b68a0221adf03394653b400894646514",
+   "source": "paper2/telohelm/tests/test_sandbox.py"
+  },
+  {
+   "commit": "90027cda8a8bbd22a8e2361e5d78519aecb212b4",
+   "copy": "protocol/wheel3/core_tests/test_broker_channel.py",
+   "sha256": "ed3f5ed484ff86d92bb0443c35b11e03ca7f6dcf0c117c31a960cab7ddc27d00",
+   "source": "paper2/telohelm/tests/test_broker_channel.py"
+  }
+ ]
+}

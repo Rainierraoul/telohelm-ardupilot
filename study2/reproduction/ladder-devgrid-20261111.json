@@ -1,0 +1,2326 @@
+{
+ "counts": {
+  "first_adoptions": 16,
+  "runs": 24,
+  "rescued": 6,
+  "initial_failures": 8,
+  "detail": {
+   "not adopted at attempt 3": 2,
+   "adopted at attempt 1": 16,
+   "adopted at attempt 2": 5,
+   "adopted at attempt 3": 1
+  }
+ },
+ "fitted": {
+  "q": 0.6752545997750647,
+  "rho_d": 0.3894021820553819,
+  "p1_close_pass": 0.8560099431818181,
+  "p0_close_pass": 0.2729584930796682
+ },
+ "seed": 20261115,
+ "sims": 5000,
+ "boot": 500,
+ "analysis3_blob_sha1": "b46dc10de780904dc4f29e335c2220751c728402",
+ "analysis3_boot_n_in_real_analysis": 10000,
+ "pools": {
+  "reach": {
+   "P0_close": [
+    0.0,
+    0.0,
+    0.1875,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "P1_close": [
+    1.0,
+    1.0,
+    0.875,
+    1.0,
+    0.75,
+    1.0,
+    0.875
+   ]
+  },
+  "reach3d": {
+   "P0_close": [
+    0.6,
+    1.0,
+    0.9333333333333333,
+    0.8,
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "P1_close": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "land": {
+   "P0_close": [
+    0.15,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "P1_close": [
+    1.0,
+    0.95,
+    0.8,
+    0.75,
+    0.75,
+    1.0,
+    1.0,
+    0.95
+   ]
+  }
+ },
+ "dev_blocks": 4,
+ "cells": [
+  {
+   "lam": 0.0,
+   "rho_c": -0.5,
+   "stats": {
+    "reach: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 1.0,
+     "p2_5": 0.0,
+     "p97_5": 0.0
+    },
+    "reach: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach: arm B adopts": {
+     "min": 0.0,
+     "max": 1.0,
+     "p2_5": 0.0,
+     "p97_5": 0.0
+    },
+    "reach: arm C adopts": {
+     "min": 0.0,
+     "max": 1.0,
+     "p2_5": 0.0,
+     "p97_5": 0.0
+    },
+    "reach: arm D adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "reach3d: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach3d: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm C adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm D adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "land: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 3.0
+    },
+    "land: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "land: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm C adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "land: arm D adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "all tasks: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 8.0,
+     "p2_5": 1.0,
+     "p97_5": 6.0
+    },
+    "all tasks: D first candidate adopted": {
+     "min": 2.0,
+     "max": 12.0,
+     "p2_5": 5.0,
+     "p97_5": 11.0
+    },
+    "all tasks: arm A adopts": {
+     "min": 12.0,
+     "max": 12.0,
+     "p2_5": 12.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm B adopts": {
+     "min": 2.0,
+     "max": 9.0,
+     "p2_5": 4.0,
+     "p97_5": 8.0
+    },
+    "all tasks: arm C adopts": {
+     "min": 0.0,
+     "max": 8.0,
+     "p2_5": 3.0,
+     "p97_5": 8.0
+    },
+    "all tasks: arm D adopts": {
+     "min": 6.0,
+     "max": 12.0,
+     "p2_5": 8.0,
+     "p97_5": 12.0
+    },
+    "all tasks: flights per block": {
+     "min": 76.58333333333333,
+     "max": 130.0,
+     "p2_5": 89.5,
+     "p97_5": 118.0
+    },
+    "all tasks: model calls per block": {
+     "min": 4.5,
+     "max": 7.666666666666667,
+     "p2_5": 5.25,
+     "p97_5": 7.083333333333333
+    },
+    "all tasks: arm A success at 3 m": {
+     "min": 0.0,
+     "max": 0.6875,
+     "p2_5": 0.10416666666666667,
+     "p97_5": 0.5416666666666666
+    },
+    "all tasks: arm A success at 10-20 m": {
+     "min": 0.0,
+     "max": 0.6822916666666666,
+     "p2_5": 0.09895833333333333,
+     "p97_5": 0.5416666666666666
+    },
+    "all tasks: arm D success at 3 m": {
+     "min": 0.46875,
+     "max": 1.0,
+     "p2_5": 0.6666666666666666,
+     "p97_5": 1.0
+    },
+    "all tasks: arm D success at 10-20 m": {
+     "min": 0.4739583333333333,
+     "max": 1.0,
+     "p2_5": 0.6666666666666666,
+     "p97_5": 0.9895833333333334
+    }
+   }
+  },
+  {
+   "lam": 0.0,
+   "rho_c": 0.0,
+   "stats": {
+    "reach: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 1.0,
+     "p2_5": 0.0,
+     "p97_5": 0.0
+    },
+    "reach: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach: arm B adopts": {
+     "min": 0.0,
+     "max": 1.0,
+     "p2_5": 0.0,
+     "p97_5": 0.0
+    },
+    "reach: arm C adopts": {
+     "min": 0.0,
+     "max": 1.0,
+     "p2_5": 0.0,
+     "p97_5": 0.0
+    },
+    "reach: arm D adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "reach3d: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach3d: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm C adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm D adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "land: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 3.0
+    },
+    "land: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "land: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm C adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm D adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "all tasks: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 8.0,
+     "p2_5": 1.0,
+     "p97_5": 6.0
+    },
+    "all tasks: D first candidate adopted": {
+     "min": 2.0,
+     "max": 12.0,
+     "p2_5": 5.0,
+     "p97_5": 11.0
+    },
+    "all tasks: arm A adopts": {
+     "min": 12.0,
+     "max": 12.0,
+     "p2_5": 12.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm B adopts": {
+     "min": 1.0,
+     "max": 9.0,
+     "p2_5": 4.0,
+     "p97_5": 8.0
+    },
+    "all tasks: arm C adopts": {
+     "min": 1.0,
+     "max": 9.0,
+     "p2_5": 4.0,
+     "p97_5": 8.0
+    },
+    "all tasks: arm D adopts": {
+     "min": 6.0,
+     "max": 12.0,
+     "p2_5": 9.0,
+     "p97_5": 12.0
+    },
+    "all tasks: flights per block": {
+     "min": 80.75,
+     "max": 132.33333333333334,
+     "p2_5": 91.58333333333333,
+     "p97_5": 121.33333333333333
+    },
+    "all tasks: model calls per block": {
+     "min": 4.583333333333333,
+     "max": 7.833333333333333,
+     "p2_5": 5.166666666666667,
+     "p97_5": 7.0
+    },
+    "all tasks: arm A success at 3 m": {
+     "min": 0.0,
+     "max": 0.6770833333333334,
+     "p2_5": 0.10416666666666667,
+     "p97_5": 0.5416666666666666
+    },
+    "all tasks: arm A success at 10-20 m": {
+     "min": 0.0,
+     "max": 0.6666666666666666,
+     "p2_5": 0.10416666666666667,
+     "p97_5": 0.5364583333333334
+    },
+    "all tasks: arm D success at 3 m": {
+     "min": 0.4791666666666667,
+     "max": 1.0,
+     "p2_5": 0.6770833333333334,
+     "p97_5": 1.0
+    },
+    "all tasks: arm D success at 10-20 m": {
+     "min": 0.5,
+     "max": 1.0,
+     "p2_5": 0.6873697916666667,
+     "p97_5": 0.9947916666666666
+    }
+   }
+  },
+  {
+   "lam": 0.0,
+   "rho_c": 0.3894,
+   "stats": {
+    "reach: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 1.0,
+     "p2_5": 0.0,
+     "p97_5": 0.0
+    },
+    "reach: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach: arm B adopts": {
+     "min": 0.0,
+     "max": 2.0,
+     "p2_5": 0.0,
+     "p97_5": 0.0
+    },
+    "reach: arm C adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach: arm D adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "reach3d: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach3d: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm C adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm D adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "land: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 3.0
+    },
+    "land: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "land: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm C adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "land: arm D adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "all tasks: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 8.0,
+     "p2_5": 1.0,
+     "p97_5": 6.0
+    },
+    "all tasks: D first candidate adopted": {
+     "min": 3.0,
+     "max": 12.0,
+     "p2_5": 5.0,
+     "p97_5": 11.0
+    },
+    "all tasks: arm A adopts": {
+     "min": 12.0,
+     "max": 12.0,
+     "p2_5": 12.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm B adopts": {
+     "min": 2.0,
+     "max": 9.0,
+     "p2_5": 4.0,
+     "p97_5": 8.0
+    },
+    "all tasks: arm C adopts": {
+     "min": 3.0,
+     "max": 12.0,
+     "p2_5": 7.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm D adopts": {
+     "min": 6.0,
+     "max": 12.0,
+     "p2_5": 9.0,
+     "p97_5": 12.0
+    },
+    "all tasks: flights per block": {
+     "min": 85.83333333333333,
+     "max": 145.08333333333334,
+     "p2_5": 97.41666666666667,
+     "p97_5": 130.58333333333334
+    },
+    "all tasks: model calls per block": {
+     "min": 4.5,
+     "max": 7.333333333333333,
+     "p2_5": 5.083333333333333,
+     "p97_5": 6.75
+    },
+    "all tasks: arm A success at 3 m": {
+     "min": 0.0,
+     "max": 0.6875,
+     "p2_5": 0.10416666666666667,
+     "p97_5": 0.53125
+    },
+    "all tasks: arm A success at 10-20 m": {
+     "min": 0.0,
+     "max": 0.6770833333333334,
+     "p2_5": 0.109375,
+     "p97_5": 0.5260416666666666
+    },
+    "all tasks: arm D success at 3 m": {
+     "min": 0.46875,
+     "max": 1.0,
+     "p2_5": 0.6666666666666666,
+     "p97_5": 1.0
+    },
+    "all tasks: arm D success at 10-20 m": {
+     "min": 0.484375,
+     "max": 1.0,
+     "p2_5": 0.671875,
+     "p97_5": 0.9947916666666666
+    }
+   }
+  },
+  {
+   "lam": 0.0,
+   "rho_c": 0.9,
+   "stats": {
+    "reach: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 1.0,
+     "p2_5": 0.0,
+     "p97_5": 0.0
+    },
+    "reach: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach: arm B adopts": {
+     "min": 0.0,
+     "max": 1.0,
+     "p2_5": 0.0,
+     "p97_5": 0.0
+    },
+    "reach: arm C adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "reach: arm D adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "reach3d: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach3d: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm C adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm D adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "land: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 3.0
+    },
+    "land: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "land: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm C adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "land: arm D adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "all tasks: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 8.0,
+     "p2_5": 1.0,
+     "p97_5": 6.0
+    },
+    "all tasks: D first candidate adopted": {
+     "min": 3.0,
+     "max": 12.0,
+     "p2_5": 5.0,
+     "p97_5": 11.0
+    },
+    "all tasks: arm A adopts": {
+     "min": 12.0,
+     "max": 12.0,
+     "p2_5": 12.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm B adopts": {
+     "min": 1.0,
+     "max": 9.0,
+     "p2_5": 4.0,
+     "p97_5": 8.0
+    },
+    "all tasks: arm C adopts": {
+     "min": 8.0,
+     "max": 12.0,
+     "p2_5": 10.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm D adopts": {
+     "min": 7.0,
+     "max": 12.0,
+     "p2_5": 9.0,
+     "p97_5": 12.0
+    },
+    "all tasks: flights per block": {
+     "min": 93.08333333333333,
+     "max": 146.83333333333334,
+     "p2_5": 103.66666666666667,
+     "p97_5": 135.5020833333333
+    },
+    "all tasks: model calls per block": {
+     "min": 4.333333333333333,
+     "max": 7.166666666666667,
+     "p2_5": 4.916666666666667,
+     "p97_5": 6.5
+    },
+    "all tasks: arm A success at 3 m": {
+     "min": 0.0,
+     "max": 0.6875,
+     "p2_5": 0.10416666666666667,
+     "p97_5": 0.5208333333333334
+    },
+    "all tasks: arm A success at 10-20 m": {
+     "min": 0.0,
+     "max": 0.6822916666666666,
+     "p2_5": 0.09895833333333333,
+     "p97_5": 0.5208333333333334
+    },
+    "all tasks: arm D success at 3 m": {
+     "min": 0.53125,
+     "max": 1.0,
+     "p2_5": 0.6770833333333334,
+     "p97_5": 1.0
+    },
+    "all tasks: arm D success at 10-20 m": {
+     "min": 0.5260416666666666,
+     "max": 1.0,
+     "p2_5": 0.6875,
+     "p97_5": 0.9947916666666666
+    }
+   }
+  },
+  {
+   "lam": 0.5,
+   "rho_c": -0.5,
+   "stats": {
+    "reach: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 2.0,
+     "p2_5": 0.0,
+     "p97_5": 1.0
+    },
+    "reach: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach: arm B adopts": {
+     "min": 0.0,
+     "max": 2.0,
+     "p2_5": 0.0,
+     "p97_5": 1.0
+    },
+    "reach: arm C adopts": {
+     "min": 0.0,
+     "max": 2.0,
+     "p2_5": 0.0,
+     "p97_5": 1.0
+    },
+    "reach: arm D adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach3d: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm C adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm D adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "land: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 3.0
+    },
+    "land: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "land: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm C adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "land: arm D adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "all tasks: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 8.0,
+     "p2_5": 1.0,
+     "p97_5": 6.0
+    },
+    "all tasks: D first candidate adopted": {
+     "min": 3.0,
+     "max": 12.0,
+     "p2_5": 5.0,
+     "p97_5": 11.0
+    },
+    "all tasks: arm A adopts": {
+     "min": 12.0,
+     "max": 12.0,
+     "p2_5": 12.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm B adopts": {
+     "min": 2.0,
+     "max": 10.0,
+     "p2_5": 4.0,
+     "p97_5": 8.0
+    },
+    "all tasks: arm C adopts": {
+     "min": 1.0,
+     "max": 9.0,
+     "p2_5": 3.0,
+     "p97_5": 8.0
+    },
+    "all tasks: arm D adopts": {
+     "min": 7.0,
+     "max": 12.0,
+     "p2_5": 9.0,
+     "p97_5": 12.0
+    },
+    "all tasks: flights per block": {
+     "min": 82.5,
+     "max": 130.83333333333334,
+     "p2_5": 89.75,
+     "p97_5": 118.5
+    },
+    "all tasks: model calls per block": {
+     "min": 4.416666666666667,
+     "max": 7.75,
+     "p2_5": 5.166666666666667,
+     "p97_5": 6.916666666666667
+    },
+    "all tasks: arm A success at 3 m": {
+     "min": 0.0,
+     "max": 0.6666666666666666,
+     "p2_5": 0.10416666666666667,
+     "p97_5": 0.5208333333333334
+    },
+    "all tasks: arm A success at 10-20 m": {
+     "min": 0.4010416666666667,
+     "max": 0.875,
+     "p2_5": 0.5260416666666666,
+     "p97_5": 0.7864583333333334
+    },
+    "all tasks: arm D success at 3 m": {
+     "min": 0.5416666666666666,
+     "max": 1.0,
+     "p2_5": 0.6979166666666666,
+     "p97_5": 1.0
+    },
+    "all tasks: arm D success at 10-20 m": {
+     "min": 0.5625,
+     "max": 1.0,
+     "p2_5": 0.7239583333333334,
+     "p97_5": 1.0
+    }
+   }
+  },
+  {
+   "lam": 0.5,
+   "rho_c": 0.0,
+   "stats": {
+    "reach: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 1.0,
+     "p2_5": 0.0,
+     "p97_5": 1.0
+    },
+    "reach: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach: arm B adopts": {
+     "min": 0.0,
+     "max": 2.0,
+     "p2_5": 0.0,
+     "p97_5": 1.0
+    },
+    "reach: arm C adopts": {
+     "min": 0.0,
+     "max": 2.0,
+     "p2_5": 0.0,
+     "p97_5": 1.0
+    },
+    "reach: arm D adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach3d: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm C adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm D adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "land: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 3.0
+    },
+    "land: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "land: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm C adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm D adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 2.9750000000000085,
+     "p97_5": 4.0
+    },
+    "all tasks: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 8.0,
+     "p2_5": 1.0,
+     "p97_5": 6.0
+    },
+    "all tasks: D first candidate adopted": {
+     "min": 3.0,
+     "max": 12.0,
+     "p2_5": 5.0,
+     "p97_5": 11.0
+    },
+    "all tasks: arm A adopts": {
+     "min": 12.0,
+     "max": 12.0,
+     "p2_5": 12.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm B adopts": {
+     "min": 2.0,
+     "max": 10.0,
+     "p2_5": 4.0,
+     "p97_5": 8.0
+    },
+    "all tasks: arm C adopts": {
+     "min": 2.0,
+     "max": 10.0,
+     "p2_5": 4.0,
+     "p97_5": 8.0
+    },
+    "all tasks: arm D adopts": {
+     "min": 6.0,
+     "max": 12.0,
+     "p2_5": 9.0,
+     "p97_5": 12.0
+    },
+    "all tasks: flights per block": {
+     "min": 81.5,
+     "max": 131.41666666666666,
+     "p2_5": 91.25,
+     "p97_5": 122.08333333333333
+    },
+    "all tasks: model calls per block": {
+     "min": 4.5,
+     "max": 7.416666666666667,
+     "p2_5": 5.083333333333333,
+     "p97_5": 6.75
+    },
+    "all tasks: arm A success at 3 m": {
+     "min": 0.0,
+     "max": 0.6875,
+     "p2_5": 0.11458333333333333,
+     "p97_5": 0.5416666666666666
+    },
+    "all tasks: arm A success at 10-20 m": {
+     "min": 0.421875,
+     "max": 0.8854166666666666,
+     "p2_5": 0.5260416666666666,
+     "p97_5": 0.7864583333333334
+    },
+    "all tasks: arm D success at 3 m": {
+     "min": 0.46875,
+     "max": 1.0,
+     "p2_5": 0.6979166666666666,
+     "p97_5": 1.0
+    },
+    "all tasks: arm D success at 10-20 m": {
+     "min": 0.4895833333333333,
+     "max": 1.0,
+     "p2_5": 0.7239583333333334,
+     "p97_5": 1.0
+    }
+   }
+  },
+  {
+   "lam": 0.5,
+   "rho_c": 0.3894,
+   "stats": {
+    "reach: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 2.0,
+     "p2_5": 0.0,
+     "p97_5": 1.0
+    },
+    "reach: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach: arm B adopts": {
+     "min": 0.0,
+     "max": 2.0,
+     "p2_5": 0.0,
+     "p97_5": 1.0
+    },
+    "reach: arm C adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach: arm D adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach3d: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm C adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm D adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "land: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 3.0
+    },
+    "land: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "land: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm C adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "land: arm D adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "all tasks: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 9.0,
+     "p2_5": 1.0,
+     "p97_5": 6.0
+    },
+    "all tasks: D first candidate adopted": {
+     "min": 2.0,
+     "max": 12.0,
+     "p2_5": 5.0,
+     "p97_5": 11.0
+    },
+    "all tasks: arm A adopts": {
+     "min": 12.0,
+     "max": 12.0,
+     "p2_5": 12.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm B adopts": {
+     "min": 2.0,
+     "max": 10.0,
+     "p2_5": 4.0,
+     "p97_5": 8.0
+    },
+    "all tasks: arm C adopts": {
+     "min": 5.0,
+     "max": 12.0,
+     "p2_5": 7.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm D adopts": {
+     "min": 7.0,
+     "max": 12.0,
+     "p2_5": 9.0,
+     "p97_5": 12.0
+    },
+    "all tasks: flights per block": {
+     "min": 85.91666666666667,
+     "max": 147.33333333333334,
+     "p2_5": 98.0,
+     "p97_5": 131.66666666666666
+    },
+    "all tasks: model calls per block": {
+     "min": 4.333333333333333,
+     "max": 7.166666666666667,
+     "p2_5": 5.0,
+     "p97_5": 6.583333333333333
+    },
+    "all tasks: arm A success at 3 m": {
+     "min": 0.0,
+     "max": 0.6770833333333334,
+     "p2_5": 0.10416666666666667,
+     "p97_5": 0.53125
+    },
+    "all tasks: arm A success at 10-20 m": {
+     "min": 0.390625,
+     "max": 0.875,
+     "p2_5": 0.5208333333333334,
+     "p97_5": 0.7916666666666666
+    },
+    "all tasks: arm D success at 3 m": {
+     "min": 0.4895833333333333,
+     "max": 1.0,
+     "p2_5": 0.6979166666666666,
+     "p97_5": 1.0
+    },
+    "all tasks: arm D success at 10-20 m": {
+     "min": 0.546875,
+     "max": 1.0,
+     "p2_5": 0.7239583333333334,
+     "p97_5": 1.0
+    }
+   }
+  },
+  {
+   "lam": 0.5,
+   "rho_c": 0.9,
+   "stats": {
+    "reach: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 2.0,
+     "p2_5": 0.0,
+     "p97_5": 1.0
+    },
+    "reach: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach: arm B adopts": {
+     "min": 0.0,
+     "max": 2.0,
+     "p2_5": 0.0,
+     "p97_5": 1.0
+    },
+    "reach: arm C adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "reach: arm D adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach3d: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm C adopts": {
+     "min": 3.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm D adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "land: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 3.0
+    },
+    "land: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "land: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm C adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "land: arm D adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "all tasks: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 8.0,
+     "p2_5": 1.0,
+     "p97_5": 6.0
+    },
+    "all tasks: D first candidate adopted": {
+     "min": 2.0,
+     "max": 12.0,
+     "p2_5": 5.0,
+     "p97_5": 11.0
+    },
+    "all tasks: arm A adopts": {
+     "min": 12.0,
+     "max": 12.0,
+     "p2_5": 12.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm B adopts": {
+     "min": 2.0,
+     "max": 10.0,
+     "p2_5": 4.0,
+     "p97_5": 8.0
+    },
+    "all tasks: arm C adopts": {
+     "min": 9.0,
+     "max": 12.0,
+     "p2_5": 10.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm D adopts": {
+     "min": 5.0,
+     "max": 12.0,
+     "p2_5": 9.0,
+     "p97_5": 12.0
+    },
+    "all tasks: flights per block": {
+     "min": 93.33333333333333,
+     "max": 148.91666666666666,
+     "p2_5": 103.41666666666667,
+     "p97_5": 136.33749999999995
+    },
+    "all tasks: model calls per block": {
+     "min": 4.083333333333333,
+     "max": 7.083333333333333,
+     "p2_5": 4.75,
+     "p97_5": 6.333333333333333
+    },
+    "all tasks: arm A success at 3 m": {
+     "min": 0.0,
+     "max": 0.6770833333333334,
+     "p2_5": 0.10416666666666667,
+     "p97_5": 0.5416666666666666
+    },
+    "all tasks: arm A success at 10-20 m": {
+     "min": 0.4166666666666667,
+     "max": 0.8854166666666666,
+     "p2_5": 0.5311197916666667,
+     "p97_5": 0.7916666666666666
+    },
+    "all tasks: arm D success at 3 m": {
+     "min": 0.3645833333333333,
+     "max": 1.0,
+     "p2_5": 0.6979166666666666,
+     "p97_5": 1.0
+    },
+    "all tasks: arm D success at 10-20 m": {
+     "min": 0.3854166666666667,
+     "max": 1.0,
+     "p2_5": 0.7239583333333334,
+     "p97_5": 1.0
+    }
+   }
+  },
+  {
+   "lam": 1.0,
+   "rho_c": -0.5,
+   "stats": {
+    "reach: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 2.0,
+     "p2_5": 0.0,
+     "p97_5": 1.0
+    },
+    "reach: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "reach: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach: arm B adopts": {
+     "min": 0.0,
+     "max": 3.0,
+     "p2_5": 0.0,
+     "p97_5": 2.0
+    },
+    "reach: arm C adopts": {
+     "min": 0.0,
+     "max": 3.0,
+     "p2_5": 0.0,
+     "p97_5": 1.0
+    },
+    "reach: arm D adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach3d: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm B adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm C adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm D adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "land: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 3.0
+    },
+    "land: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "land: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm C adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm D adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "all tasks: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 9.0,
+     "p2_5": 1.0,
+     "p97_5": 7.0
+    },
+    "all tasks: D first candidate adopted": {
+     "min": 2.0,
+     "max": 12.0,
+     "p2_5": 6.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm A adopts": {
+     "min": 12.0,
+     "max": 12.0,
+     "p2_5": 12.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm B adopts": {
+     "min": 2.0,
+     "max": 11.0,
+     "p2_5": 5.0,
+     "p97_5": 9.0
+    },
+    "all tasks: arm C adopts": {
+     "min": 1.0,
+     "max": 10.0,
+     "p2_5": 3.0,
+     "p97_5": 8.0
+    },
+    "all tasks: arm D adopts": {
+     "min": 6.0,
+     "max": 12.0,
+     "p2_5": 9.0,
+     "p97_5": 12.0
+    },
+    "all tasks: flights per block": {
+     "min": 81.75,
+     "max": 131.08333333333334,
+     "p2_5": 90.33125,
+     "p97_5": 118.75
+    },
+    "all tasks: model calls per block": {
+     "min": 4.083333333333333,
+     "max": 7.416666666666667,
+     "p2_5": 5.0,
+     "p97_5": 6.75
+    },
+    "all tasks: arm A success at 3 m": {
+     "min": 0.0,
+     "max": 0.6875,
+     "p2_5": 0.10416666666666667,
+     "p97_5": 0.53125
+    },
+    "all tasks: arm A success at 10-20 m": {
+     "min": 1.0,
+     "max": 1.0,
+     "p2_5": 1.0,
+     "p97_5": 1.0
+    },
+    "all tasks: arm D success at 3 m": {
+     "min": 0.5,
+     "max": 1.0,
+     "p2_5": 0.7083333333333334,
+     "p97_5": 0.9895833333333334
+    },
+    "all tasks: arm D success at 10-20 m": {
+     "min": 0.5,
+     "max": 1.0,
+     "p2_5": 0.75,
+     "p97_5": 1.0
+    }
+   }
+  },
+  {
+   "lam": 1.0,
+   "rho_c": 0.0,
+   "stats": {
+    "reach: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 2.0,
+     "p2_5": 0.0,
+     "p97_5": 1.0
+    },
+    "reach: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "reach: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 1.0
+    },
+    "reach: arm C adopts": {
+     "min": 0.0,
+     "max": 3.0,
+     "p2_5": 0.0,
+     "p97_5": 2.0
+    },
+    "reach: arm D adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach3d: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm B adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm C adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm D adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "land: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 3.0
+    },
+    "land: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "land: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm C adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm D adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "all tasks: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 8.0,
+     "p2_5": 1.0,
+     "p97_5": 7.0
+    },
+    "all tasks: D first candidate adopted": {
+     "min": 3.0,
+     "max": 12.0,
+     "p2_5": 6.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm A adopts": {
+     "min": 12.0,
+     "max": 12.0,
+     "p2_5": 12.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm B adopts": {
+     "min": 3.0,
+     "max": 11.0,
+     "p2_5": 5.0,
+     "p97_5": 9.0
+    },
+    "all tasks: arm C adopts": {
+     "min": 2.0,
+     "max": 11.0,
+     "p2_5": 5.0,
+     "p97_5": 9.0
+    },
+    "all tasks: arm D adopts": {
+     "min": 7.0,
+     "max": 12.0,
+     "p2_5": 9.0,
+     "p97_5": 12.0
+    },
+    "all tasks: flights per block": {
+     "min": 79.16666666666667,
+     "max": 136.5,
+     "p2_5": 91.58333333333333,
+     "p97_5": 123.16666666666667
+    },
+    "all tasks: model calls per block": {
+     "min": 4.333333333333333,
+     "max": 7.166666666666667,
+     "p2_5": 4.916666666666667,
+     "p97_5": 6.583333333333333
+    },
+    "all tasks: arm A success at 3 m": {
+     "min": 0.0,
+     "max": 0.6770833333333334,
+     "p2_5": 0.11458333333333333,
+     "p97_5": 0.53125
+    },
+    "all tasks: arm A success at 10-20 m": {
+     "min": 1.0,
+     "max": 1.0,
+     "p2_5": 1.0,
+     "p97_5": 1.0
+    },
+    "all tasks: arm D success at 3 m": {
+     "min": 0.5208333333333334,
+     "max": 1.0,
+     "p2_5": 0.7083333333333334,
+     "p97_5": 0.9895833333333334
+    },
+    "all tasks: arm D success at 10-20 m": {
+     "min": 0.5833333333333334,
+     "max": 1.0,
+     "p2_5": 0.75,
+     "p97_5": 1.0
+    }
+   }
+  },
+  {
+   "lam": 1.0,
+   "rho_c": 0.3894,
+   "stats": {
+    "reach: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 2.0,
+     "p2_5": 0.0,
+     "p97_5": 1.0
+    },
+    "reach: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "reach: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach: arm B adopts": {
+     "min": 0.0,
+     "max": 3.0,
+     "p2_5": 0.0,
+     "p97_5": 1.0249999999996362
+    },
+    "reach: arm C adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "reach: arm D adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach3d: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm B adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm C adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm D adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "land: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 3.0
+    },
+    "land: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "land: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm C adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "land: arm D adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "all tasks: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 9.0,
+     "p2_5": 1.0,
+     "p97_5": 7.0
+    },
+    "all tasks: D first candidate adopted": {
+     "min": 3.0,
+     "max": 12.0,
+     "p2_5": 6.0,
+     "p97_5": 11.0
+    },
+    "all tasks: arm A adopts": {
+     "min": 12.0,
+     "max": 12.0,
+     "p2_5": 12.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm B adopts": {
+     "min": 3.0,
+     "max": 11.0,
+     "p2_5": 5.0,
+     "p97_5": 9.0
+    },
+    "all tasks: arm C adopts": {
+     "min": 4.0,
+     "max": 12.0,
+     "p2_5": 7.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm D adopts": {
+     "min": 7.0,
+     "max": 12.0,
+     "p2_5": 9.0,
+     "p97_5": 12.0
+    },
+    "all tasks: flights per block": {
+     "min": 87.41666666666667,
+     "max": 146.08333333333334,
+     "p2_5": 98.49583333333334,
+     "p97_5": 131.91666666666666
+    },
+    "all tasks: model calls per block": {
+     "min": 4.166666666666667,
+     "max": 7.0,
+     "p2_5": 4.75,
+     "p97_5": 6.416666666666667
+    },
+    "all tasks: arm A success at 3 m": {
+     "min": 0.0,
+     "max": 0.7083333333333334,
+     "p2_5": 0.10416666666666667,
+     "p97_5": 0.53125
+    },
+    "all tasks: arm A success at 10-20 m": {
+     "min": 1.0,
+     "max": 1.0,
+     "p2_5": 1.0,
+     "p97_5": 1.0
+    },
+    "all tasks: arm D success at 3 m": {
+     "min": 0.53125,
+     "max": 1.0,
+     "p2_5": 0.7083333333333334,
+     "p97_5": 0.9895833333333334
+    },
+    "all tasks: arm D success at 10-20 m": {
+     "min": 0.5833333333333334,
+     "max": 1.0,
+     "p2_5": 0.75,
+     "p97_5": 1.0
+    }
+   }
+  },
+  {
+   "lam": 1.0,
+   "rho_c": 0.9,
+   "stats": {
+    "reach: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 2.0,
+     "p2_5": 0.0,
+     "p97_5": 1.0
+    },
+    "reach: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "reach: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach: arm B adopts": {
+     "min": 0.0,
+     "max": 3.0,
+     "p2_5": 0.0,
+     "p97_5": 2.0
+    },
+    "reach: arm C adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "reach: arm D adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "reach3d: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm B adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 2.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm C adopts": {
+     "min": 3.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "reach3d: arm D adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "land: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 0.0,
+     "p97_5": 4.0
+    },
+    "land: D first candidate adopted": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm A adopts": {
+     "min": 4.0,
+     "max": 4.0,
+     "p2_5": 4.0,
+     "p97_5": 4.0
+    },
+    "land: arm B adopts": {
+     "min": 0.0,
+     "max": 4.0,
+     "p2_5": 1.0,
+     "p97_5": 4.0
+    },
+    "land: arm C adopts": {
+     "min": 2.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "land: arm D adopts": {
+     "min": 1.0,
+     "max": 4.0,
+     "p2_5": 3.0,
+     "p97_5": 4.0
+    },
+    "all tasks: c0 passes zone trial": {
+     "min": 0.0,
+     "max": 8.0,
+     "p2_5": 1.0,
+     "p97_5": 7.0
+    },
+    "all tasks: D first candidate adopted": {
+     "min": 4.0,
+     "max": 12.0,
+     "p2_5": 6.0,
+     "p97_5": 11.0
+    },
+    "all tasks: arm A adopts": {
+     "min": 12.0,
+     "max": 12.0,
+     "p2_5": 12.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm B adopts": {
+     "min": 3.0,
+     "max": 10.0,
+     "p2_5": 5.0,
+     "p97_5": 9.0
+    },
+    "all tasks: arm C adopts": {
+     "min": 8.0,
+     "max": 12.0,
+     "p2_5": 11.0,
+     "p97_5": 12.0
+    },
+    "all tasks: arm D adopts": {
+     "min": 8.0,
+     "max": 12.0,
+     "p2_5": 9.0,
+     "p97_5": 12.0
+    },
+    "all tasks: flights per block": {
+     "min": 92.41666666666667,
+     "max": 148.66666666666666,
+     "p2_5": 103.16041666666668,
+     "p97_5": 136.0020833333333
+    },
+    "all tasks: model calls per block": {
+     "min": 3.8333333333333335,
+     "max": 7.0,
+     "p2_5": 4.583333333333333,
+     "p97_5": 6.083333333333333
+    },
+    "all tasks: arm A success at 3 m": {
+     "min": 0.0,
+     "max": 0.6770833333333334,
+     "p2_5": 0.11458333333333333,
+     "p97_5": 0.5520833333333334
+    },
+    "all tasks: arm A success at 10-20 m": {
+     "min": 1.0,
+     "max": 1.0,
+     "p2_5": 1.0,
+     "p97_5": 1.0
+    },
+    "all tasks: arm D success at 3 m": {
+     "min": 0.5833333333333334,
+     "max": 1.0,
+     "p2_5": 0.7083333333333334,
+     "p97_5": 0.9895833333333334
+    },
+    "all tasks: arm D success at 10-20 m": {
+     "min": 0.6666666666666666,
+     "max": 1.0,
+     "p2_5": 0.75,
+     "p97_5": 1.0
+    }
+   }
+  }
+ ]
+}

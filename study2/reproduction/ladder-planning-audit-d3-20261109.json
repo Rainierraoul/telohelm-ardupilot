@@ -1,0 +1,63 @@
+{
+  "checked_at_utc": "2026-11-09T00:19:14.820962+00:00",
+  "reviewed_planning_commit": "f25e78bf",
+  "planning_source_sha256": "551f4cebb190334991cb8293667758f0402ddcf5c1f86b28c359e4a7d61a1f5b",
+  "observed_summary_learning_attempts": [
+    {
+      "adopted": false,
+      "attempts": 3,
+      "runs": 2
+    },
+    {
+      "adopted": true,
+      "attempts": 1,
+      "runs": 16
+    },
+    {
+      "adopted": true,
+      "attempts": 2,
+      "runs": 5
+    },
+    {
+      "adopted": true,
+      "attempts": 3,
+      "runs": 1
+    }
+  ],
+  "observed_first_attempt_adoptions": 16,
+  "observed_initial_failures": 8,
+  "observed_later_adoptions": 6,
+  "planning_fit_constants": {
+    "first_adoptions": 15,
+    "runs": 24,
+    "rescued": 7,
+    "initial_failures": 9
+  },
+  "must_resolve_before_freeze": "The planning fit uses 15/24 and 7/9, whereas the saved completed summaries show 16/24 and 6/8. Correct the calibration and rerun the planning grid, or document and substantiate a different candidate definition. This does not change any old scored result.",
+  "input_sha256": {
+    "paper3/runs/scored-2/learn-reach-b0-threat/run/summary.json": "7ec5ab839bfc731103c2a9d26ef992e3d220c9e6ebdbad7425c6e012fde5b256",
+    "paper3/runs/scored-2/learn-reach-b1-threat/run/summary.json": "9e25cb6833f2325504caa4ca305047f7658c73c6e2a7a2f41d5659bcd450d9fd",
+    "paper3/runs/scored-2/learn-reach-b2-threat/run/summary.json": "9e41d7620ffdb13f7cb48ef29399b9a39c91775218563fe211c22c3439eab186",
+    "paper3/runs/scored-2/learn-reach-b3-threat/run/summary.json": "162ca468e01983683985e9a9c5540039cc3d295d80facb1f7d4418a14146acb8",
+    "paper3/runs/scored-2/learn-reach-b4-threat/run/summary.json": "d4fd3e227d4ce8e744f825ee73eba5331f6360b139408cb5c658679bcc21405b",
+    "paper3/runs/scored-2/learn-reach-b5-threat/run/summary.json": "e7c09fc22c4ee1832b9ecfd06c0c53ef654e79124f7f84bcd342c7c87bdd1907",
+    "paper3/runs/scored-2/learn-reach-b6-threat/run/summary.json": "238486fc3c88c972065288892810e6777511523a1755f5eb4b7fd1970dfe5f3c",
+    "paper3/runs/scored-2/learn-reach-b7-threat/run/summary.json": "2a047fc7d3c97b1ceb0d32e0c069a9856e86e0a6aeb758d58996aab39ba04971",
+    "paper3/runs/scored-2/learn-reach3d-b0-threat/run/summary.json": "07b1ba08932bb5e08492c515ec2dab3651a9ed3778e1926f8d86d8ba09b3f0d8",
+    "paper3/runs/scored-2/learn-reach3d-b1-threat/run/summary.json": "e9e1856d36fc7032b2b4caa4d49024b149cad348d4b5b333285cbcb911ae9254",
+    "paper3/runs/scored-2/learn-reach3d-b2-threat/run/summary.json": "fdde3998cd44cfb2b545b1b08cd3f53e6dc93b8c2825b307524cca4268b55e01",
+    "paper3/runs/scored-2/learn-reach3d-b3-threat/run/summary.json": "8932fd38fba381119e19ffa92382cc9bcb0fb42364129060c907581980621359",
+    "paper3/runs/scored-2/learn-reach3d-b4-threat/run/summary.json": "fd2067b65a6189ebe02a365d08987e9f25c06737656df2e4fe6ae55c91945a95",
+    "paper3/runs/scored-2/learn-reach3d-b5-threat/run/summary.json": "494a6c8fe2ef5599b3b76958217d45f14ecc337a93ebbda5a05bcb2f82dcfc53",
+    "paper3/runs/scored-2/learn-reach3d-b6-threat/run/summary.json": "506d8fe1342bc6698d6b66c243316bdce5bb184bd89ab092199628e4fa0ddd53",
+    "paper3/runs/scored-2/learn-reach3d-b7-threat/run/summary.json": "f7b1e031a255184930648d77c8708ea0496c805af74c4f2aa03a0a72f46236a5",
+    "paper3/runs/scored-2/learn-land-b0-threat/run/summary.json": "74dccdb1e0667cd894983d1dc9841f82b415a75f89e043ad158cb1eb2d2e697c",
+    "paper3/runs/scored-2/learn-land-b1-threat/run/summary.json": "6ae447900f2d464411c460a1542f087189721a8a8a7b04ae54f4df01520dc37c",
+    "paper3/runs/scored-2/learn-land-b2-threat/run/summary.json": "b50f85a94d1649c7b4deed7a2a74da4a66f1f88f81f4e8edcf11fbe5753f888e",
+    "paper3/runs/scored-2/learn-land-b3-threat/run/summary.json": "801a51e8bb5bb06136761d3254f70c492eafc883e8df55421772f78c9e82c5f9",
+    "paper3/runs/scored-2/learn-land-b4-threat/run/summary.json": "00fbff065c320da8c4884cc3f2ce10c7bcd166a27b1945c17993d5b73a1a0e3e",
+    "paper3/runs/scored-2/learn-land-b5-threat/run/summary.json": "19b87d0ff3b90068d7c72acb9a0aa86ae8d4154d4cd509c94d6fddc902868217",
+    "paper3/runs/scored-2/learn-land-b6-threat/run/summary.json": "c4eeb6b5025a852e0f590736b3049f84ebc5981d57fb67d92acadba46440f367",
+    "paper3/runs/scored-2/learn-land-b7-threat/run/summary.json": "f205d626e1b91fc128d5840daaadcef9e99a6f5087304831b756ad31435e62ad"
+  }
+}

@@ -1,0 +1,67 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 552a5d0..10cdc0e 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -83,9 +83,9 @@ endif()
+ 
+ # --------------------------------------------------------------------------- #
+ find_package(RapidJSON REQUIRED)
+-find_package(OpenCV REQUIRED)
++# OpenCV only needed by GstCameraPlugin (not built for the flight demo)
+ 
+-pkg_check_modules(GST REQUIRED gstreamer-1.0 gstreamer-app-1.0)
++# gstreamer only needed by GstCameraPlugin (not built for the flight demo)
+ 
+ 
+ # --------------------------------------------------------------------------- #
+@@ -115,40 +115,10 @@ target_link_libraries(ParachutePlugin PRIVATE
+   gz-sim${GZ_SIM_VER}::gz-sim${GZ_SIM_VER}
+ )
+ 
+-add_library(CameraZoomPlugin
+-  SHARED
+-  src/CameraZoomPlugin.cc
+-)
+-target_include_directories(CameraZoomPlugin PRIVATE
+-  include
+-)
+-target_link_libraries(CameraZoomPlugin PRIVATE
+-  gz-common${GZ_COMMON_VER}::gz-common${GZ_COMMON_VER}
+-  gz-rendering${GZ_RENDERING_VER}::gz-rendering${GZ_RENDERING_VER}
+-  gz-sim${GZ_SIM_VER}::gz-sim${GZ_SIM_VER}
+-)
+-
+-add_library(GstCameraPlugin
+-  SHARED
+-  src/GstCameraPlugin.cc
+-)
+-target_include_directories(GstCameraPlugin PRIVATE
+-  include
+-)
+-target_include_directories(GstCameraPlugin SYSTEM PRIVATE
+-  ${OpenCV_INCLUDE_DIRS}
+-  ${GST_INCLUDE_DIRS}
+-)
+-target_link_libraries(GstCameraPlugin PRIVATE
+-  gz-sim${GZ_SIM_VER}::gz-sim${GZ_SIM_VER}
+-  ${OpenCV_LIBS}
+-  ${GST_LINK_LIBRARIES}
+-)
+-
+ # --------------------------------------------------------------------------- #
+ # Compiler warnings.
+ 
+-foreach(target ArduPilotPlugin ParachutePlugin CameraZoomPlugin GstCameraPlugin)
++foreach(target ArduPilotPlugin ParachutePlugin)
+   if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
+     target_compile_options(${target} PRIVATE -Wall -Wextra)
+   endif()
+@@ -164,8 +134,6 @@ install(
+   TARGETS
+   ArduPilotPlugin
+   ParachutePlugin
+-  CameraZoomPlugin
+-  GstCameraPlugin
+   DESTINATION lib/${PROJECT_NAME}
+ )
+ 

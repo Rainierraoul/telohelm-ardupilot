@@ -1,0 +1,46 @@
+Kinds of change, written after reading 11 pairs (reach b0 b3 b5 b23; reach3d b0 b3 b17; land b4 b6 b10 b14)
+and before classifying the rest. Written 22 Nov.
+
+Keep-out distance = the buffer m in R = radius + m that the code steers around: the inflated circle of a
+tangent method, the side offset of a detour waypoint, the onset distance of a repulsion field, or the
+clearance constraint of a simulated search. Recorded per source, with the trigger buffer if different.
+
+K1 smaller keep-out: the repair's keep-out distance (for the close layout, target 3-4 m beyond the far
+   edge) is smaller than c0's.
+K2 keep-out tied to the target: the repair computes the buffer from the target's distance to the zone
+   (e.g. min(cap, target-to-edge minus k) with a floor), or drops/shrinks the buffer or push-out when the
+   target lies inside it. c0 did not.
+K3 avoidance method changed: primary method differs between c0 and repair, methods being
+   F field (adds away/tangential vectors weighted by distance to the goal velocity),
+   W waypoint (aims at a point placed beside the zone),
+   T tangent heading (heads along the tangent to the inflated circle, asin(R/D)),
+   S sampled forward simulation (tries candidate commands, simulates ahead, picks by cost),
+   O other.
+K4 delay or lag handled differently: repair adds or changes a position prediction ahead of the
+   observation (n + k*vn), or a modelled response lag (time constant, alpha, a 0.3 s offset) used in
+   steering or simulation.
+K5 speed near the zone: repair adds or changes a speed limit that applies only while avoiding or within
+   some distance of the zone, including a limit on the velocity component toward the zone.
+K6 side choice changed: the quantity used to pick left or right differs (e.g. current velocity vs target
+   bearing), or a remembered/sticky side is added. A rewrite of the same test does not count.
+K7 trigger changed: the test deciding whether a zone needs avoiding looks at something different
+   (distance to centre vs path segment to target; only zones ahead; lookahead length). A change only of
+   the buffer number does not count.
+K8 horizontal approach near the target changed: gain or limit of speed with distance to target,
+   damping by current velocity near the target, or an added slow-down zone.
+K9 push-out rule changed: the rule applied when inside the buffer (radial push distance or strength)
+   added, removed or changed in radius or strength.
+K10 descent rule changed (land, and altitude for reach3d only if it touches the zone): when or how fast
+   the vehicle descends, e.g. only after horizontal speed is low, or no descent while avoiding.
+
+Amendments made while classifying the first 14 pairs (before the remaining 70):
+- Method classes added: P sidestep (while the path is blocked, replaces or blends the heading with a
+  perpendicular to the target line, plus optional push), H heading search (tries headings in steps and
+  takes the first whose straight ray is clear of an inflated circle). T covers both the tangent line
+  from the vehicle (asin(R/D)) and following the circle perpendicular to the line of sight.
+- When the repair switches to S, side (K6) and trigger (K7) come out of the search and are not counted;
+  removal of c0's push-out with the switch is covered by K3, not K9. K8 for an S repair counts only for an
+  explicit near-target rule (speed cap with distance, damping) that differs from c0.
+- K9 counts when the repair adds an explicit inside-buffer rule or changes its radius or strength.
+- Method class V added at pair 27 (reach b30): filter (computes the goal command, then removes or limits
+  the command's component toward the zone, sometimes adding a tangential part).

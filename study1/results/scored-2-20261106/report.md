@@ -1,0 +1,676 @@
+# Paper 3 analysis
+
+Records: /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2; phase folders read: 254; hash-chain errors: 0.
+
+Validation gate passed: 254 scheduled phases, {'learning runs': 58, 'task flights': 4165, 'flight phases': 196, 'course flights': 522, 'protected log pairs': 10081}.
+
+## RQ1, learning
+
+- avoid: adopted in 5 of 5 runs (95% interval 0.5655 to 1.0); median 2 model calls, median US$0.0855 at list price.
+- land: adopted in 8 of 8 runs (95% interval 0.6756 to 1.0); median 2.0 model calls, median US$0.07865 at list price.
+- orbit: adopted in 5 of 5 runs (95% interval 0.5655 to 1.0); median 2 model calls, median US$0.0728 at list price.
+- reach: adopted in 8 of 8 runs (95% interval 0.6756 to 1.0); median 2.0 model calls, median US$0.06335 at list price.
+- reach3d: adopted in 8 of 8 runs (95% interval 0.6756 to 1.0); median 2.0 model calls, median US$0.06815 at list price.
+
+## RQ2, held-out scenarios
+
+- avoid, hold: 0 of 30 met (0.0 to 0.1135).
+- avoid, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-0/run: 30 of 30 met (0.8865 to 1.0).
+- avoid, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-1/run: 30 of 30 met (0.8865 to 1.0).
+- avoid, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-2/run: 30 of 30 met (0.8865 to 1.0).
+- avoid, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-3/run: 30 of 30 met (0.8865 to 1.0).
+- avoid, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-4/run: 30 of 30 met (0.8865 to 1.0).
+- avoid, reference: 30 of 30 met (0.8865 to 1.0).
+- avoid, learned, pooled: 150 of 150 met (0.975 to 1.0).
+- land, hold: 0 of 30 met (0.0 to 0.1135).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b0-matched/run: 30 of 30 met (0.8865 to 1.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b1-matched/run: 30 of 30 met (0.8865 to 1.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b2-matched/run: 30 of 30 met (0.8865 to 1.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b3-matched/run: 30 of 30 met (0.8865 to 1.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b4-matched/run: 30 of 30 met (0.8865 to 1.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b5-matched/run: 30 of 30 met (0.8865 to 1.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b6-matched/run: 30 of 30 met (0.8865 to 1.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b7-matched/run: 30 of 30 met (0.8865 to 1.0).
+- land, reference: 30 of 30 met (0.8865 to 1.0).
+- land, autopilot: 30 of 30 met (0.8865 to 1.0).
+- land, learned, pooled: 240 of 240 met (0.9842 to 1.0).
+- orbit, hold: 0 of 30 met (0.0 to 0.1135).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-0/run: 30 of 30 met (0.8865 to 1.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-1/run: 30 of 30 met (0.8865 to 1.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-2/run: 30 of 30 met (0.8865 to 1.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-3/run: 30 of 30 met (0.8865 to 1.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-4/run: 30 of 30 met (0.8865 to 1.0).
+- orbit, reference: 30 of 30 met (0.8865 to 1.0).
+- orbit, autopilot: 30 of 30 met (0.8865 to 1.0).
+- orbit, learned, pooled: 150 of 150 met (0.975 to 1.0).
+- reach, hold: 0 of 30 met (0.0 to 0.1135).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b0-matched/run: 30 of 30 met (0.8865 to 1.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b1-matched/run: 30 of 30 met (0.8865 to 1.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b2-matched/run: 30 of 30 met (0.8865 to 1.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b3-matched/run: 30 of 30 met (0.8865 to 1.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b4-matched/run: 30 of 30 met (0.8865 to 1.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b5-matched/run: 30 of 30 met (0.8865 to 1.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b6-matched/run: 30 of 30 met (0.8865 to 1.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b7-matched/run: 30 of 30 met (0.8865 to 1.0).
+- reach, reference: 30 of 30 met (0.8865 to 1.0).
+- reach, autopilot: 30 of 30 met (0.8865 to 1.0).
+- reach, learned, pooled: 240 of 240 met (0.9842 to 1.0).
+- reach3d, hold: 0 of 30 met (0.0 to 0.1135).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run: 30 of 30 met (0.8865 to 1.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-matched/run: 30 of 30 met (0.8865 to 1.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-matched/run: 30 of 30 met (0.8865 to 1.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-matched/run: 30 of 30 met (0.8865 to 1.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-matched/run: 30 of 30 met (0.8865 to 1.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-matched/run: 30 of 30 met (0.8865 to 1.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-matched/run: 30 of 30 met (0.8865 to 1.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b7-matched/run: 30 of 30 met (0.8865 to 1.0).
+- reach3d, reference: 30 of 30 met (0.8865 to 1.0).
+- reach3d, autopilot: 30 of 30 met (0.8865 to 1.0).
+- reach3d, learned, pooled: 240 of 240 met (0.9842 to 1.0).
+
+## RQ4, learning under threat (Study 2)
+
+- land: 8 blocks x 20 threat scenarios. Threat arm adopted 8 of 8, calm arm 8 of 8. Pipeline goal rate threat 0.9 against calm 0.3937; threat minus calm 0.5062 (95% interval 0.1625 to 0.8125). Goals met given adoption: threat 144 of 160, calm 63 of 160. Flights that entered a zone: threat 9, calm 19.
+- reach: 8 blocks x 20 threat scenarios. Threat arm adopted 7 of 8, calm arm 8 of 8. Pipeline goal rate threat 0.8063 against calm 0.125; threat minus calm 0.6813 (95% interval 0.375 to 0.9062). Goals met given adoption: threat 129 of 140, calm 20 of 160. Flights that entered a zone: threat 11, calm 13.
+- reach3d: 8 blocks x 20 threat scenarios. Threat arm adopted 7 of 8, calm arm 8 of 8. Pipeline goal rate threat 0.875 against calm 0.5625; threat minus calm 0.3125 (95% interval 0.0625 to 0.5938). Goals met given adoption: threat 140 of 140, calm 90 of 160. Flights that entered a zone: threat 0, calm 22.
+
+## RQ3, transfer
+
+- courses 3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run: 20 of 20 completed, 120 of 120 gates; steps no procedure decided: 0.
+- courses 3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-matched/run: 20 of 20 completed, 120 of 120 gates; steps no procedure decided: 0.
+- courses 3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-matched/run: 20 of 20 completed, 120 of 120 gates; steps no procedure decided: 0.
+- courses 3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-matched/run: 20 of 20 completed, 120 of 120 gates; steps no procedure decided: 0.
+- courses 3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-matched/run: 20 of 20 completed, 120 of 120 gates; steps no procedure decided: 0.
+- courses 3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-matched/run: 20 of 20 completed, 120 of 120 gates; steps no procedure decided: 0.
+- courses 3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-matched/run: 20 of 20 completed, 120 of 120 gates; steps no procedure decided: 0.
+- courses 3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b7-matched/run: 20 of 20 completed, 120 of 120 gates; steps no procedure decided: 0.
+- courses 3d:designer reference controller (demo.REFERENCE): 20 of 20 completed, 120 of 120 gates; steps no procedure decided: 0.
+- courses flat:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b0-matched/run: 30 of 30 completed, 147 of 147 gates; steps no procedure decided: 0.
+- courses flat:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b1-matched/run: 30 of 30 completed, 147 of 147 gates; steps no procedure decided: 0.
+- courses flat:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b2-matched/run: 30 of 30 completed, 147 of 147 gates; steps no procedure decided: 0.
+- courses flat:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b3-matched/run: 30 of 30 completed, 147 of 147 gates; steps no procedure decided: 0.
+- courses flat:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b4-matched/run: 30 of 30 completed, 147 of 147 gates; steps no procedure decided: 0.
+- courses flat:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b5-matched/run: 30 of 30 completed, 147 of 147 gates; steps no procedure decided: 0.
+- courses flat:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b6-matched/run: 30 of 30 completed, 147 of 147 gates; steps no procedure decided: 0.
+- courses flat:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b7-matched/run: 30 of 30 completed, 147 of 147 gates; steps no procedure decided: 0.
+- courses flat:designer reference controller (demo.REFERENCE): 30 of 30 completed, 147 of 147 gates; steps no procedure decided: 0.
+- courses flat:learned, pooled (8 libraries): 240 of 240 completed (0.9842 to 1.0), 1176 of 1176 gates; learned minus reference on the same courses 0.0 (95% interval 0.0 to 0.0).
+- courses 3d:learned, pooled (8 libraries): 160 of 160 completed (0.9766 to 1.0), 960 of 960 gates; learned minus reference on the same courses 0.0 (95% interval 0.0 to 0.0).
+- Split-S, learned, pooled: 40 of 40 completed, 760 of 760 gates; finish {'n': 40, 'median': 87.0, 'p95': 93.0, 'max': 94.0}.
+- Split-S, Gazebo, learned, pooled: 24 of 24 completed, 456 of 456 gates; finish {'n': 24, 'median': 88.0, 'p95': 98.0, 'max': 98.0}.
+- Split-S, /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run: 5 of 5 completed, 95 of 95 gates; finish {'n': 5, 'median': 87.0, 'p95': 87.0, 'max': 87.0}.
+- Split-S, /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-matched/run: 5 of 5 completed, 95 of 95 gates; finish {'n': 5, 'median': 90.0, 'p95': 91.0, 'max': 91.0}.
+- Split-S, /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-matched/run: 5 of 5 completed, 95 of 95 gates; finish {'n': 5, 'median': 86.0, 'p95': 87.0, 'max': 87.0}.
+- Split-S, /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-matched/run: 5 of 5 completed, 95 of 95 gates; finish {'n': 5, 'median': 86.0, 'p95': 86.0, 'max': 86.0}.
+- Split-S, /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-matched/run: 5 of 5 completed, 95 of 95 gates; finish {'n': 5, 'median': 93.0, 'p95': 94.0, 'max': 94.0}.
+- Split-S, /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-matched/run: 5 of 5 completed, 95 of 95 gates; finish {'n': 5, 'median': 86.0, 'p95': 88.0, 'max': 88.0}.
+- Split-S, /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-matched/run: 5 of 5 completed, 95 of 95 gates; finish {'n': 5, 'median': 87.0, 'p95': 87.0, 'max': 87.0}.
+- Split-S, /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b7-matched/run: 5 of 5 completed, 95 of 95 gates; finish {'n': 5, 'median': 87.0, 'p95': 89.0, 'max': 89.0}.
+- Split-S, designer reference controller (demo.REFERENCE): 5 of 5 completed, 95 of 95 gates; finish {'n': 5, 'median': 91.0, 'p95': 93.0, 'max': 93.0}.
+- Split-S, Gazebo, /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run: 3 of 3 completed, 57 of 57 gates; finish {'n': 3, 'median': 88.0, 'p95': 88.0, 'max': 88.0}.
+- Split-S, Gazebo, /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-matched/run: 3 of 3 completed, 57 of 57 gates; finish {'n': 3, 'median': 88.0, 'p95': 88.0, 'max': 88.0}.
+- Split-S, Gazebo, /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-matched/run: 3 of 3 completed, 57 of 57 gates; finish {'n': 3, 'median': 88.0, 'p95': 88.0, 'max': 88.0}.
+- Split-S, Gazebo, /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-matched/run: 3 of 3 completed, 57 of 57 gates; finish {'n': 3, 'median': 88.0, 'p95': 88.0, 'max': 88.0}.
+- Split-S, Gazebo, /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-matched/run: 3 of 3 completed, 57 of 57 gates; finish {'n': 3, 'median': 98.0, 'p95': 98.0, 'max': 98.0}.
+- Split-S, Gazebo, /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-matched/run: 3 of 3 completed, 57 of 57 gates; finish {'n': 3, 'median': 88.0, 'p95': 88.0, 'max': 88.0}.
+- Split-S, Gazebo, /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-matched/run: 3 of 3 completed, 57 of 57 gates; finish {'n': 3, 'median': 86.0, 'p95': 86.0, 'max': 86.0}.
+- Split-S, Gazebo, /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b7-matched/run: 3 of 3 completed, 57 of 57 gates; finish {'n': 3, 'median': 86.0, 'p95': 86.0, 'max': 86.0}.
+- Split-S, Gazebo, designer reference controller (demo.REFERENCE): 3 of 3 completed, 57 of 57 gates; finish {'n': 3, 'median': 88.0, 'p95': 88.0, 'max': 88.0}.
+
+## Paired comparisons on the same held-out scenarios
+
+- avoid, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-0/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- avoid, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-0/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- avoid, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-1/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- avoid, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-1/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- avoid, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-2/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- avoid, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-2/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- avoid, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-3/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- avoid, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-3/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- avoid, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-4/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- avoid, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-4/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- avoid, learned, pooled - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- avoid, learned, pooled - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- avoid, capped seconds: learned, pooled - reference: difference -7.7933 (95% interval -8.8467 to -6.7867).
+- avoid, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-0/run - reference: difference -6.6667 (95% interval -6.8667 to -6.4667).
+- avoid, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-1/run - reference: difference -9.4667 (95% interval -9.6667 to -9.2667).
+- avoid, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-2/run - reference: difference -7.0 (95% interval -7.2 to -6.8).
+- avoid, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-3/run - reference: difference -6.8667 (95% interval -7.1 to -6.6667).
+- avoid, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-4/run - reference: difference -8.9667 (95% interval -9.1333 to -8.8).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b0-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b0-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b0-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b1-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b1-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b1-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b2-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b2-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b2-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b3-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b3-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b3-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b4-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b4-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b4-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b5-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b5-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b5-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b6-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b6-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b6-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b7-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b7-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b7-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- land, learned, pooled - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned, pooled - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- land, learned, pooled - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- land, capped seconds: learned, pooled - reference: difference -4.0167 (95% interval -6.4292 to -1.7167).
+- land, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b0-matched/run - reference: difference -1.3 (95% interval -1.6 to -0.9667).
+- land, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b1-matched/run - reference: difference -7.4667 (95% interval -7.7333 to -7.2).
+- land, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b2-matched/run - reference: difference -6.2667 (95% interval -6.6 to -5.9).
+- land, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b3-matched/run - reference: difference -4.6 (95% interval -4.9667 to -4.2333).
+- land, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b4-matched/run - reference: difference -9.8667 (95% interval -10.1667 to -9.5667).
+- land, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b5-matched/run - reference: difference -2.5667 (95% interval -2.8333 to -2.2667).
+- land, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b6-matched/run - reference: difference -0.3667 (95% interval -0.7333 to 0.0333).
+- land, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b7-matched/run - reference: difference 0.3 (95% interval 0.0333 to 0.6).
+- land, capped seconds: learned, pooled - autopilot: difference -9.7167 (95% interval -12.0917 to -7.4375).
+- land, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b0-matched/run - autopilot: difference -7.0 (95% interval -7.1667 to -6.8).
+- land, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b1-matched/run - autopilot: difference -13.1667 (95% interval -13.3 to -13.0333).
+- land, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b2-matched/run - autopilot: difference -11.9667 (95% interval -12.1 to -11.8).
+- land, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b3-matched/run - autopilot: difference -10.3 (95% interval -10.6333 to -9.9667).
+- land, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b4-matched/run - autopilot: difference -15.5667 (95% interval -15.7333 to -15.4).
+- land, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b5-matched/run - autopilot: difference -8.2667 (95% interval -8.4667 to -8.0667).
+- land, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b6-matched/run - autopilot: difference -6.0667 (95% interval -6.2333 to -5.9).
+- land, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b7-matched/run - autopilot: difference -5.4 (95% interval -5.5667 to -5.2333).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-0/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-0/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-0/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-1/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-1/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-1/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-2/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-2/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-2/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-3/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-3/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-3/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-4/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-4/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- orbit, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-4/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- orbit, learned, pooled - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- orbit, learned, pooled - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- orbit, learned, pooled - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- orbit, capped seconds: learned, pooled - reference: difference 0.4067 (95% interval -4.86 to 6.9667).
+- orbit, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-0/run - reference: difference -8.0667 (95% interval -8.5667 to -7.5667).
+- orbit, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-1/run - reference: difference -1.9667 (95% interval -2.5333 to -1.4).
+- orbit, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-2/run - reference: difference -0.1333 (95% interval -0.7333 to 0.4667).
+- orbit, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-3/run - reference: difference 12.3667 (95% interval 11.5333 to 13.1667).
+- orbit, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-4/run - reference: difference -0.1667 (95% interval -0.6 to 0.2667).
+- orbit, capped seconds: learned, pooled - autopilot: difference 11.1067 (95% interval 5.8133 to 17.74).
+- orbit, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-0/run - autopilot: difference 2.6333 (95% interval 2.4 to 2.8333).
+- orbit, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-1/run - autopilot: difference 8.7333 (95% interval 8.4 to 9.0667).
+- orbit, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-2/run - autopilot: difference 10.5667 (95% interval 10.1667 to 10.9667).
+- orbit, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-3/run - autopilot: difference 23.0667 (95% interval 22.4667 to 23.6667).
+- orbit, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-4/run - autopilot: difference 10.5333 (95% interval 10.2 to 10.8667).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b0-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b0-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b0-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b1-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b1-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b1-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b2-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b2-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b2-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b3-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b3-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b3-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b4-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b4-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b4-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b5-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b5-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b5-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b6-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b6-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b6-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b7-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b7-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b7-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach, learned, pooled - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned, pooled - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach, learned, pooled - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach, capped seconds: learned, pooled - reference: difference -1.9042 (95% interval -3.05 to -0.8667).
+- reach, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b0-matched/run - reference: difference -0.4 (95% interval -0.5667 to -0.2333).
+- reach, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b1-matched/run - reference: difference -0.9667 (95% interval -1.0667 to -0.8667).
+- reach, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b2-matched/run - reference: difference -0.7667 (95% interval -0.9 to -0.6).
+- reach, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b3-matched/run - reference: difference -3.8333 (95% interval -3.9667 to -3.7).
+- reach, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b4-matched/run - reference: difference -3.8667 (95% interval -3.9667 to -3.7333).
+- reach, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b5-matched/run - reference: difference -0.7333 (95% interval -0.8667 to -0.5667).
+- reach, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b6-matched/run - reference: difference -0.8 (95% interval -0.9333 to -0.6333).
+- reach, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b7-matched/run - reference: difference -3.8667 (95% interval -3.9667 to -3.7333).
+- reach, capped seconds: learned, pooled - autopilot: difference 2.0292 (95% interval 0.875 to 3.075).
+- reach, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b0-matched/run - autopilot: difference 3.5333 (95% interval 3.3667 to 3.7).
+- reach, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b1-matched/run - autopilot: difference 2.9667 (95% interval 2.8333 to 3.0667).
+- reach, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b2-matched/run - autopilot: difference 3.1667 (95% interval 3.0333 to 3.3).
+- reach, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b3-matched/run - autopilot: difference 0.1 (95% interval 0.0 to 0.2).
+- reach, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b4-matched/run - autopilot: difference 0.0667 (95% interval 0.0 to 0.1667).
+- reach, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b5-matched/run - autopilot: difference 3.2 (95% interval 3.0667 to 3.3333).
+- reach, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b6-matched/run - autopilot: difference 3.1333 (95% interval 3.0333 to 3.2667).
+- reach, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b7-matched/run - autopilot: difference 0.0667 (95% interval 0.0 to 0.1667).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b7-matched/run - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b7-matched/run - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b7-matched/run - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach3d, learned, pooled - reference: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned, pooled - autopilot: difference 0.0 (95% interval 0.0 to 0.0).
+- reach3d, learned, pooled - hold: difference 1.0 (95% interval 1.0 to 1.0).
+- reach3d, capped seconds: learned, pooled - reference: difference -3.0417 (95% interval -3.525 to -2.4208).
+- reach3d, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run - reference: difference -3.3 (95% interval -3.6 to -2.9667).
+- reach3d, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-matched/run - reference: difference -3.3 (95% interval -3.6 to -2.9667).
+- reach3d, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-matched/run - reference: difference -3.6 (95% interval -3.8333 to -3.3333).
+- reach3d, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-matched/run - reference: difference -3.2667 (95% interval -3.5667 to -2.9333).
+- reach3d, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-matched/run - reference: difference -3.1333 (95% interval -3.3667 to -2.8333).
+- reach3d, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-matched/run - reference: difference -3.2667 (95% interval -3.5667 to -2.9333).
+- reach3d, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-matched/run - reference: difference -3.3 (95% interval -3.6 to -2.9667).
+- reach3d, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b7-matched/run - reference: difference -1.1667 (95% interval -1.5 to -0.8667).
+- reach3d, capped seconds: learned, pooled - autopilot: difference 0.4917 (95% interval 0.1083 to 1.0708).
+- reach3d, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run - autopilot: difference 0.2333 (95% interval 0.1 to 0.4).
+- reach3d, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-matched/run - autopilot: difference 0.2333 (95% interval 0.1 to 0.4).
+- reach3d, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-matched/run - autopilot: difference -0.0667 (95% interval -0.1667 to 0.0).
+- reach3d, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-matched/run - autopilot: difference 0.2667 (95% interval 0.1333 to 0.4333).
+- reach3d, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-matched/run - autopilot: difference 0.4 (95% interval 0.2 to 0.6).
+- reach3d, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-matched/run - autopilot: difference 0.2667 (95% interval 0.1333 to 0.4333).
+- reach3d, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-matched/run - autopilot: difference 0.2333 (95% interval 0.1 to 0.4).
+- reach3d, capped seconds: learned:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b7-matched/run - autopilot: difference 2.3667 (95% interval 1.9667 to 2.7333).
+
+## Disturbances (descriptive)
+
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-0/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-0/run, spoof: 3 of 5 met; ended by entered_zone 2, held 3.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-0/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-0/run, gust: 5 of 5 met; ended by held 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-0/run, motor: 5 of 5 met; ended by held 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-0/run, threat: 2 of 5 met; ended by entered_threat 3, held 2.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-1/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-1/run, spoof: 5 of 5 met; ended by held 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-1/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-1/run, gust: 5 of 5 met; ended by held 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-1/run, motor: 4 of 5 met; ended by ground_contact 1, held 4.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-1/run, threat: 2 of 5 met; ended by entered_threat 3, held 2.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-2/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-2/run, spoof: 3 of 5 met; ended by entered_zone 2, held 3.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-2/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-2/run, gust: 5 of 5 met; ended by held 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-2/run, motor: 5 of 5 met; ended by held 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-2/run, threat: 2 of 5 met; ended by entered_threat 3, held 2.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-3/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-3/run, spoof: 3 of 5 met; ended by entered_zone 2, held 3.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-3/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-3/run, gust: 5 of 5 met; ended by held 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-3/run, motor: 5 of 5 met; ended by held 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-3/run, threat: 2 of 5 met; ended by entered_threat 3, held 2.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-4/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-4/run, spoof: 3 of 5 met; ended by entered_zone 2, held 3.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-4/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-4/run, gust: 5 of 5 met; ended by held 5.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-4/run, motor: 4 of 5 met; ended by ground_contact 1, held 4.
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-4/run, threat: 4 of 5 met; ended by entered_threat 1, held 4.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b0-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b0-matched/run, spoof: 1 of 5 met; ended by landed 1, landed_off_point 4.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b0-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b0-matched/run, gust: 5 of 5 met; ended by landed 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b0-matched/run, motor: 5 of 5 met; ended by landed 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b0-matched/run, threat: 1 of 5 met; ended by landed 1, timed_out 4.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b1-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b1-matched/run, spoof: 4 of 5 met; ended by landed 4, landed_off_point 1.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b1-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b1-matched/run, gust: 5 of 5 met; ended by landed 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b1-matched/run, motor: 5 of 5 met; ended by landed 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b1-matched/run, threat: 0 of 5 met; ended by entered_threat 4, timed_out 1.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b2-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b2-matched/run, spoof: 2 of 5 met; ended by landed 2, landed_off_point 3.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b2-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b2-matched/run, gust: 5 of 5 met; ended by landed 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b2-matched/run, motor: 4 of 5 met; ended by hard_landing 1, landed 4.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b2-matched/run, threat: 0 of 5 met; ended by timed_out 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b3-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b3-matched/run, spoof: 1 of 5 met; ended by landed 1, landed_off_point 4.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b3-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b3-matched/run, gust: 5 of 5 met; ended by landed 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b3-matched/run, motor: 5 of 5 met; ended by landed 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b3-matched/run, threat: 5 of 5 met; ended by landed 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b4-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b4-matched/run, spoof: 4 of 5 met; ended by landed 4, landed_off_point 1.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b4-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b4-matched/run, gust: 5 of 5 met; ended by landed 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b4-matched/run, motor: 3 of 5 met; ended by landed 3, landed_off_point 2.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b4-matched/run, threat: 0 of 5 met; ended by timed_out 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b5-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b5-matched/run, spoof: 0 of 5 met; ended by landed_off_point 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b5-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b5-matched/run, gust: 5 of 5 met; ended by landed 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b5-matched/run, motor: 5 of 5 met; ended by landed 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b5-matched/run, threat: 5 of 5 met; ended by landed 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b6-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b6-matched/run, spoof: 2 of 5 met; ended by landed 2, landed_off_point 3.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b6-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b6-matched/run, gust: 5 of 5 met; ended by landed 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b6-matched/run, motor: 5 of 5 met; ended by landed 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b6-matched/run, threat: 5 of 5 met; ended by landed 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b7-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b7-matched/run, spoof: 3 of 5 met; ended by landed 3, landed_off_point 2.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b7-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b7-matched/run, gust: 5 of 5 met; ended by landed 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b7-matched/run, motor: 5 of 5 met; ended by landed 5.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b7-matched/run, threat: 0 of 5 met; ended by timed_out 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-0/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-0/run, spoof: 0 of 5 met; ended by left_orbit 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-0/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-0/run, gust: 5 of 5 met; ended by orbited 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-0/run, motor: 5 of 5 met; ended by orbited 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-1/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-1/run, spoof: 0 of 5 met; ended by left_orbit 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-1/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-1/run, gust: 5 of 5 met; ended by orbited 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-1/run, motor: 5 of 5 met; ended by orbited 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-2/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-2/run, spoof: 0 of 5 met; ended by left_orbit 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-2/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-2/run, gust: 5 of 5 met; ended by orbited 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-2/run, motor: 5 of 5 met; ended by orbited 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-3/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-3/run, spoof: 0 of 5 met; ended by left_orbit 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-3/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-3/run, gust: 5 of 5 met; ended by orbited 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-3/run, motor: 5 of 5 met; ended by orbited 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-4/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-4/run, spoof: 0 of 5 met; ended by left_orbit 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-4/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 4, left_orbit 1.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-4/run, gust: 5 of 5 met; ended by orbited 5.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-4/run, motor: 5 of 5 met; ended by orbited 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b0-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b0-matched/run, spoof: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b0-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b0-matched/run, gust: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b0-matched/run, motor: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b0-matched/run, threat: 1 of 5 met; ended by held 1, timed_out 4.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b1-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b1-matched/run, spoof: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b1-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b1-matched/run, gust: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b1-matched/run, motor: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b1-matched/run, threat: 0 of 5 met; ended by timed_out 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b2-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b2-matched/run, spoof: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b2-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b2-matched/run, gust: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b2-matched/run, motor: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b2-matched/run, threat: 0 of 5 met; ended by entered_threat 1, timed_out 4.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b3-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b3-matched/run, spoof: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b3-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b3-matched/run, gust: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b3-matched/run, motor: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b3-matched/run, threat: 1 of 5 met; ended by held 1, timed_out 4.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b4-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b4-matched/run, spoof: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b4-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b4-matched/run, gust: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b4-matched/run, motor: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b4-matched/run, threat: 1 of 5 met; ended by held 1, timed_out 4.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b5-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b5-matched/run, spoof: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b5-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b5-matched/run, gust: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b5-matched/run, motor: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b5-matched/run, threat: 1 of 5 met; ended by held 1, timed_out 4.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b6-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b6-matched/run, spoof: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b6-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b6-matched/run, gust: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b6-matched/run, motor: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b6-matched/run, threat: 0 of 5 met; ended by timed_out 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b7-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b7-matched/run, spoof: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b7-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b7-matched/run, gust: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b7-matched/run, motor: 5 of 5 met; ended by held 5.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b7-matched/run, threat: 0 of 5 met; ended by timed_out 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run, spoof: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run, gust: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run, motor: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run, threat: 3 of 5 met; ended by entered_threat 1, held 3, timed_out 1.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-matched/run, spoof: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-matched/run, gust: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-matched/run, motor: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-matched/run, threat: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-matched/run, jam: 1 of 5 met; ended by autopilot_land 4, held 1.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-matched/run, spoof: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-matched/run, gust: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-matched/run, motor: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-matched/run, threat: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-matched/run, spoof: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-matched/run, gust: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-matched/run, motor: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-matched/run, threat: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-matched/run, spoof: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-matched/run, gust: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-matched/run, motor: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-matched/run, threat: 0 of 5 met; ended by entered_threat 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-matched/run, spoof: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-matched/run, gust: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-matched/run, motor: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-matched/run, threat: 1 of 5 met; ended by held 1, timed_out 4.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-matched/run, spoof: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-matched/run, gust: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-matched/run, motor: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-matched/run, threat: 4 of 5 met; ended by held 4, timed_out 1.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b7-matched/run, jam: 0 of 5 met; ended by autopilot_land 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b7-matched/run, spoof: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b7-matched/run, rc_loss: 0 of 5 met; ended by autopilot_rtl 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b7-matched/run, gust: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b7-matched/run, motor: 5 of 5 met; ended by held 5.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b7-matched/run, threat: 0 of 5 met; ended by timed_out 5.
+
+## Repeatability
+
+- avoid:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-avoid-0/run: 5 of 5 scenarios ended the same way in all three repeats.
+- avoid:designer reference controller (demo.REFERENCE): 5 of 5 scenarios ended the same way in all three repeats.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b0-matched/run: 5 of 5 scenarios ended the same way in all three repeats.
+- land:designer reference controller (demo.REFERENCE): 5 of 5 scenarios ended the same way in all three repeats.
+- orbit:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-orbit-0/run: 5 of 5 scenarios ended the same way in all three repeats.
+- orbit:designer reference controller (demo.REFERENCE): 5 of 5 scenarios ended the same way in all three repeats.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b0-matched/run: 5 of 5 scenarios ended the same way in all three repeats.
+- reach:designer reference controller (demo.REFERENCE): 5 of 5 scenarios ended the same way in all three repeats.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run: 5 of 5 scenarios ended the same way in all three repeats.
+- reach3d:designer reference controller (demo.REFERENCE): 5 of 5 scenarios ended the same way in all three repeats.
+
+## Decision lag (seconds of simulated time)
+
+Held-out and learning flights: simulated time from the scheduled observation to the command. Courses and Split-S: newest telemetry time after the command minus the time of the position the decision used, so it includes that position's age and is only as fine as the 0.1 s telemetry period.
+
+- learn: median 0.0, 95th percentile 0.1, max 0.201 over 30780 steps; share of decisions 0.1 s or more late 0.1742.
+- heldout: median 0.0, 95th percentile 0.1, max 0.401 over 54641 steps; share of decisions 0.1 s or more late 0.1002.
+- repeat: median 0.0, 95th percentile 0.098, max 0.198 over 3647 steps; share of decisions 0.1 s or more late 0.0543.
+- autopilot: median 0.0, 95th percentile 0.001, max 0.1 over 2738 steps; share of decisions 0.1 s or more late 0.0066.
+- disturb: median 0.0, 95th percentile 0.1, max 0.301 over 23894 steps; share of decisions 0.1 s or more late 0.1071.
+- threat: median 0.001, 95th percentile 0.1, max 0.201 over 43897 steps; share of decisions 0.1 s or more late 0.1201.
+- courses: median 0.1, 95th percentile 0.2, max 0.899 over 18026 steps; share of decisions 0.1 s or more late 1.0.
+- splits: median 0.1, 95th percentile 0.102, max 0.201 over 3972 steps; share of decisions 0.1 s or more late 1.0.
+- gazebo: median 0.1, 95th percentile 0.1, max 0.2 over 2393 steps; share of decisions 0.1 s or more late 1.0.
+
+## Procedure and guard run times (wall-clock seconds per decision)
+
+- learn: 30780 decisions, 24300 without a deciding procedure; procedure {'n': 6480, 'median': 0.0433, 'p95': 0.0545, 'max': 0.1558}; guard {'n': 6480, 'median': 0.0302, 'p95': 0.0404, 'max': 0.0705}.
+- heldout: 54641 decisions, 0 without a deciding procedure; procedure {'n': 54641, 'median': 0.0424, 'p95': 0.0501, 'max': 0.4267}; guard {'n': 54641, 'median': 0.03, 'p95': 0.0357, 'max': 0.2262}.
+- repeat: 3647 decisions, 0 without a deciding procedure; procedure {'n': 3647, 'median': 0.0429, 'p95': 0.0526, 'max': 0.1132}; guard {'n': 3647, 'median': 0.0302, 'p95': 0.0361, 'max': 0.0856}.
+- disturb: 23894 decisions, 0 without a deciding procedure; procedure {'n': 23894, 'median': 0.0421, 'p95': 0.0543, 'max': 0.192}; guard {'n': 23894, 'median': 0.0301, 'p95': 0.0372, 'max': 0.1157}.
+- threat: 43897 decisions, 0 without a deciding procedure; procedure {'n': 43897, 'median': 0.0421, 'p95': 0.0478, 'max': 0.1705}; guard {'n': 43897, 'median': 0.0299, 'p95': 0.0358, 'max': 0.1257}.
+- courses: 18026 decisions, 0 without a deciding procedure; procedure {'n': 18026, 'median': 0.0393, 'p95': 0.0572, 'max': 0.623}; guard {'n': 18026, 'median': 0.0297, 'p95': 0.0366, 'max': 0.3119}.
+- splits: 3972 decisions, 0 without a deciding procedure; procedure {'n': 3972, 'median': 0.0364, 'p95': 0.0533, 'max': 0.1031}; guard {'n': 3972, 'median': 0.0286, 'p95': 0.0347, 'max': 0.0677}.
+- gazebo: 2393 decisions, 0 without a deciding procedure; procedure {'n': 2393, 'median': 0.0428, 'p95': 0.046, 'max': 0.1319}; guard {'n': 2393, 'median': 0.0301, 'p95': 0.0322, 'max': 0.0418}.
+
+## Threat zones: realised first sight
+
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b0-matched/run: least 9.47 m over 5 flights; under 9 m: 0.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b1-matched/run: least 10.14 m over 5 flights; under 9 m: 0.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b2-matched/run: least 10.23 m over 5 flights; under 9 m: 0.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b3-matched/run: least 9.6 m over 5 flights; under 9 m: 0.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b4-matched/run: least 10.14 m over 5 flights; under 9 m: 0.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b5-matched/run: least 10.1 m over 5 flights; under 9 m: 0.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b6-matched/run: least 10.86 m over 5 flights; under 9 m: 0.
+- land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b7-matched/run: least 10.19 m over 5 flights; under 9 m: 0.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b0-matched/run: least 10.76 m over 5 flights; under 9 m: 0.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b1-matched/run: least 9.34 m over 5 flights; under 9 m: 0.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b2-matched/run: least 10.26 m over 5 flights; under 9 m: 0.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b3-matched/run: least 9.62 m over 5 flights; under 9 m: 0.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b4-matched/run: least 9.43 m over 5 flights; under 9 m: 0.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b5-matched/run: least 10.22 m over 5 flights; under 9 m: 0.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b6-matched/run: least 9.9 m over 5 flights; under 9 m: 0.
+- reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b7-matched/run: least 9.53 m over 5 flights; under 9 m: 0.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run: least 12.3 m over 5 flights; under 9 m: 0.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-matched/run: least 12.3 m over 5 flights; under 9 m: 0.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-matched/run: least 11.89 m over 5 flights; under 9 m: 0.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-matched/run: least 12.18 m over 5 flights; under 9 m: 0.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-matched/run: least 12.34 m over 5 flights; under 9 m: 0.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-matched/run: least 12.32 m over 5 flights; under 9 m: 0.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-matched/run: least 12.31 m over 5 flights; under 9 m: 0.
+- reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b7-matched/run: least 12.04 m over 5 flights; under 9 m: 0.
+- threat evaluation:land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b0-matched/run: least 9.31 m over 20 flights; under 9 m: 0.
+- threat evaluation:land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b0-threat/run: least 9.26 m over 20 flights; under 9 m: 0.
+- threat evaluation:land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b1-matched/run: least 9.95 m over 20 flights; under 9 m: 0.
+- threat evaluation:land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b1-threat/run: least 10.66 m over 20 flights; under 9 m: 0.
+- threat evaluation:land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b2-matched/run: least 9.83 m over 20 flights; under 9 m: 0.
+- threat evaluation:land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b2-threat/run: least 9.58 m over 20 flights; under 9 m: 0.
+- threat evaluation:land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b3-matched/run: least 9.28 m over 20 flights; under 9 m: 0.
+- threat evaluation:land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b3-threat/run: least 9.29 m over 20 flights; under 9 m: 0.
+- threat evaluation:land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b4-matched/run: least 9.41 m over 20 flights; under 9 m: 0.
+- threat evaluation:land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b4-threat/run: least 11.05 m over 20 flights; under 9 m: 0.
+- threat evaluation:land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b5-matched/run: least 9.97 m over 20 flights; under 9 m: 0.
+- threat evaluation:land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b5-threat/run: least 9.31 m over 20 flights; under 9 m: 0.
+- threat evaluation:land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b6-matched/run: least 9.99 m over 20 flights; under 9 m: 0.
+- threat evaluation:land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b6-threat/run: least 9.35 m over 20 flights; under 9 m: 0.
+- threat evaluation:land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b7-matched/run: least 9.89 m over 20 flights; under 9 m: 0.
+- threat evaluation:land:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-land-b7-threat/run: least 10.05 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b0-matched/run: least 10.0 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b0-threat/run: least 9.47 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b1-matched/run: least 9.09 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b1-threat/run: least 9.07 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b2-matched/run: least 9.5 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b2-threat/run: least 9.31 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b3-matched/run: least 9.07 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b3-threat/run: least 9.09 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b4-matched/run: least 9.31 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b5-matched/run: least 9.6 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b5-threat/run: least 9.12 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b6-matched/run: least 9.25 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b6-threat/run: least 9.22 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b7-matched/run: least 9.09 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach-b7-threat/run: least 9.38 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-matched/run: least 9.59 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b0-threat/run: least 9.44 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-matched/run: least 10.07 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b1-threat/run: least 9.39 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-matched/run: least 9.43 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b2-threat/run: least 10.28 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-matched/run: least 10.1 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b3-threat/run: least 9.62 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-matched/run: least 10.06 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b4-threat/run: least 9.96 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-matched/run: least 10.1 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b5-threat/run: least 9.33 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-matched/run: least 9.95 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b6-threat/run: least 10.71 m over 20 flights; under 9 m: 0.
+- threat evaluation:reach3d:/Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2/learn-reach3d-b7-matched/run: least 9.65 m over 20 flights; under 9 m: 0.
+
+## Attribution checks on adopted procedures
+
+- avoid-0: 49 lines; numbers matching training scenarios 0, matching task defaults 1; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 2 distinct); held-out scenario numbers found in requests 2 of 124 [12.6, 50.8]; from never-flown control scenarios 1 of 121 [0.3].
+- avoid-1: 63 lines; numbers matching training scenarios 0, matching task defaults 0; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 2 distinct); held-out scenario numbers found in requests 3 of 128 [12.6, 20.4, 24.5]; from never-flown control scenarios 2 of 117 [0.3, 8.7].
+- avoid-2: 57 lines; numbers matching training scenarios 0, matching task defaults 0; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 2 of 129 [3.5, 12.6]; from never-flown control scenarios 1 of 121 [0.3].
+- avoid-3: 53 lines; numbers matching training scenarios 0, matching task defaults 1; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 2 distinct); held-out scenario numbers found in requests 1 of 127 [12.6]; from never-flown control scenarios 2 of 121 [0.3, 11.6].
+- avoid-4: 52 lines; numbers matching training scenarios 0, matching task defaults 0; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 4 of 127 [0.4, 12.6, 23.4, 27.3]; from never-flown control scenarios 1 of 123 [0.3].
+- land-b0-matched: 52 lines; numbers matching training scenarios 0, matching task defaults 5; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 129 [12.6]; from never-flown control scenarios 2 of 127 [0.9, 1.2].
+- land-b0-threat: 83 lines; numbers matching training scenarios 0, matching task defaults 9; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 1 distinct); held-out scenario numbers found in requests 2 of 124 [12.6, 31.9]; from never-flown control scenarios 1 of 125 [0.9].
+- land-b1-matched: 55 lines; numbers matching training scenarios 0, matching task defaults 7; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 130 [12.6]; from never-flown control scenarios 0 of 127 [].
+- land-b1-threat: 69 lines; numbers matching training scenarios 0, matching task defaults 9; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 128 [12.6]; from never-flown control scenarios 1 of 126 [0.9].
+- land-b2-matched: 59 lines; numbers matching training scenarios 0, matching task defaults 11; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 129 [12.6]; from never-flown control scenarios 1 of 127 [32.5].
+- land-b2-threat: 59 lines; numbers matching training scenarios 0, matching task defaults 8; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 1 distinct); held-out scenario numbers found in requests 1 of 129 [12.6]; from never-flown control scenarios 1 of 122 [32.5].
+- land-b3-matched: 54 lines; numbers matching training scenarios 0, matching task defaults 7; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 129 [12.6]; from never-flown control scenarios 1 of 126 [0.9].
+- land-b3-threat: 88 lines; numbers matching training scenarios 0, matching task defaults 10; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 2 distinct); held-out scenario numbers found in requests 2 of 125 [3.5, 12.6]; from never-flown control scenarios 1 of 121 [33.1].
+- land-b4-matched: 59 lines; numbers matching training scenarios 0, matching task defaults 6; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 2 of 130 [3.5, 12.6]; from never-flown control scenarios 2 of 128 [0.9, 42.1].
+- land-b4-threat: 60 lines; numbers matching training scenarios 0, matching task defaults 6; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 129 [12.6]; from never-flown control scenarios 2 of 125 [0.9, 42.1].
+- land-b5-matched: 39 lines; numbers matching training scenarios 0, matching task defaults 7; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 130 [12.6]; from never-flown control scenarios 2 of 128 [0.9, 4.6].
+- land-b5-threat: 103 lines; numbers matching training scenarios 0, matching task defaults 15; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 4 of 129 [3.5, 4.5, 12.6, 31.9]; from never-flown control scenarios 4 of 125 [0.9, 1.2, 4.6, 8.4].
+- land-b6-matched: 53 lines; numbers matching training scenarios 0, matching task defaults 7; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 2 of 130 [12.6, 20.3]; from never-flown control scenarios 2 of 127 [-2.6, 0.9].
+- land-b6-threat: 52 lines; numbers matching training scenarios 0, matching task defaults 5; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 2 of 128 [12.6, 20.3]; from never-flown control scenarios 2 of 126 [15.9, 20.2].
+- land-b7-matched: 57 lines; numbers matching training scenarios 0, matching task defaults 6; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 130 [12.6]; from never-flown control scenarios 0 of 126 [].
+- land-b7-threat: 72 lines; numbers matching training scenarios 0, matching task defaults 7; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 127 [12.6]; from never-flown control scenarios 1 of 122 [0.9].
+- orbit-0: 33 lines; numbers matching training scenarios 0, matching task defaults 1; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 3 of 69 [-0.5, 3.5, 5.2]; from never-flown control scenarios 2 of 75 [0.5, 3.5].
+- orbit-1: 31 lines; numbers matching training scenarios 0, matching task defaults 2; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 2 of 70 [3.5, 15.9]; from never-flown control scenarios 4 of 79 [-0.6, 0.5, 3.5, 4.5].
+- orbit-2: 29 lines; numbers matching training scenarios 0, matching task defaults 4; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 70 [3.5]; from never-flown control scenarios 2 of 77 [0.5, 3.5].
+- orbit-3: 23 lines; numbers matching training scenarios 0, matching task defaults 2; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 2 of 70 [-0.5, 3.5]; from never-flown control scenarios 3 of 76 [0.5, 3.5, 25.3].
+- orbit-4: 61 lines; numbers matching training scenarios 0, matching task defaults 10; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 71 [3.5]; from never-flown control scenarios 3 of 78 [0.5, 3.5, 4.9].
+- reach-b0-matched: 46 lines; numbers matching training scenarios 0, matching task defaults 1; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 2 distinct); held-out scenario numbers found in requests 2 of 130 [0.9, 7.2]; from never-flown control scenarios 2 of 127 [-0.3, 7.2].
+- reach-b0-threat: 67 lines; numbers matching training scenarios 0, matching task defaults 3; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 2 of 128 [0.9, 7.2]; from never-flown control scenarios 1 of 125 [7.2].
+- reach-b1-matched: 39 lines; numbers matching training scenarios 0, matching task defaults 3; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 0 of 131 []; from never-flown control scenarios 0 of 127 [].
+- reach-b1-threat: 65 lines; numbers matching training scenarios 0, matching task defaults 0; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 130 [0.9]; from never-flown control scenarios 1 of 124 [35.6].
+- reach-b2-matched: 48 lines; numbers matching training scenarios 0, matching task defaults 3; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 131 [8.1]; from never-flown control scenarios 1 of 126 [8.1].
+- reach-b2-threat: 53 lines; numbers matching training scenarios 0, matching task defaults 0; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 2 of 130 [0.9, 8.1]; from never-flown control scenarios 3 of 123 [-0.3, 8.1, 33.4].
+- reach-b3-matched: 56 lines; numbers matching training scenarios 0, matching task defaults 2; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 130 [3.5]; from never-flown control scenarios 3 of 126 [-0.2, 3.5, 8.2].
+- reach-b3-threat: 50 lines; numbers matching training scenarios 0, matching task defaults 2; reference lines reaching the model in a request 1 (lines the model itself wrote that match the reference: 1 distinct); held-out scenario numbers found in requests 1 of 127 [3.5]; from never-flown control scenarios 2 of 124 [3.5, 8.2].
+- reach-b4-matched: 37 lines; numbers matching training scenarios 0, matching task defaults 2; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 3 of 130 [0.9, 3.8, 3.9]; from never-flown control scenarios 1 of 127 [3.8].
+- reach-b5-matched: 41 lines; numbers matching training scenarios 0, matching task defaults 1; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 1 distinct); held-out scenario numbers found in requests 0 of 129 []; from never-flown control scenarios 1 of 127 [9.4].
+- reach-b5-threat: 91 lines; numbers matching training scenarios 0, matching task defaults 4; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 127 [1.2]; from never-flown control scenarios 3 of 124 [-0.3, 9.4, 33.4].
+- reach-b6-matched: 51 lines; numbers matching training scenarios 0, matching task defaults 1; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 2 of 129 [37.5, 45.8]; from never-flown control scenarios 1 of 127 [45.8].
+- reach-b6-threat: 71 lines; numbers matching training scenarios 0, matching task defaults 1; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 2 of 127 [37.5, 45.8]; from never-flown control scenarios 3 of 124 [-0.2, 17.9, 45.8].
+- reach-b7-matched: 44 lines; numbers matching training scenarios 0, matching task defaults 2; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 131 [47.9]; from never-flown control scenarios 1 of 127 [37.2].
+- reach-b7-threat: 69 lines; numbers matching training scenarios 1, matching task defaults 2; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 2 of 129 [0.9, 47.9]; from never-flown control scenarios 2 of 125 [-0.3, 37.2].
+- reach3d-b0-matched: 40 lines; numbers matching training scenarios 0, matching task defaults 3; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 2 of 154 [1.6, 12.6]; from never-flown control scenarios 2 of 173 [0.5, 43.9].
+- reach3d-b0-threat: 79 lines; numbers matching training scenarios 0, matching task defaults 2; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 2 of 152 [1.6, 12.6]; from never-flown control scenarios 3 of 170 [0.3, 0.5, 43.9].
+- reach3d-b1-matched: 57 lines; numbers matching training scenarios 0, matching task defaults 1; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 2 of 152 [12.6, 42.9]; from never-flown control scenarios 3 of 175 [0.2, 0.5, 6.4].
+- reach3d-b1-threat: 79 lines; numbers matching training scenarios 0, matching task defaults 1; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 3 of 149 [12.6, 32.1, 42.9]; from never-flown control scenarios 5 of 171 [0.2, 0.3, 0.5, 6.4, 32.1].
+- reach3d-b2-matched: 49 lines; numbers matching training scenarios 0, matching task defaults 4; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 151 [12.6]; from never-flown control scenarios 1 of 171 [0.5].
+- reach3d-b2-threat: 65 lines; numbers matching training scenarios 0, matching task defaults 5; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 149 [12.6]; from never-flown control scenarios 5 of 169 [0.2, 0.3, 0.5, 0.9, 18.1].
+- reach3d-b3-matched: 60 lines; numbers matching training scenarios 0, matching task defaults 3; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 152 [12.6]; from never-flown control scenarios 3 of 174 [0.3, 0.5, 0.9].
+- reach3d-b3-threat: 75 lines; numbers matching training scenarios 0, matching task defaults 5; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 148 [12.6]; from never-flown control scenarios 3 of 170 [0.2, 0.3, 0.5].
+- reach3d-b4-matched: 53 lines; numbers matching training scenarios 0, matching task defaults 4; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 150 [12.6]; from never-flown control scenarios 2 of 175 [0.3, 0.5].
+- reach3d-b4-threat: 46 lines; numbers matching training scenarios 0, matching task defaults 4; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 1 distinct); held-out scenario numbers found in requests 1 of 147 [12.6]; from never-flown control scenarios 2 of 173 [0.3, 0.5].
+- reach3d-b5-matched: 58 lines; numbers matching training scenarios 0, matching task defaults 5; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 153 [12.6]; from never-flown control scenarios 2 of 174 [0.5, 29.7].
+- reach3d-b5-threat: 62 lines; numbers matching training scenarios 0, matching task defaults 3; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 1 of 150 [12.6]; from never-flown control scenarios 2 of 169 [0.5, 29.7].
+- reach3d-b6-matched: 62 lines; numbers matching training scenarios 0, matching task defaults 2; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 2 of 154 [12.2, 12.6]; from never-flown control scenarios 4 of 173 [0.3, 0.5, 0.9, 12.2].
+- reach3d-b6-threat: 53 lines; numbers matching training scenarios 0, matching task defaults 3; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 2 distinct); held-out scenario numbers found in requests 2 of 153 [12.2, 12.6]; from never-flown control scenarios 4 of 168 [0.2, 0.5, 0.9, 12.2].
+- reach3d-b7-matched: 54 lines; numbers matching training scenarios 0, matching task defaults 3; reference lines reaching the model in a request 0 (lines the model itself wrote that match the reference: 0 distinct); held-out scenario numbers found in requests 3 of 154 [4.8, 12.6, 24.8]; from never-flown control scenarios 3 of 172 [0.3, 0.5, 0.9].

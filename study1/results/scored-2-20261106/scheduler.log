@@ -1,0 +1,1104 @@
+2026-11-04 15:14:23 begin run of the second protocol into /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2; tasks ['reach', 'reach3d', 'avoid', 'orbit', 'land']; blocks 8; instances (10, 11, 12, 13); spending stop US$12
+2026-11-04 15:14:23 start learn-reach-b0-threat on instance 10
+2026-11-04 15:14:23 start learn-reach3d-b0-matched on instance 12
+2026-11-04 15:14:23 start learn-reach3d-b0-threat on instance 13
+2026-11-04 15:14:23 start learn-reach-b0-matched on instance 11
+2026-11-04 15:26:05 end learn-reach-b0-matched on instance 11
+2026-11-04 15:26:05 start learn-avoid-0 on instance 11
+2026-11-04 15:26:28 end learn-reach-b0-threat on instance 10
+2026-11-04 15:26:28 start learn-orbit-0 on instance 10
+2026-11-04 15:27:28 end learn-reach3d-b0-matched on instance 12
+2026-11-04 15:27:28 start learn-land-b0-threat on instance 12
+2026-11-04 15:39:33 end learn-avoid-0 on instance 11
+2026-11-04 15:39:33 start learn-land-b0-matched on instance 11
+2026-11-04 15:41:23 end learn-land-b0-threat on instance 12
+2026-11-04 15:41:23 start learn-reach-b1-matched on instance 12
+2026-11-04 15:42:09 end learn-orbit-0 on instance 10
+2026-11-04 15:42:09 start learn-reach-b1-threat on instance 10
+2026-11-04 15:46:01 end learn-reach3d-b0-threat on instance 13
+2026-11-04 15:46:01 start learn-reach3d-b1-matched on instance 13
+2026-11-04 15:52:51 end learn-reach-b1-matched on instance 12
+2026-11-04 15:52:51 start learn-reach3d-b1-threat on instance 12
+2026-11-04 15:53:02 end learn-land-b0-matched on instance 11
+2026-11-04 15:53:02 start learn-avoid-1 on instance 11
+2026-11-04 15:58:43 end learn-reach3d-b1-matched on instance 13
+2026-11-04 15:58:43 start learn-orbit-1 on instance 13
+2026-11-04 16:05:08 end learn-reach-b1-threat on instance 10
+2026-11-04 16:05:08 start learn-land-b1-matched on instance 10
+2026-11-04 16:06:09 end learn-avoid-1 on instance 11
+2026-11-04 16:06:09 start learn-land-b1-threat on instance 11
+2026-11-04 16:06:14 end learn-reach3d-b1-threat on instance 12
+2026-11-04 16:06:14 start learn-reach-b2-threat on instance 12
+2026-11-04 16:14:23 end learn-orbit-1 on instance 13
+2026-11-04 16:14:23 start learn-reach-b2-matched on instance 13
+2026-11-04 16:18:03 end learn-reach-b2-threat on instance 12
+2026-11-04 16:18:03 start learn-reach3d-b2-matched on instance 12
+2026-11-04 16:18:17 end learn-land-b1-matched on instance 10
+2026-11-04 16:18:17 start learn-reach3d-b2-threat on instance 10
+2026-11-04 16:20:41 end learn-land-b1-threat on instance 11
+2026-11-04 16:20:41 start learn-avoid-2 on instance 11
+2026-11-04 16:25:52 end learn-reach-b2-matched on instance 13
+2026-11-04 16:25:52 start learn-orbit-2 on instance 13
+2026-11-04 16:30:41 end learn-reach3d-b2-matched on instance 12
+2026-11-04 16:30:41 start learn-land-b2-matched on instance 12
+2026-11-04 16:31:28 end learn-reach3d-b2-threat on instance 10
+2026-11-04 16:31:28 start learn-land-b2-threat on instance 10
+2026-11-04 16:34:14 end learn-avoid-2 on instance 11
+2026-11-04 16:34:14 start learn-reach-b3-matched on instance 11
+2026-11-04 16:41:46 end learn-orbit-2 on instance 13
+2026-11-04 16:41:46 start learn-reach-b3-threat on instance 13
+2026-11-04 16:43:57 end learn-land-b2-matched on instance 12
+2026-11-04 16:43:57 start learn-reach3d-b3-matched on instance 12
+2026-11-04 16:45:38 end learn-reach-b3-matched on instance 11
+2026-11-04 16:45:38 start learn-reach3d-b3-threat on instance 11
+2026-11-04 16:56:46 end learn-reach3d-b3-matched on instance 12
+2026-11-04 16:56:46 start learn-avoid-3 on instance 12
+2026-11-04 16:58:17 end learn-land-b2-threat on instance 10
+2026-11-04 16:58:17 start learn-orbit-3 on instance 10
+2026-11-04 16:58:57 end learn-reach3d-b3-threat on instance 11
+2026-11-04 16:58:57 start learn-land-b3-matched on instance 11
+2026-11-04 17:04:54 end learn-reach-b3-threat on instance 13
+2026-11-04 17:04:54 start learn-land-b3-threat on instance 13
+2026-11-04 17:10:21 end learn-avoid-3 on instance 12
+2026-11-04 17:10:21 start learn-reach-b4-matched on instance 12
+2026-11-04 17:12:08 end learn-land-b3-matched on instance 11
+2026-11-04 17:12:08 start learn-reach-b4-threat on instance 11
+2026-11-04 17:14:48 end learn-orbit-3 on instance 10
+2026-11-04 17:14:48 start learn-reach3d-b4-threat on instance 10
+2026-11-04 17:19:07 end learn-land-b3-threat on instance 13
+2026-11-04 17:19:07 start learn-reach3d-b4-matched on instance 13
+2026-11-04 17:21:34 end learn-reach-b4-matched on instance 12
+2026-11-04 17:21:34 start learn-avoid-4 on instance 12
+2026-11-04 17:28:08 end learn-reach3d-b4-threat on instance 10
+2026-11-04 17:28:08 start learn-orbit-4 on instance 10
+2026-11-04 17:31:48 end learn-reach3d-b4-matched on instance 13
+2026-11-04 17:31:48 start learn-land-b4-threat on instance 13
+2026-11-04 17:34:54 end learn-avoid-4 on instance 12
+2026-11-04 17:34:54 start learn-land-b4-matched on instance 12
+2026-11-04 17:46:11 end learn-land-b4-threat on instance 13
+2026-11-04 17:46:11 start learn-reach-b5-matched on instance 13
+2026-11-04 17:48:23 end learn-land-b4-matched on instance 12
+2026-11-04 17:48:23 start learn-reach-b5-threat on instance 12
+2026-11-04 17:54:48 end learn-reach-b4-threat on instance 11
+2026-11-04 17:54:48 start learn-reach3d-b5-threat on instance 11
+2026-11-04 17:57:39 end learn-reach-b5-matched on instance 13
+2026-11-04 17:57:39 start learn-reach3d-b5-matched on instance 13
+2026-11-04 18:08:04 end learn-reach3d-b5-threat on instance 11
+2026-11-04 18:08:04 start learn-land-b5-matched on instance 11
+2026-11-04 18:10:21 end learn-reach3d-b5-matched on instance 13
+2026-11-04 18:10:21 start learn-land-b5-threat on instance 13
+2026-11-04 18:13:25 end learn-orbit-4 on instance 10
+2026-11-04 18:13:25 start learn-reach-b6-matched on instance 10
+2026-11-04 18:14:52 end learn-reach-b5-threat on instance 12
+2026-11-04 18:14:52 start learn-reach-b6-threat on instance 12
+2026-11-04 18:21:40 end learn-land-b5-matched on instance 11
+2026-11-04 18:21:40 start learn-reach3d-b6-matched on instance 11
+2026-11-04 18:24:53 end learn-reach-b6-matched on instance 10
+2026-11-04 18:24:53 start learn-reach3d-b6-threat on instance 10
+2026-11-04 18:26:50 end learn-reach-b6-threat on instance 12
+2026-11-04 18:26:51 start learn-land-b6-matched on instance 12
+2026-11-04 18:34:28 end learn-reach3d-b6-matched on instance 11
+2026-11-04 18:34:28 start learn-land-b6-threat on instance 11
+2026-11-04 18:38:18 end learn-reach3d-b6-threat on instance 10
+2026-11-04 18:38:18 start learn-reach-b7-threat on instance 10
+2026-11-04 18:40:31 end learn-land-b6-matched on instance 12
+2026-11-04 18:40:31 start learn-reach-b7-matched on instance 12
+2026-11-04 18:48:28 end learn-land-b6-threat on instance 11
+2026-11-04 18:48:28 start learn-reach3d-b7-matched on instance 11
+2026-11-04 18:50:10 end learn-reach-b7-threat on instance 10
+2026-11-04 18:50:10 start learn-reach3d-b7-threat on instance 10
+2026-11-04 18:50:30 end learn-land-b5-threat on instance 13
+2026-11-04 18:50:30 start learn-land-b7-threat on instance 13
+2026-11-04 18:51:49 end learn-reach-b7-matched on instance 12
+2026-11-04 18:51:49 start learn-land-b7-matched on instance 12
+2026-11-04 19:01:20 end learn-reach3d-b7-matched on instance 11
+2026-11-04 19:05:12 end learn-land-b7-threat on instance 13
+2026-11-04 19:05:24 end learn-land-b7-matched on instance 12
+2026-11-04 19:43:27 end learn-reach3d-b7-threat on instance 10
+2026-11-04 19:43:27 adopted: Study 1 libraries 34; Study 2 arms 46 of 48
+2026-11-04 19:43:27 start threat-land-b0-threat on instance 11
+2026-11-04 19:43:27 start threat-land-b0-matched on instance 10
+2026-11-04 19:43:27 start heldout-land-learned-b0-threat on instance 12
+2026-11-04 19:43:27 start threat-reach-b0-threat on instance 13
+2026-11-04 20:09:08 end threat-reach-b0-threat on instance 13
+2026-11-04 20:09:08 start heldout-reach-learned-b0-threat on instance 13
+2026-11-04 20:10:53 end threat-land-b0-threat on instance 11
+2026-11-04 20:10:53 start threat-reach-b0-matched on instance 11
+2026-11-04 20:19:42 end heldout-land-learned-b0-threat on instance 12
+2026-11-04 20:19:42 start threat-reach3d-b0-threat on instance 12
+2026-11-04 20:30:53 end threat-land-b0-matched on instance 10
+2026-11-04 20:30:53 start heldout-reach3d-learned-b0-threat on instance 10
+2026-11-04 20:45:00 end heldout-reach-learned-b0-threat on instance 13
+2026-11-04 20:45:00 start threat-reach3d-b0-matched on instance 13
+2026-11-04 20:46:35 end threat-reach3d-b0-threat on instance 12
+2026-11-04 20:46:35 start threat-land-b1-threat on instance 12
+2026-11-04 20:56:05 end threat-reach-b0-matched on instance 11
+2026-11-04 20:56:05 start heldout-land-learned-b1-threat on instance 11
+2026-11-04 21:05:42 end heldout-reach3d-learned-b0-threat on instance 10
+2026-11-04 21:05:42 start threat-land-b1-matched on instance 10
+2026-11-04 21:21:31 end threat-land-b1-threat on instance 12
+2026-11-04 21:21:31 start threat-reach-b1-threat on instance 12
+2026-11-04 21:24:47 end threat-reach3d-b0-matched on instance 13
+2026-11-04 21:24:47 start heldout-reach-learned-b1-threat on instance 13
+2026-11-04 21:35:58 end threat-land-b1-matched on instance 10
+2026-11-04 21:35:58 start threat-reach-b1-matched on instance 10
+2026-11-04 21:36:05 end heldout-land-learned-b1-threat on instance 11
+2026-11-04 21:36:05 start threat-reach3d-b1-threat on instance 11
+2026-11-04 21:46:51 end threat-reach-b1-threat on instance 12
+2026-11-04 21:46:51 start heldout-reach3d-learned-b1-threat on instance 12
+2026-11-04 21:59:11 end heldout-reach-learned-b1-threat on instance 13
+2026-11-04 21:59:11 start threat-reach3d-b1-matched on instance 13
+2026-11-04 22:02:03 end threat-reach3d-b1-threat on instance 11
+2026-11-04 22:02:03 start threat-land-b2-matched on instance 11
+2026-11-04 22:21:13 end threat-reach-b1-matched on instance 10
+2026-11-04 22:21:13 start threat-land-b2-threat on instance 10
+2026-11-04 22:21:39 end heldout-reach3d-learned-b1-threat on instance 12
+2026-11-04 22:21:39 start heldout-land-learned-b2-threat on instance 12
+2026-11-04 22:25:20 end threat-reach3d-b1-matched on instance 13
+2026-11-04 22:25:20 start threat-reach-b2-matched on instance 13
+2026-11-04 22:47:44 end threat-land-b2-threat on instance 10
+2026-11-04 22:47:44 start threat-reach-b2-threat on instance 10
+2026-11-04 22:57:42 end heldout-land-learned-b2-threat on instance 12
+2026-11-04 22:57:42 start heldout-reach-learned-b2-threat on instance 12
+2026-11-04 23:00:20 end threat-land-b2-matched on instance 11
+2026-11-04 23:00:20 start threat-reach3d-b2-threat on instance 11
+2026-11-04 23:03:46 end threat-reach-b2-matched on instance 13
+2026-11-04 23:03:46 start heldout-reach3d-learned-b2-threat on instance 13
+2026-11-04 23:13:01 end threat-reach-b2-threat on instance 10
+2026-11-04 23:13:01 start threat-reach3d-b2-matched on instance 10
+2026-11-04 23:25:00 end threat-reach3d-b2-threat on instance 11
+2026-11-04 23:25:00 start threat-land-b3-matched on instance 11
+2026-11-04 23:32:12 end heldout-reach-learned-b2-threat on instance 12
+2026-11-04 23:32:12 start threat-land-b3-threat on instance 12
+2026-11-04 23:37:24 end heldout-reach3d-learned-b2-threat on instance 13
+2026-11-04 23:37:24 start heldout-land-learned-b3-threat on instance 13
+2026-11-04 23:38:09 end threat-reach3d-b2-matched on instance 10
+2026-11-04 23:38:09 start threat-reach-b3-matched on instance 10
+2026-11-04 23:53:12 end threat-land-b3-matched on instance 11
+2026-11-04 23:53:12 start threat-reach-b3-threat on instance 11
+2026-11-04 23:58:40 end threat-land-b3-threat on instance 12
+2026-11-04 23:58:40 start heldout-reach-learned-b3-threat on instance 12
+2026-11-05 00:15:48 end heldout-land-learned-b3-threat on instance 13
+2026-11-05 00:15:48 start threat-reach3d-b3-matched on instance 13
+2026-11-05 00:20:10 end threat-reach-b3-matched on instance 10
+2026-11-05 00:20:10 start threat-reach3d-b3-threat on instance 10
+2026-11-05 00:20:39 end threat-reach-b3-threat on instance 11
+2026-11-05 00:20:39 start heldout-reach3d-learned-b3-threat on instance 11
+2026-11-05 00:34:29 end heldout-reach-learned-b3-threat on instance 12
+2026-11-05 00:34:29 start threat-land-b4-matched on instance 12
+2026-11-05 00:45:32 end threat-reach3d-b3-threat on instance 10
+2026-11-05 00:45:32 start threat-land-b4-threat on instance 10
+2026-11-05 00:47:29 end threat-reach3d-b3-matched on instance 13
+2026-11-05 00:47:29 start heldout-land-learned-b4-threat on instance 13
+2026-11-05 00:54:55 end heldout-reach3d-learned-b3-threat on instance 11
+2026-11-05 00:54:55 start threat-reach-b4-matched on instance 11
+2026-11-05 01:18:01 end threat-land-b4-threat on instance 10
+2026-11-05 01:18:01 start threat-reach3d-b4-threat on instance 10
+2026-11-05 01:25:54 end heldout-land-learned-b4-threat on instance 13
+2026-11-05 01:25:54 start heldout-reach3d-learned-b4-threat on instance 13
+2026-11-05 01:32:48 end threat-land-b4-matched on instance 12
+2026-11-05 01:32:48 start threat-reach3d-b4-matched on instance 12
+2026-11-05 01:38:47 end threat-reach-b4-matched on instance 11
+2026-11-05 01:38:47 start threat-land-b5-threat on instance 11
+2026-11-05 01:43:09 end threat-reach3d-b4-threat on instance 10
+2026-11-05 01:43:09 start heldout-land-learned-b5-threat on instance 10
+2026-11-05 01:53:37 end threat-reach3d-b4-matched on instance 12
+2026-11-05 01:53:37 start threat-land-b5-matched on instance 12
+2026-11-05 02:00:47 end heldout-reach3d-learned-b4-threat on instance 13
+2026-11-05 02:00:47 start threat-reach-b5-matched on instance 13
+2026-11-05 02:05:15 end threat-land-b5-threat on instance 11
+2026-11-05 02:05:15 start threat-reach-b5-threat on instance 11
+2026-11-05 02:18:53 end heldout-land-learned-b5-threat on instance 10
+2026-11-05 02:18:53 start heldout-reach-learned-b5-threat on instance 10
+2026-11-05 02:21:26 end threat-land-b5-matched on instance 12
+2026-11-05 02:21:26 start threat-reach3d-b5-threat on instance 12
+2026-11-05 02:30:32 end threat-reach-b5-threat on instance 11
+2026-11-05 02:30:32 start heldout-reach3d-learned-b5-threat on instance 11
+2026-11-05 02:45:48 end threat-reach-b5-matched on instance 13
+2026-11-05 02:45:48 start threat-reach3d-b5-matched on instance 13
+2026-11-05 02:47:06 end threat-reach3d-b5-threat on instance 12
+2026-11-05 02:47:06 start threat-land-b6-matched on instance 12
+2026-11-05 02:54:43 end heldout-reach-learned-b5-threat on instance 10
+2026-11-05 02:54:43 start threat-land-b6-threat on instance 10
+2026-11-05 03:05:22 end heldout-reach3d-learned-b5-threat on instance 11
+2026-11-05 03:05:22 start heldout-land-learned-b6-threat on instance 11
+2026-11-05 03:18:22 end threat-land-b6-matched on instance 12
+2026-11-05 03:18:22 start threat-reach-b6-matched on instance 12
+2026-11-05 03:22:03 end threat-land-b6-threat on instance 10
+2026-11-05 03:22:03 start threat-reach-b6-threat on instance 10
+2026-11-05 03:35:53 end threat-reach3d-b5-matched on instance 13
+2026-11-05 03:35:53 start heldout-reach-learned-b6-threat on instance 13
+2026-11-05 03:42:06 end heldout-land-learned-b6-threat on instance 11
+2026-11-05 03:42:06 start threat-reach3d-b6-matched on instance 11
+2026-11-05 03:49:24 end threat-reach-b6-threat on instance 10
+2026-11-05 03:49:24 start threat-reach3d-b6-threat on instance 10
+2026-11-05 03:59:51 end threat-reach-b6-matched on instance 12
+2026-11-05 03:59:51 start heldout-reach3d-learned-b6-threat on instance 12
+2026-11-05 04:12:01 end heldout-reach-learned-b6-threat on instance 13
+2026-11-05 04:12:01 start threat-land-b7-threat on instance 13
+2026-11-05 04:14:59 end threat-reach3d-b6-threat on instance 10
+2026-11-05 04:14:59 start heldout-land-learned-b7-threat on instance 10
+2026-11-05 04:23:52 end threat-reach3d-b6-matched on instance 11
+2026-11-05 04:23:52 start threat-land-b7-matched on instance 11
+2026-11-05 04:33:29 end heldout-reach3d-learned-b6-threat on instance 12
+2026-11-05 04:33:29 start threat-reach-b7-threat on instance 12
+2026-11-05 04:45:34 end threat-land-b7-threat on instance 13
+2026-11-05 04:45:34 start heldout-reach-learned-b7-threat on instance 13
+2026-11-05 04:54:06 end heldout-land-learned-b7-threat on instance 10
+2026-11-05 04:54:06 start threat-reach-b7-matched on instance 10
+2026-11-05 04:58:21 end threat-reach-b7-threat on instance 12
+2026-11-05 04:58:21 start threat-reach3d-b7-matched on instance 12
+2026-11-05 05:21:44 end heldout-reach-learned-b7-threat on instance 13
+2026-11-05 05:21:44 start courses-flat-reference on instance 13
+2026-11-05 05:22:09 end threat-land-b7-matched on instance 11
+2026-11-05 05:22:09 start courses-3d-reference on instance 11
+2026-11-05 05:39:40 end threat-reach-b7-matched on instance 10
+2026-11-05 05:39:40 start splits-reference on instance 10
+2026-11-05 05:51:42 end splits-reference on instance 10
+2026-11-05 05:51:42 start heldout-reach-reference on instance 10
+2026-11-05 05:53:22 end threat-reach3d-b7-matched on instance 12
+2026-11-05 05:53:22 start heldout-reach-hold on instance 12
+2026-11-05 05:57:05 end courses-3d-reference on instance 11
+2026-11-05 05:57:05 start autopilot-reach on instance 11
+2026-11-05 06:08:02 end courses-flat-reference on instance 13
+2026-11-05 06:08:02 start repeat-reach-reference on instance 13
+2026-11-05 06:26:14 end repeat-reach-reference on instance 13
+2026-11-05 06:26:14 start heldout-reach-learned-b0-matched on instance 13
+2026-11-05 06:28:06 end heldout-reach-reference on instance 10
+2026-11-05 06:28:06 start disturb-reach-learned-b0-matched on instance 10
+2026-11-05 06:31:41 end autopilot-reach on instance 11
+2026-11-05 06:31:41 start courses-flat-learned-b0-matched on instance 11
+2026-11-05 07:00:00 pause asked for
+2026-11-05 07:02:22 end heldout-reach-learned-b0-matched on instance 13
+2026-11-05 07:02:22 paused: running phases finish, no new phase starts
+2026-11-05 07:05:51 end heldout-reach-hold on instance 12
+2026-11-05 07:09:13 end disturb-reach-learned-b0-matched on instance 10
+2026-11-05 07:18:07 end courses-flat-learned-b0-matched on instance 11
+2026-11-05 07:18:07 paused; run the same command to continue. Phases needing a decision so far: none
+2026-11-05 09:37:47 pause removed; resuming
+2026-11-05 09:37:47 begin run of the second protocol into /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2; tasks ['reach', 'reach3d', 'avoid', 'orbit', 'land']; blocks 8; instances (10, 11, 12, 13); spending stop US$12
+2026-11-05 09:37:47 skip learn-reach-b0-threat (done earlier)
+2026-11-05 09:37:47 skip learn-reach-b0-matched (done earlier)
+2026-11-05 09:37:47 skip learn-reach3d-b0-matched (done earlier)
+2026-11-05 09:37:47 skip learn-reach3d-b0-threat (done earlier)
+2026-11-05 09:37:47 skip learn-avoid-0 (done earlier)
+2026-11-05 09:37:47 skip learn-orbit-0 (done earlier)
+2026-11-05 09:37:47 skip learn-land-b0-threat (done earlier)
+2026-11-05 09:37:47 skip learn-land-b0-matched (done earlier)
+2026-11-05 09:37:47 skip learn-reach-b1-matched (done earlier)
+2026-11-05 09:37:47 skip learn-reach-b1-threat (done earlier)
+2026-11-05 09:37:47 skip learn-reach3d-b1-matched (done earlier)
+2026-11-05 09:37:47 skip learn-reach3d-b1-threat (done earlier)
+2026-11-05 09:37:47 skip learn-avoid-1 (done earlier)
+2026-11-05 09:37:47 skip learn-orbit-1 (done earlier)
+2026-11-05 09:37:47 skip learn-land-b1-matched (done earlier)
+2026-11-05 09:37:47 skip learn-land-b1-threat (done earlier)
+2026-11-05 09:37:47 skip learn-reach-b2-threat (done earlier)
+2026-11-05 09:37:47 skip learn-reach-b2-matched (done earlier)
+2026-11-05 09:37:47 skip learn-reach3d-b2-matched (done earlier)
+2026-11-05 09:37:47 skip learn-reach3d-b2-threat (done earlier)
+2026-11-05 09:37:47 skip learn-avoid-2 (done earlier)
+2026-11-05 09:37:47 skip learn-orbit-2 (done earlier)
+2026-11-05 09:37:47 skip learn-land-b2-matched (done earlier)
+2026-11-05 09:37:47 skip learn-land-b2-threat (done earlier)
+2026-11-05 09:37:47 skip learn-reach-b3-matched (done earlier)
+2026-11-05 09:37:47 skip learn-reach-b3-threat (done earlier)
+2026-11-05 09:37:47 skip learn-reach3d-b3-matched (done earlier)
+2026-11-05 09:37:47 skip learn-reach3d-b3-threat (done earlier)
+2026-11-05 09:37:47 skip learn-avoid-3 (done earlier)
+2026-11-05 09:37:47 skip learn-orbit-3 (done earlier)
+2026-11-05 09:37:47 skip learn-land-b3-matched (done earlier)
+2026-11-05 09:37:47 skip learn-land-b3-threat (done earlier)
+2026-11-05 09:37:47 skip learn-reach-b4-matched (done earlier)
+2026-11-05 09:37:47 skip learn-reach-b4-threat (done earlier)
+2026-11-05 09:37:47 skip learn-reach3d-b4-threat (done earlier)
+2026-11-05 09:37:47 skip learn-reach3d-b4-matched (done earlier)
+2026-11-05 09:37:47 skip learn-avoid-4 (done earlier)
+2026-11-05 09:37:47 skip learn-orbit-4 (done earlier)
+2026-11-05 09:37:47 skip learn-land-b4-threat (done earlier)
+2026-11-05 09:37:47 skip learn-land-b4-matched (done earlier)
+2026-11-05 09:37:47 skip learn-reach-b5-matched (done earlier)
+2026-11-05 09:37:47 skip learn-reach-b5-threat (done earlier)
+2026-11-05 09:37:47 skip learn-reach3d-b5-threat (done earlier)
+2026-11-05 09:37:47 skip learn-reach3d-b5-matched (done earlier)
+2026-11-05 09:37:47 skip learn-land-b5-matched (done earlier)
+2026-11-05 09:37:47 skip learn-land-b5-threat (done earlier)
+2026-11-05 09:37:47 skip learn-reach-b6-matched (done earlier)
+2026-11-05 09:37:47 skip learn-reach-b6-threat (done earlier)
+2026-11-05 09:37:47 skip learn-reach3d-b6-matched (done earlier)
+2026-11-05 09:37:47 skip learn-reach3d-b6-threat (done earlier)
+2026-11-05 09:37:47 skip learn-land-b6-matched (done earlier)
+2026-11-05 09:37:47 skip learn-land-b6-threat (done earlier)
+2026-11-05 09:37:47 skip learn-reach-b7-threat (done earlier)
+2026-11-05 09:37:47 skip learn-reach-b7-matched (done earlier)
+2026-11-05 09:37:47 skip learn-reach3d-b7-matched (done earlier)
+2026-11-05 09:37:47 skip learn-reach3d-b7-threat (done earlier)
+2026-11-05 09:37:47 skip learn-land-b7-threat (done earlier)
+2026-11-05 09:37:47 skip learn-land-b7-matched (done earlier)
+2026-11-05 09:37:47 adopted: Study 1 libraries 34; Study 2 arms 46 of 48
+2026-11-05 09:37:47 skip threat-land-b0-matched (done earlier)
+2026-11-05 09:37:47 skip threat-land-b0-threat (done earlier)
+2026-11-05 09:37:47 skip heldout-land-learned-b0-threat (done earlier)
+2026-11-05 09:37:47 skip threat-reach-b0-threat (done earlier)
+2026-11-05 09:37:47 skip heldout-reach-learned-b0-threat (done earlier)
+2026-11-05 09:37:47 skip threat-reach-b0-matched (done earlier)
+2026-11-05 09:37:47 skip threat-reach3d-b0-threat (done earlier)
+2026-11-05 09:37:47 skip heldout-reach3d-learned-b0-threat (done earlier)
+2026-11-05 09:37:47 skip threat-reach3d-b0-matched (done earlier)
+2026-11-05 09:37:47 skip threat-land-b1-threat (done earlier)
+2026-11-05 09:37:47 skip heldout-land-learned-b1-threat (done earlier)
+2026-11-05 09:37:47 skip threat-land-b1-matched (done earlier)
+2026-11-05 09:37:47 skip threat-reach-b1-threat (done earlier)
+2026-11-05 09:37:47 skip heldout-reach-learned-b1-threat (done earlier)
+2026-11-05 09:37:47 skip threat-reach-b1-matched (done earlier)
+2026-11-05 09:37:47 skip threat-reach3d-b1-threat (done earlier)
+2026-11-05 09:37:47 skip heldout-reach3d-learned-b1-threat (done earlier)
+2026-11-05 09:37:47 skip threat-reach3d-b1-matched (done earlier)
+2026-11-05 09:37:47 skip threat-land-b2-matched (done earlier)
+2026-11-05 09:37:48 skip threat-land-b2-threat (done earlier)
+2026-11-05 09:37:48 skip heldout-land-learned-b2-threat (done earlier)
+2026-11-05 09:37:48 skip threat-reach-b2-matched (done earlier)
+2026-11-05 09:37:48 skip threat-reach-b2-threat (done earlier)
+2026-11-05 09:37:48 skip heldout-reach-learned-b2-threat (done earlier)
+2026-11-05 09:37:48 skip threat-reach3d-b2-threat (done earlier)
+2026-11-05 09:37:48 skip heldout-reach3d-learned-b2-threat (done earlier)
+2026-11-05 09:37:48 skip threat-reach3d-b2-matched (done earlier)
+2026-11-05 09:37:48 skip threat-land-b3-matched (done earlier)
+2026-11-05 09:37:48 skip threat-land-b3-threat (done earlier)
+2026-11-05 09:37:48 skip heldout-land-learned-b3-threat (done earlier)
+2026-11-05 09:37:48 skip threat-reach-b3-matched (done earlier)
+2026-11-05 09:37:48 skip threat-reach-b3-threat (done earlier)
+2026-11-05 09:37:48 skip heldout-reach-learned-b3-threat (done earlier)
+2026-11-05 09:37:48 skip threat-reach3d-b3-matched (done earlier)
+2026-11-05 09:37:48 skip threat-reach3d-b3-threat (done earlier)
+2026-11-05 09:37:48 skip heldout-reach3d-learned-b3-threat (done earlier)
+2026-11-05 09:37:48 skip threat-land-b4-matched (done earlier)
+2026-11-05 09:37:48 skip threat-land-b4-threat (done earlier)
+2026-11-05 09:37:48 skip heldout-land-learned-b4-threat (done earlier)
+2026-11-05 09:37:48 skip threat-reach-b4-matched (done earlier)
+2026-11-05 09:37:48 skip threat-reach3d-b4-threat (done earlier)
+2026-11-05 09:37:48 skip heldout-reach3d-learned-b4-threat (done earlier)
+2026-11-05 09:37:48 skip threat-reach3d-b4-matched (done earlier)
+2026-11-05 09:37:48 skip threat-land-b5-threat (done earlier)
+2026-11-05 09:37:48 skip heldout-land-learned-b5-threat (done earlier)
+2026-11-05 09:37:48 skip threat-land-b5-matched (done earlier)
+2026-11-05 09:37:48 skip threat-reach-b5-matched (done earlier)
+2026-11-05 09:37:48 skip threat-reach-b5-threat (done earlier)
+2026-11-05 09:37:48 skip heldout-reach-learned-b5-threat (done earlier)
+2026-11-05 09:37:48 skip threat-reach3d-b5-threat (done earlier)
+2026-11-05 09:37:48 skip heldout-reach3d-learned-b5-threat (done earlier)
+2026-11-05 09:37:48 skip threat-reach3d-b5-matched (done earlier)
+2026-11-05 09:37:48 skip threat-land-b6-matched (done earlier)
+2026-11-05 09:37:48 skip threat-land-b6-threat (done earlier)
+2026-11-05 09:37:48 skip heldout-land-learned-b6-threat (done earlier)
+2026-11-05 09:37:48 skip threat-reach-b6-matched (done earlier)
+2026-11-05 09:37:48 skip threat-reach-b6-threat (done earlier)
+2026-11-05 09:37:48 skip heldout-reach-learned-b6-threat (done earlier)
+2026-11-05 09:37:48 skip threat-reach3d-b6-matched (done earlier)
+2026-11-05 09:37:48 skip threat-reach3d-b6-threat (done earlier)
+2026-11-05 09:37:48 skip heldout-reach3d-learned-b6-threat (done earlier)
+2026-11-05 09:37:48 skip threat-land-b7-threat (done earlier)
+2026-11-05 09:37:48 skip heldout-land-learned-b7-threat (done earlier)
+2026-11-05 09:37:48 skip threat-land-b7-matched (done earlier)
+2026-11-05 09:37:48 skip threat-reach-b7-threat (done earlier)
+2026-11-05 09:37:48 skip heldout-reach-learned-b7-threat (done earlier)
+2026-11-05 09:37:48 skip threat-reach-b7-matched (done earlier)
+2026-11-05 09:37:48 skip threat-reach3d-b7-matched (done earlier)
+2026-11-05 09:37:48 skip courses-flat-reference (done earlier)
+2026-11-05 09:37:48 skip courses-3d-reference (done earlier)
+2026-11-05 09:37:48 skip splits-reference (done earlier)
+2026-11-05 09:37:48 skip heldout-reach-reference (done earlier)
+2026-11-05 09:37:48 skip heldout-reach-hold (done earlier)
+2026-11-05 09:37:48 skip autopilot-reach (done earlier)
+2026-11-05 09:37:48 skip repeat-reach-reference (done earlier)
+2026-11-05 09:37:48 skip heldout-reach-learned-b0-matched (done earlier)
+2026-11-05 09:37:48 skip disturb-reach-learned-b0-matched (done earlier)
+2026-11-05 09:37:48 skip courses-flat-learned-b0-matched (done earlier)
+2026-11-05 09:37:48 start heldout-reach-learned-b1-matched on instance 12
+2026-11-05 09:37:48 start disturb-reach-learned-b1-matched on instance 13
+2026-11-05 09:37:48 start courses-flat-learned-b1-matched on instance 10
+2026-11-05 09:37:48 start heldout-reach-learned-b2-matched on instance 11
+2026-11-05 10:13:40 end heldout-reach-learned-b1-matched on instance 12
+2026-11-05 10:13:40 start disturb-reach-learned-b2-matched on instance 12
+2026-11-05 10:13:46 end heldout-reach-learned-b2-matched on instance 11
+2026-11-05 10:13:46 start courses-flat-learned-b2-matched on instance 11
+2026-11-05 10:18:47 end disturb-reach-learned-b1-matched on instance 13
+2026-11-05 10:18:47 start heldout-reach-learned-b3-matched on instance 13
+2026-11-05 10:23:14 end courses-flat-learned-b1-matched on instance 10
+2026-11-05 10:23:14 start disturb-reach-learned-b3-matched on instance 10
+2026-11-05 10:53:12 end heldout-reach-learned-b3-matched on instance 13
+2026-11-05 10:53:12 start courses-flat-learned-b3-matched on instance 13
+2026-11-05 10:53:46 end disturb-reach-learned-b2-matched on instance 12
+2026-11-05 10:53:46 start heldout-reach-learned-b4-matched on instance 12
+2026-11-05 10:59:43 end courses-flat-learned-b2-matched on instance 11
+2026-11-05 10:59:43 start disturb-reach-learned-b4-matched on instance 11
+2026-11-05 11:02:24 end disturb-reach-learned-b3-matched on instance 10
+2026-11-05 11:02:24 start courses-flat-learned-b4-matched on instance 10
+2026-11-05 11:28:12 end heldout-reach-learned-b4-matched on instance 12
+2026-11-05 11:28:12 start heldout-reach-learned-b5-matched on instance 12
+2026-11-05 11:38:58 end disturb-reach-learned-b4-matched on instance 11
+2026-11-05 11:38:58 start disturb-reach-learned-b5-matched on instance 11
+2026-11-05 11:39:25 end courses-flat-learned-b3-matched on instance 13
+2026-11-05 11:39:25 start courses-flat-learned-b5-matched on instance 13
+2026-11-05 11:48:37 end courses-flat-learned-b4-matched on instance 10
+2026-11-05 11:48:37 start heldout-reach-learned-b6-matched on instance 10
+2026-11-05 12:04:10 end heldout-reach-learned-b5-matched on instance 12
+2026-11-05 12:04:10 start disturb-reach-learned-b6-matched on instance 12
+2026-11-05 12:19:27 end disturb-reach-learned-b5-matched on instance 11
+2026-11-05 12:19:27 start courses-flat-learned-b6-matched on instance 11
+2026-11-05 12:24:33 end heldout-reach-learned-b6-matched on instance 10
+2026-11-05 12:24:33 start heldout-reach-learned-b7-matched on instance 10
+2026-11-05 12:25:23 end courses-flat-learned-b5-matched on instance 13
+2026-11-05 12:25:23 start disturb-reach-learned-b7-matched on instance 13
+2026-11-05 12:45:11 end disturb-reach-learned-b6-matched on instance 12
+2026-11-05 12:45:11 start courses-flat-learned-b7-matched on instance 12
+2026-11-05 12:58:57 end heldout-reach-learned-b7-matched on instance 10
+2026-11-05 12:58:57 start repeat-reach-learned-b0-matched on instance 10
+2026-11-05 13:05:02 end courses-flat-learned-b6-matched on instance 11
+2026-11-05 13:05:02 start heldout-reach3d-reference on instance 11
+2026-11-05 13:05:45 end disturb-reach-learned-b7-matched on instance 13
+2026-11-05 13:05:45 start heldout-reach3d-hold on instance 13
+2026-11-05 13:17:04 end repeat-reach-learned-b0-matched on instance 10
+2026-11-05 13:17:04 start autopilot-reach3d on instance 10
+2026-11-05 13:31:24 end courses-flat-learned-b7-matched on instance 12
+2026-11-05 13:31:24 start repeat-reach3d-reference on instance 12
+2026-11-05 13:40:07 end heldout-reach3d-reference on instance 11
+2026-11-05 13:40:07 start heldout-reach3d-learned-b0-matched on instance 11
+2026-11-05 13:49:01 end repeat-reach3d-reference on instance 12
+2026-11-05 13:49:01 start disturb-reach3d-learned-b0-matched on instance 12
+2026-11-05 13:50:32 end autopilot-reach3d on instance 10
+2026-11-05 13:50:32 start courses-3d-learned-b0-matched on instance 10
+2026-11-05 14:13:33 end heldout-reach3d-learned-b0-matched on instance 11
+2026-11-05 14:13:33 start splits-learned-b0-matched on instance 11
+2026-11-05 16:33:34 end disturb-reach3d-learned-b0-matched on instance 12
+2026-11-05 16:33:34 start heldout-reach3d-learned-b1-matched on instance 12
+2026-11-05 16:34:32 end splits-learned-b0-matched on instance 11
+2026-11-05 16:34:32 start disturb-reach3d-learned-b1-matched on instance 11
+2026-11-05 16:34:43 end courses-3d-learned-b0-matched on instance 10
+2026-11-05 16:34:43 start courses-3d-learned-b1-matched on instance 10
+2026-11-05 16:35:21 pause asked for
+2026-11-05 16:42:30 end heldout-reach3d-hold on instance 13
+2026-11-05 16:42:30 start splits-learned-b1-matched on instance 13
+2026-11-05 16:54:25 end splits-learned-b1-matched on instance 13
+2026-11-05 16:54:25 start heldout-reach3d-learned-b2-matched on instance 13
+2026-11-05 17:06:58 end heldout-reach3d-learned-b1-matched on instance 12
+2026-11-05 17:06:58 start disturb-reach3d-learned-b2-matched on instance 12
+2026-11-05 17:08:23 end disturb-reach3d-learned-b1-matched on instance 11
+2026-11-05 17:08:23 start courses-3d-learned-b2-matched on instance 11
+2026-11-05 17:09:42 end courses-3d-learned-b1-matched on instance 10
+2026-11-05 17:09:42 start splits-learned-b2-matched on instance 10
+2026-11-05 17:21:17 end splits-learned-b2-matched on instance 10
+2026-11-05 17:21:17 start heldout-reach3d-learned-b3-matched on instance 10
+2026-11-05 17:27:41 end heldout-reach3d-learned-b2-matched on instance 13
+2026-11-05 17:27:41 start disturb-reach3d-learned-b3-matched on instance 13
+2026-11-05 17:40:27 end disturb-reach3d-learned-b2-matched on instance 12
+2026-11-05 17:40:27 start courses-3d-learned-b3-matched on instance 12
+2026-11-05 17:42:35 end courses-3d-learned-b2-matched on instance 11
+2026-11-05 17:42:35 start splits-learned-b3-matched on instance 11
+2026-11-05 17:54:09 end splits-learned-b3-matched on instance 11
+2026-11-05 17:54:09 start heldout-reach3d-learned-b4-matched on instance 11
+2026-11-05 17:54:41 end heldout-reach3d-learned-b3-matched on instance 10
+2026-11-05 17:54:41 start disturb-reach3d-learned-b4-matched on instance 10
+2026-11-05 17:58:34 pause asked for
+2026-11-05 18:01:11 end disturb-reach3d-learned-b3-matched on instance 13
+2026-11-05 18:01:11 paused: running phases finish, no new phase starts
+2026-11-05 18:15:27 end courses-3d-learned-b3-matched on instance 12
+2026-11-05 18:27:14 end disturb-reach3d-learned-b4-matched on instance 10
+2026-11-05 18:27:39 end heldout-reach3d-learned-b4-matched on instance 11
+2026-11-05 18:27:39 paused; run the same command to continue. Phases needing a decision so far: none
+2026-11-05 18:28:27 pause removed; resuming
+2026-11-05 18:28:27 begin run of the second protocol into /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2; tasks ['reach', 'reach3d', 'avoid', 'orbit', 'land']; blocks 8; instances (10, 11, 12, 13); spending stop US$12
+2026-11-05 18:28:28 skip learn-reach-b0-threat (done earlier)
+2026-11-05 18:28:28 skip learn-reach-b0-matched (done earlier)
+2026-11-05 18:28:28 skip learn-reach3d-b0-threat (done earlier)
+2026-11-05 18:28:28 skip learn-reach3d-b0-matched (done earlier)
+2026-11-05 18:28:28 skip learn-avoid-0 (done earlier)
+2026-11-05 18:28:28 skip learn-orbit-0 (done earlier)
+2026-11-05 18:28:28 skip learn-land-b0-threat (done earlier)
+2026-11-05 18:28:28 skip learn-land-b0-matched (done earlier)
+2026-11-05 18:28:28 skip learn-reach-b1-matched (done earlier)
+2026-11-05 18:28:28 skip learn-reach-b1-threat (done earlier)
+2026-11-05 18:28:28 skip learn-reach3d-b1-matched (done earlier)
+2026-11-05 18:28:28 skip learn-reach3d-b1-threat (done earlier)
+2026-11-05 18:28:28 skip learn-avoid-1 (done earlier)
+2026-11-05 18:28:28 skip learn-orbit-1 (done earlier)
+2026-11-05 18:28:28 skip learn-land-b1-matched (done earlier)
+2026-11-05 18:28:28 skip learn-land-b1-threat (done earlier)
+2026-11-05 18:28:28 skip learn-reach-b2-threat (done earlier)
+2026-11-05 18:28:28 skip learn-reach-b2-matched (done earlier)
+2026-11-05 18:28:28 skip learn-reach3d-b2-matched (done earlier)
+2026-11-05 18:28:28 skip learn-reach3d-b2-threat (done earlier)
+2026-11-05 18:28:28 skip learn-avoid-2 (done earlier)
+2026-11-05 18:28:28 skip learn-orbit-2 (done earlier)
+2026-11-05 18:28:28 skip learn-land-b2-matched (done earlier)
+2026-11-05 18:28:28 skip learn-land-b2-threat (done earlier)
+2026-11-05 18:28:28 skip learn-reach-b3-matched (done earlier)
+2026-11-05 18:28:28 skip learn-reach-b3-threat (done earlier)
+2026-11-05 18:28:28 skip learn-reach3d-b3-matched (done earlier)
+2026-11-05 18:28:28 skip learn-reach3d-b3-threat (done earlier)
+2026-11-05 18:28:28 skip learn-avoid-3 (done earlier)
+2026-11-05 18:28:28 skip learn-orbit-3 (done earlier)
+2026-11-05 18:28:28 skip learn-land-b3-matched (done earlier)
+2026-11-05 18:28:28 skip learn-land-b3-threat (done earlier)
+2026-11-05 18:28:28 skip learn-reach-b4-matched (done earlier)
+2026-11-05 18:28:28 skip learn-reach-b4-threat (done earlier)
+2026-11-05 18:28:28 skip learn-reach3d-b4-threat (done earlier)
+2026-11-05 18:28:28 skip learn-reach3d-b4-matched (done earlier)
+2026-11-05 18:28:28 skip learn-avoid-4 (done earlier)
+2026-11-05 18:28:28 skip learn-orbit-4 (done earlier)
+2026-11-05 18:28:28 skip learn-land-b4-threat (done earlier)
+2026-11-05 18:28:28 skip learn-land-b4-matched (done earlier)
+2026-11-05 18:28:28 skip learn-reach-b5-matched (done earlier)
+2026-11-05 18:28:28 skip learn-reach-b5-threat (done earlier)
+2026-11-05 18:28:28 skip learn-reach3d-b5-threat (done earlier)
+2026-11-05 18:28:28 skip learn-reach3d-b5-matched (done earlier)
+2026-11-05 18:28:28 skip learn-land-b5-matched (done earlier)
+2026-11-05 18:28:28 skip learn-land-b5-threat (done earlier)
+2026-11-05 18:28:28 skip learn-reach-b6-matched (done earlier)
+2026-11-05 18:28:28 skip learn-reach-b6-threat (done earlier)
+2026-11-05 18:28:28 skip learn-reach3d-b6-matched (done earlier)
+2026-11-05 18:28:28 skip learn-reach3d-b6-threat (done earlier)
+2026-11-05 18:28:28 skip learn-land-b6-matched (done earlier)
+2026-11-05 18:28:28 skip learn-land-b6-threat (done earlier)
+2026-11-05 18:28:28 skip learn-reach-b7-threat (done earlier)
+2026-11-05 18:28:28 skip learn-reach-b7-matched (done earlier)
+2026-11-05 18:28:28 skip learn-reach3d-b7-matched (done earlier)
+2026-11-05 18:28:28 skip learn-reach3d-b7-threat (done earlier)
+2026-11-05 18:28:28 skip learn-land-b7-threat (done earlier)
+2026-11-05 18:28:28 skip learn-land-b7-matched (done earlier)
+2026-11-05 18:28:28 adopted: Study 1 libraries 34; Study 2 arms 46 of 48
+2026-11-05 18:28:28 skip threat-land-b0-matched (done earlier)
+2026-11-05 18:28:28 skip threat-land-b0-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-land-learned-b0-threat (done earlier)
+2026-11-05 18:28:28 skip threat-reach-b0-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-reach-learned-b0-threat (done earlier)
+2026-11-05 18:28:28 skip threat-reach-b0-matched (done earlier)
+2026-11-05 18:28:28 skip threat-reach3d-b0-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-reach3d-learned-b0-threat (done earlier)
+2026-11-05 18:28:28 skip threat-reach3d-b0-matched (done earlier)
+2026-11-05 18:28:28 skip threat-land-b1-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-land-learned-b1-threat (done earlier)
+2026-11-05 18:28:28 skip threat-land-b1-matched (done earlier)
+2026-11-05 18:28:28 skip threat-reach-b1-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-reach-learned-b1-threat (done earlier)
+2026-11-05 18:28:28 skip threat-reach-b1-matched (done earlier)
+2026-11-05 18:28:28 skip threat-reach3d-b1-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-reach3d-learned-b1-threat (done earlier)
+2026-11-05 18:28:28 skip threat-reach3d-b1-matched (done earlier)
+2026-11-05 18:28:28 skip threat-land-b2-matched (done earlier)
+2026-11-05 18:28:28 skip threat-land-b2-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-land-learned-b2-threat (done earlier)
+2026-11-05 18:28:28 skip threat-reach-b2-matched (done earlier)
+2026-11-05 18:28:28 skip threat-reach-b2-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-reach-learned-b2-threat (done earlier)
+2026-11-05 18:28:28 skip threat-reach3d-b2-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-reach3d-learned-b2-threat (done earlier)
+2026-11-05 18:28:28 skip threat-reach3d-b2-matched (done earlier)
+2026-11-05 18:28:28 skip threat-land-b3-matched (done earlier)
+2026-11-05 18:28:28 skip threat-land-b3-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-land-learned-b3-threat (done earlier)
+2026-11-05 18:28:28 skip threat-reach-b3-matched (done earlier)
+2026-11-05 18:28:28 skip threat-reach-b3-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-reach-learned-b3-threat (done earlier)
+2026-11-05 18:28:28 skip threat-reach3d-b3-matched (done earlier)
+2026-11-05 18:28:28 skip threat-reach3d-b3-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-reach3d-learned-b3-threat (done earlier)
+2026-11-05 18:28:28 skip threat-land-b4-matched (done earlier)
+2026-11-05 18:28:28 skip threat-land-b4-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-land-learned-b4-threat (done earlier)
+2026-11-05 18:28:28 skip threat-reach-b4-matched (done earlier)
+2026-11-05 18:28:28 skip threat-reach3d-b4-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-reach3d-learned-b4-threat (done earlier)
+2026-11-05 18:28:28 skip threat-reach3d-b4-matched (done earlier)
+2026-11-05 18:28:28 skip threat-land-b5-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-land-learned-b5-threat (done earlier)
+2026-11-05 18:28:28 skip threat-land-b5-matched (done earlier)
+2026-11-05 18:28:28 skip threat-reach-b5-matched (done earlier)
+2026-11-05 18:28:28 skip threat-reach-b5-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-reach-learned-b5-threat (done earlier)
+2026-11-05 18:28:28 skip threat-reach3d-b5-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-reach3d-learned-b5-threat (done earlier)
+2026-11-05 18:28:28 skip threat-reach3d-b5-matched (done earlier)
+2026-11-05 18:28:28 skip threat-land-b6-matched (done earlier)
+2026-11-05 18:28:28 skip threat-land-b6-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-land-learned-b6-threat (done earlier)
+2026-11-05 18:28:28 skip threat-reach-b6-matched (done earlier)
+2026-11-05 18:28:28 skip threat-reach-b6-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-reach-learned-b6-threat (done earlier)
+2026-11-05 18:28:28 skip threat-reach3d-b6-matched (done earlier)
+2026-11-05 18:28:28 skip threat-reach3d-b6-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-reach3d-learned-b6-threat (done earlier)
+2026-11-05 18:28:28 skip threat-land-b7-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-land-learned-b7-threat (done earlier)
+2026-11-05 18:28:28 skip threat-land-b7-matched (done earlier)
+2026-11-05 18:28:28 skip threat-reach-b7-threat (done earlier)
+2026-11-05 18:28:28 skip heldout-reach-learned-b7-threat (done earlier)
+2026-11-05 18:28:28 skip threat-reach-b7-matched (done earlier)
+2026-11-05 18:28:28 skip threat-reach3d-b7-matched (done earlier)
+2026-11-05 18:28:28 skip courses-flat-reference (done earlier)
+2026-11-05 18:28:28 skip courses-3d-reference (done earlier)
+2026-11-05 18:28:28 skip splits-reference (done earlier)
+2026-11-05 18:28:28 skip heldout-reach-reference (done earlier)
+2026-11-05 18:28:28 skip heldout-reach-hold (done earlier)
+2026-11-05 18:28:28 skip autopilot-reach (done earlier)
+2026-11-05 18:28:28 skip repeat-reach-reference (done earlier)
+2026-11-05 18:28:28 skip heldout-reach-learned-b0-matched (done earlier)
+2026-11-05 18:28:28 skip disturb-reach-learned-b0-matched (done earlier)
+2026-11-05 18:28:28 skip courses-flat-learned-b0-matched (done earlier)
+2026-11-05 18:28:28 skip heldout-reach-learned-b1-matched (done earlier)
+2026-11-05 18:28:28 skip disturb-reach-learned-b1-matched (done earlier)
+2026-11-05 18:28:28 skip courses-flat-learned-b1-matched (done earlier)
+2026-11-05 18:28:28 skip heldout-reach-learned-b2-matched (done earlier)
+2026-11-05 18:28:28 skip disturb-reach-learned-b2-matched (done earlier)
+2026-11-05 18:28:28 skip courses-flat-learned-b2-matched (done earlier)
+2026-11-05 18:28:28 skip heldout-reach-learned-b3-matched (done earlier)
+2026-11-05 18:28:28 skip disturb-reach-learned-b3-matched (done earlier)
+2026-11-05 18:28:28 skip courses-flat-learned-b3-matched (done earlier)
+2026-11-05 18:28:28 skip heldout-reach-learned-b4-matched (done earlier)
+2026-11-05 18:28:28 skip disturb-reach-learned-b4-matched (done earlier)
+2026-11-05 18:28:28 skip courses-flat-learned-b4-matched (done earlier)
+2026-11-05 18:28:28 skip heldout-reach-learned-b5-matched (done earlier)
+2026-11-05 18:28:28 skip disturb-reach-learned-b5-matched (done earlier)
+2026-11-05 18:28:28 skip courses-flat-learned-b5-matched (done earlier)
+2026-11-05 18:28:28 skip heldout-reach-learned-b6-matched (done earlier)
+2026-11-05 18:28:28 skip disturb-reach-learned-b6-matched (done earlier)
+2026-11-05 18:28:28 skip courses-flat-learned-b6-matched (done earlier)
+2026-11-05 18:28:28 skip heldout-reach-learned-b7-matched (done earlier)
+2026-11-05 18:28:28 skip disturb-reach-learned-b7-matched (done earlier)
+2026-11-05 18:28:28 skip courses-flat-learned-b7-matched (done earlier)
+2026-11-05 18:28:28 skip repeat-reach-learned-b0-matched (done earlier)
+2026-11-05 18:28:28 skip heldout-reach3d-reference (done earlier)
+2026-11-05 18:28:28 start heldout-reach3d-hold on instance 11
+2026-11-05 18:28:28 skip autopilot-reach3d (done earlier)
+2026-11-05 18:28:28 skip repeat-reach3d-reference (done earlier)
+2026-11-05 18:28:28 skip heldout-reach3d-learned-b0-matched (done earlier)
+2026-11-05 18:28:28 start disturb-reach3d-learned-b0-matched on instance 12
+2026-11-05 18:28:28 start courses-3d-learned-b0-matched on instance 13
+2026-11-05 18:28:28 start splits-learned-b0-matched on instance 10
+2026-11-05 18:40:06 end splits-learned-b0-matched on instance 10
+2026-11-05 18:40:06 skip heldout-reach3d-learned-b1-matched (done earlier)
+2026-11-05 18:40:06 skip disturb-reach3d-learned-b1-matched (done earlier)
+2026-11-05 18:40:06 skip courses-3d-learned-b1-matched (done earlier)
+2026-11-05 18:40:06 skip splits-learned-b1-matched (done earlier)
+2026-11-05 18:40:06 skip heldout-reach3d-learned-b2-matched (done earlier)
+2026-11-05 18:40:06 skip disturb-reach3d-learned-b2-matched (done earlier)
+2026-11-05 18:40:06 skip courses-3d-learned-b2-matched (done earlier)
+2026-11-05 18:40:06 skip splits-learned-b2-matched (done earlier)
+2026-11-05 18:40:06 skip heldout-reach3d-learned-b3-matched (done earlier)
+2026-11-05 18:40:06 skip disturb-reach3d-learned-b3-matched (done earlier)
+2026-11-05 18:40:06 skip courses-3d-learned-b3-matched (done earlier)
+2026-11-05 18:40:06 skip splits-learned-b3-matched (done earlier)
+2026-11-05 18:40:06 skip heldout-reach3d-learned-b4-matched (done earlier)
+2026-11-05 18:40:06 skip disturb-reach3d-learned-b4-matched (done earlier)
+2026-11-05 18:40:06 start courses-3d-learned-b4-matched on instance 10
+2026-11-05 19:03:16 end courses-3d-learned-b0-matched on instance 13
+2026-11-05 19:03:16 start splits-learned-b4-matched on instance 13
+2026-11-05 19:03:28 end disturb-reach3d-learned-b0-matched on instance 12
+2026-11-05 19:03:28 start heldout-reach3d-learned-b5-matched on instance 12
+2026-11-05 19:15:10 end courses-3d-learned-b4-matched on instance 10
+2026-11-05 19:15:10 start disturb-reach3d-learned-b5-matched on instance 10
+2026-11-05 19:15:27 end splits-learned-b4-matched on instance 13
+2026-11-05 19:15:27 start courses-3d-learned-b5-matched on instance 13
+2026-11-05 19:36:54 end heldout-reach3d-learned-b5-matched on instance 12
+2026-11-05 19:36:54 start splits-learned-b5-matched on instance 12
+2026-11-05 19:48:31 end splits-learned-b5-matched on instance 12
+2026-11-05 19:48:31 start heldout-reach3d-learned-b6-matched on instance 12
+2026-11-05 19:50:15 end courses-3d-learned-b5-matched on instance 13
+2026-11-05 19:50:15 start disturb-reach3d-learned-b6-matched on instance 13
+2026-11-05 19:55:27 end disturb-reach3d-learned-b5-matched on instance 10
+2026-11-05 19:55:27 start courses-3d-learned-b6-matched on instance 10
+2026-11-05 19:55:53 end heldout-reach3d-hold on instance 11
+2026-11-05 19:55:53 start splits-learned-b6-matched on instance 11
+2026-11-05 20:07:30 end splits-learned-b6-matched on instance 11
+2026-11-05 20:07:30 start heldout-reach3d-learned-b7-matched on instance 11
+2026-11-05 20:21:56 end heldout-reach3d-learned-b6-matched on instance 12
+2026-11-05 20:21:56 start disturb-reach3d-learned-b7-matched on instance 12
+2026-11-05 20:27:36 end disturb-reach3d-learned-b6-matched on instance 13
+2026-11-05 20:27:36 start courses-3d-learned-b7-matched on instance 13
+2026-11-05 20:29:48 end courses-3d-learned-b6-matched on instance 10
+2026-11-05 20:29:48 start splits-learned-b7-matched on instance 10
+2026-11-05 20:41:28 end splits-learned-b7-matched on instance 10
+2026-11-05 20:41:28 start repeat-reach3d-learned-b0-matched on instance 10
+2026-11-05 20:42:00 end heldout-reach3d-learned-b7-matched on instance 11
+2026-11-05 20:42:00 start heldout-avoid-reference on instance 11
+2026-11-05 20:58:14 end repeat-reach3d-learned-b0-matched on instance 10
+2026-11-05 20:58:14 start heldout-avoid-hold on instance 10
+2026-11-05 21:01:36 end courses-3d-learned-b7-matched on instance 13
+2026-11-05 21:01:36 start repeat-avoid-reference on instance 13
+2026-11-05 21:04:15 end disturb-reach3d-learned-b7-matched on instance 12
+2026-11-05 21:04:15 start heldout-avoid-learned-0 on instance 12
+2026-11-05 21:22:01 end repeat-avoid-reference on instance 13
+2026-11-05 21:22:01 start disturb-avoid-learned-0 on instance 13
+2026-11-05 21:23:10 end heldout-avoid-reference on instance 11
+2026-11-05 21:23:10 start heldout-avoid-learned-1 on instance 11
+2026-11-05 21:42:05 end heldout-avoid-learned-0 on instance 12
+2026-11-05 21:42:05 start disturb-avoid-learned-1 on instance 12
+2026-11-05 21:59:18 end disturb-avoid-learned-0 on instance 13
+2026-11-05 21:59:18 start heldout-avoid-learned-2 on instance 13
+2026-11-05 21:59:36 end heldout-avoid-learned-1 on instance 11
+2026-11-05 21:59:36 start disturb-avoid-learned-2 on instance 11
+2026-11-05 22:18:30 end disturb-avoid-learned-1 on instance 12
+2026-11-05 22:18:30 start heldout-avoid-learned-3 on instance 12
+2026-11-05 22:25:39 end heldout-avoid-hold on instance 10
+2026-11-05 22:25:39 start disturb-avoid-learned-3 on instance 10
+2026-11-05 22:36:10 end disturb-avoid-learned-2 on instance 11
+2026-11-05 22:36:10 start heldout-avoid-learned-4 on instance 11
+2026-11-05 22:36:58 end heldout-avoid-learned-2 on instance 13
+2026-11-05 22:36:58 start disturb-avoid-learned-4 on instance 13
+2026-11-05 22:56:15 end heldout-avoid-learned-3 on instance 12
+2026-11-05 22:56:15 start repeat-avoid-learned-0 on instance 12
+2026-11-05 23:02:14 end disturb-avoid-learned-3 on instance 10
+2026-11-05 23:02:14 start heldout-orbit-reference on instance 10
+2026-11-05 23:12:51 end heldout-avoid-learned-4 on instance 11
+2026-11-05 23:12:51 start heldout-orbit-hold on instance 11
+2026-11-05 23:13:21 end disturb-avoid-learned-4 on instance 13
+2026-11-05 23:13:21 start autopilot-orbit on instance 13
+2026-11-05 23:15:09 end repeat-avoid-learned-0 on instance 12
+2026-11-05 23:15:09 start repeat-orbit-reference on instance 12
+2026-11-05 23:40:45 end repeat-orbit-reference on instance 12
+2026-11-05 23:40:45 start heldout-orbit-learned-0 on instance 12
+2026-11-05 23:53:32 end heldout-orbit-reference on instance 10
+2026-11-05 23:53:32 start disturb-orbit-learned-0 on instance 10
+2026-11-05 23:59:30 end autopilot-orbit on instance 13
+2026-11-05 23:59:30 start heldout-orbit-learned-1 on instance 13
+2026-11-06 00:28:03 end heldout-orbit-learned-0 on instance 12
+2026-11-06 00:28:03 start disturb-orbit-learned-1 on instance 12
+2026-11-06 00:29:15 end disturb-orbit-learned-0 on instance 10
+2026-11-06 00:29:15 start heldout-orbit-learned-2 on instance 10
+2026-11-06 00:49:50 end heldout-orbit-learned-1 on instance 13
+2026-11-06 00:49:50 start disturb-orbit-learned-2 on instance 13
+2026-11-06 00:55:19 end heldout-orbit-hold on instance 11
+2026-11-06 00:55:19 start heldout-orbit-learned-3 on instance 11
+2026-11-06 01:05:14 end disturb-orbit-learned-1 on instance 12
+2026-11-06 01:05:14 start disturb-orbit-learned-3 on instance 12
+2026-11-06 01:20:29 end heldout-orbit-learned-2 on instance 10
+2026-11-06 01:20:29 start heldout-orbit-learned-4 on instance 10
+2026-11-06 01:27:33 end disturb-orbit-learned-2 on instance 13
+2026-11-06 01:27:33 start disturb-orbit-learned-4 on instance 13
+2026-11-06 01:46:05 end disturb-orbit-learned-3 on instance 12
+2026-11-06 01:46:05 start repeat-orbit-learned-0 on instance 12
+2026-11-06 01:52:49 end heldout-orbit-learned-3 on instance 11
+2026-11-06 01:52:49 start heldout-land-reference on instance 11
+2026-11-06 02:05:27 end disturb-orbit-learned-4 on instance 13
+2026-11-06 02:05:27 start heldout-land-hold on instance 13
+2026-11-06 02:09:37 end repeat-orbit-learned-0 on instance 12
+2026-11-06 02:09:37 start autopilot-land on instance 12
+2026-11-06 02:11:42 end heldout-orbit-learned-4 on instance 10
+2026-11-06 02:11:42 start repeat-land-reference on instance 10
+2026-11-06 02:31:22 end repeat-land-reference on instance 10
+2026-11-06 02:31:22 start heldout-land-learned-b0-matched on instance 10
+2026-11-06 02:31:36 end heldout-land-reference on instance 11
+2026-11-06 02:31:36 start disturb-land-learned-b0-matched on instance 11
+2026-11-06 02:51:27 end autopilot-land on instance 12
+2026-11-06 02:51:27 start heldout-land-learned-b1-matched on instance 12
+2026-11-06 03:09:32 end heldout-land-learned-b0-matched on instance 10
+2026-11-06 03:09:32 start disturb-land-learned-b1-matched on instance 10
+2026-11-06 03:15:40 end disturb-land-learned-b0-matched on instance 11
+2026-11-06 03:15:40 start heldout-land-learned-b2-matched on instance 11
+2026-11-06 03:26:31 end heldout-land-learned-b1-matched on instance 12
+2026-11-06 03:26:31 start disturb-land-learned-b2-matched on instance 12
+2026-11-06 03:32:52 end heldout-land-hold on instance 13
+2026-11-06 03:32:52 start heldout-land-learned-b3-matched on instance 13
+2026-11-06 03:44:40 end disturb-land-learned-b1-matched on instance 10
+2026-11-06 03:44:40 start disturb-land-learned-b3-matched on instance 10
+2026-11-06 03:51:20 end heldout-land-learned-b2-matched on instance 11
+2026-11-06 03:51:20 start heldout-land-learned-b4-matched on instance 11
+2026-11-06 04:09:21 end heldout-land-learned-b3-matched on instance 13
+2026-11-06 04:09:21 start disturb-land-learned-b4-matched on instance 13
+2026-11-06 04:09:57 end disturb-land-learned-b2-matched on instance 12
+2026-11-06 04:09:57 start heldout-land-learned-b5-matched on instance 12
+2026-11-06 04:21:22 end disturb-land-learned-b3-matched on instance 10
+2026-11-06 04:21:22 start disturb-land-learned-b5-matched on instance 10
+2026-11-06 04:25:11 end heldout-land-learned-b4-matched on instance 11
+2026-11-06 04:25:11 start heldout-land-learned-b6-matched on instance 11
+2026-11-06 04:47:27 end heldout-land-learned-b5-matched on instance 12
+2026-11-06 04:47:27 start disturb-land-learned-b6-matched on instance 12
+2026-11-06 04:51:18 end disturb-land-learned-b4-matched on instance 13
+2026-11-06 04:51:18 start heldout-land-learned-b7-matched on instance 13
+2026-11-06 04:58:40 end disturb-land-learned-b5-matched on instance 10
+2026-11-06 04:58:40 start disturb-land-learned-b7-matched on instance 10
+2026-11-06 05:03:47 end heldout-land-learned-b6-matched on instance 11
+2026-11-06 05:03:47 start repeat-land-learned-b0-matched on instance 11
+2026-11-06 05:22:55 end repeat-land-learned-b0-matched on instance 11
+2026-11-06 05:26:33 end disturb-land-learned-b6-matched on instance 12
+2026-11-06 05:30:14 end heldout-land-learned-b7-matched on instance 13
+2026-11-06 05:45:01 end disturb-land-learned-b7-matched on instance 10
+2026-11-06 05:45:01 start gazebo-reference on instance None
+2026-11-06 05:51:46 end gazebo-reference on instance None
+2026-11-06 05:51:46 start gazebo-learned-b0-matched on instance None
+2026-11-06 05:58:25 end gazebo-learned-b0-matched on instance None
+2026-11-06 05:58:25 start gazebo-learned-b1-matched on instance None
+2026-11-06 06:05:04 end gazebo-learned-b1-matched on instance None
+2026-11-06 06:05:04 start gazebo-learned-b2-matched on instance None
+2026-11-06 06:11:43 end gazebo-learned-b2-matched on instance None
+2026-11-06 06:11:43 start gazebo-learned-b3-matched on instance None
+2026-11-06 06:18:23 end gazebo-learned-b3-matched on instance None
+2026-11-06 06:18:23 start gazebo-learned-b4-matched on instance None
+2026-11-06 06:25:32 end gazebo-learned-b4-matched on instance None
+2026-11-06 06:25:32 start gazebo-learned-b5-matched on instance None
+2026-11-06 06:32:13 end gazebo-learned-b5-matched on instance None
+2026-11-06 06:32:13 start gazebo-learned-b6-matched on instance None
+2026-11-06 06:33:00 pause asked for
+2026-11-06 06:38:46 end gazebo-learned-b6-matched on instance None
+2026-11-06 06:38:46 paused: running phases finish, no new phase starts
+2026-11-06 06:38:46 paused; run the same command to continue. Phases needing a decision so far: none
+2026-11-06 12:38:22 pause removed; resuming
+2026-11-06 12:38:22 begin run of the second protocol into /Users/s.vajda/Development/DCARR-RUNTIME/paper3/runs/scored-2; tasks ['reach', 'reach3d', 'avoid', 'orbit', 'land']; blocks 8; instances (10, 11, 12, 13); spending stop US$12
+2026-11-06 12:38:22 skip learn-reach-b0-threat (done earlier)
+2026-11-06 12:38:22 skip learn-reach3d-b0-matched (done earlier)
+2026-11-06 12:38:22 skip learn-reach-b0-matched (done earlier)
+2026-11-06 12:38:22 skip learn-reach3d-b0-threat (done earlier)
+2026-11-06 12:38:22 skip learn-avoid-0 (done earlier)
+2026-11-06 12:38:22 skip learn-orbit-0 (done earlier)
+2026-11-06 12:38:22 skip learn-land-b0-threat (done earlier)
+2026-11-06 12:38:22 skip learn-land-b0-matched (done earlier)
+2026-11-06 12:38:22 skip learn-reach-b1-matched (done earlier)
+2026-11-06 12:38:22 skip learn-reach-b1-threat (done earlier)
+2026-11-06 12:38:22 skip learn-reach3d-b1-matched (done earlier)
+2026-11-06 12:38:22 skip learn-reach3d-b1-threat (done earlier)
+2026-11-06 12:38:22 skip learn-avoid-1 (done earlier)
+2026-11-06 12:38:22 skip learn-orbit-1 (done earlier)
+2026-11-06 12:38:22 skip learn-land-b1-matched (done earlier)
+2026-11-06 12:38:22 skip learn-land-b1-threat (done earlier)
+2026-11-06 12:38:22 skip learn-reach-b2-threat (done earlier)
+2026-11-06 12:38:22 skip learn-reach-b2-matched (done earlier)
+2026-11-06 12:38:22 skip learn-reach3d-b2-matched (done earlier)
+2026-11-06 12:38:22 skip learn-reach3d-b2-threat (done earlier)
+2026-11-06 12:38:22 skip learn-avoid-2 (done earlier)
+2026-11-06 12:38:22 skip learn-orbit-2 (done earlier)
+2026-11-06 12:38:22 skip learn-land-b2-matched (done earlier)
+2026-11-06 12:38:22 skip learn-land-b2-threat (done earlier)
+2026-11-06 12:38:22 skip learn-reach-b3-matched (done earlier)
+2026-11-06 12:38:22 skip learn-reach-b3-threat (done earlier)
+2026-11-06 12:38:22 skip learn-reach3d-b3-matched (done earlier)
+2026-11-06 12:38:22 skip learn-reach3d-b3-threat (done earlier)
+2026-11-06 12:38:22 skip learn-avoid-3 (done earlier)
+2026-11-06 12:38:22 skip learn-orbit-3 (done earlier)
+2026-11-06 12:38:22 skip learn-land-b3-matched (done earlier)
+2026-11-06 12:38:22 skip learn-land-b3-threat (done earlier)
+2026-11-06 12:38:22 skip learn-reach-b4-matched (done earlier)
+2026-11-06 12:38:22 skip learn-reach-b4-threat (done earlier)
+2026-11-06 12:38:22 skip learn-reach3d-b4-threat (done earlier)
+2026-11-06 12:38:22 skip learn-reach3d-b4-matched (done earlier)
+2026-11-06 12:38:22 skip learn-avoid-4 (done earlier)
+2026-11-06 12:38:22 skip learn-orbit-4 (done earlier)
+2026-11-06 12:38:22 skip learn-land-b4-threat (done earlier)
+2026-11-06 12:38:22 skip learn-land-b4-matched (done earlier)
+2026-11-06 12:38:22 skip learn-reach-b5-matched (done earlier)
+2026-11-06 12:38:22 skip learn-reach-b5-threat (done earlier)
+2026-11-06 12:38:22 skip learn-reach3d-b5-threat (done earlier)
+2026-11-06 12:38:22 skip learn-reach3d-b5-matched (done earlier)
+2026-11-06 12:38:22 skip learn-land-b5-matched (done earlier)
+2026-11-06 12:38:22 skip learn-land-b5-threat (done earlier)
+2026-11-06 12:38:22 skip learn-reach-b6-matched (done earlier)
+2026-11-06 12:38:22 skip learn-reach-b6-threat (done earlier)
+2026-11-06 12:38:22 skip learn-reach3d-b6-matched (done earlier)
+2026-11-06 12:38:22 skip learn-reach3d-b6-threat (done earlier)
+2026-11-06 12:38:22 skip learn-land-b6-matched (done earlier)
+2026-11-06 12:38:22 skip learn-land-b6-threat (done earlier)
+2026-11-06 12:38:22 skip learn-reach-b7-threat (done earlier)
+2026-11-06 12:38:22 skip learn-reach-b7-matched (done earlier)
+2026-11-06 12:38:22 skip learn-reach3d-b7-matched (done earlier)
+2026-11-06 12:38:22 skip learn-reach3d-b7-threat (done earlier)
+2026-11-06 12:38:22 skip learn-land-b7-threat (done earlier)
+2026-11-06 12:38:22 skip learn-land-b7-matched (done earlier)
+2026-11-06 12:38:22 adopted: Study 1 libraries 34; Study 2 arms 46 of 48
+2026-11-06 12:38:22 skip threat-land-b0-matched (done earlier)
+2026-11-06 12:38:22 skip threat-land-b0-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-land-learned-b0-threat (done earlier)
+2026-11-06 12:38:22 skip threat-reach-b0-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-reach-learned-b0-threat (done earlier)
+2026-11-06 12:38:22 skip threat-reach-b0-matched (done earlier)
+2026-11-06 12:38:22 skip threat-reach3d-b0-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-reach3d-learned-b0-threat (done earlier)
+2026-11-06 12:38:22 skip threat-reach3d-b0-matched (done earlier)
+2026-11-06 12:38:22 skip threat-land-b1-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-land-learned-b1-threat (done earlier)
+2026-11-06 12:38:22 skip threat-land-b1-matched (done earlier)
+2026-11-06 12:38:22 skip threat-reach-b1-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-reach-learned-b1-threat (done earlier)
+2026-11-06 12:38:22 skip threat-reach-b1-matched (done earlier)
+2026-11-06 12:38:22 skip threat-reach3d-b1-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-reach3d-learned-b1-threat (done earlier)
+2026-11-06 12:38:22 skip threat-reach3d-b1-matched (done earlier)
+2026-11-06 12:38:22 skip threat-land-b2-matched (done earlier)
+2026-11-06 12:38:22 skip threat-land-b2-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-land-learned-b2-threat (done earlier)
+2026-11-06 12:38:22 skip threat-reach-b2-matched (done earlier)
+2026-11-06 12:38:22 skip threat-reach-b2-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-reach-learned-b2-threat (done earlier)
+2026-11-06 12:38:22 skip threat-reach3d-b2-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-reach3d-learned-b2-threat (done earlier)
+2026-11-06 12:38:22 skip threat-reach3d-b2-matched (done earlier)
+2026-11-06 12:38:22 skip threat-land-b3-matched (done earlier)
+2026-11-06 12:38:22 skip threat-land-b3-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-land-learned-b3-threat (done earlier)
+2026-11-06 12:38:22 skip threat-reach-b3-matched (done earlier)
+2026-11-06 12:38:22 skip threat-reach-b3-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-reach-learned-b3-threat (done earlier)
+2026-11-06 12:38:22 skip threat-reach3d-b3-matched (done earlier)
+2026-11-06 12:38:22 skip threat-reach3d-b3-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-reach3d-learned-b3-threat (done earlier)
+2026-11-06 12:38:22 skip threat-land-b4-matched (done earlier)
+2026-11-06 12:38:22 skip threat-land-b4-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-land-learned-b4-threat (done earlier)
+2026-11-06 12:38:22 skip threat-reach-b4-matched (done earlier)
+2026-11-06 12:38:22 skip threat-reach3d-b4-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-reach3d-learned-b4-threat (done earlier)
+2026-11-06 12:38:22 skip threat-reach3d-b4-matched (done earlier)
+2026-11-06 12:38:22 skip threat-land-b5-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-land-learned-b5-threat (done earlier)
+2026-11-06 12:38:22 skip threat-land-b5-matched (done earlier)
+2026-11-06 12:38:22 skip threat-reach-b5-matched (done earlier)
+2026-11-06 12:38:22 skip threat-reach-b5-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-reach-learned-b5-threat (done earlier)
+2026-11-06 12:38:22 skip threat-reach3d-b5-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-reach3d-learned-b5-threat (done earlier)
+2026-11-06 12:38:22 skip threat-reach3d-b5-matched (done earlier)
+2026-11-06 12:38:22 skip threat-land-b6-matched (done earlier)
+2026-11-06 12:38:22 skip threat-land-b6-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-land-learned-b6-threat (done earlier)
+2026-11-06 12:38:22 skip threat-reach-b6-matched (done earlier)
+2026-11-06 12:38:22 skip threat-reach-b6-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-reach-learned-b6-threat (done earlier)
+2026-11-06 12:38:22 skip threat-reach3d-b6-matched (done earlier)
+2026-11-06 12:38:22 skip threat-reach3d-b6-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-reach3d-learned-b6-threat (done earlier)
+2026-11-06 12:38:22 skip threat-land-b7-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-land-learned-b7-threat (done earlier)
+2026-11-06 12:38:22 skip threat-land-b7-matched (done earlier)
+2026-11-06 12:38:22 skip threat-reach-b7-threat (done earlier)
+2026-11-06 12:38:22 skip heldout-reach-learned-b7-threat (done earlier)
+2026-11-06 12:38:22 skip threat-reach-b7-matched (done earlier)
+2026-11-06 12:38:22 skip threat-reach3d-b7-matched (done earlier)
+2026-11-06 12:38:22 skip courses-flat-reference (done earlier)
+2026-11-06 12:38:22 skip courses-3d-reference (done earlier)
+2026-11-06 12:38:22 skip splits-reference (done earlier)
+2026-11-06 12:38:22 skip heldout-reach-reference (done earlier)
+2026-11-06 12:38:22 skip heldout-reach-hold (done earlier)
+2026-11-06 12:38:22 skip autopilot-reach (done earlier)
+2026-11-06 12:38:22 skip repeat-reach-reference (done earlier)
+2026-11-06 12:38:22 skip heldout-reach-learned-b0-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-reach-learned-b0-matched (done earlier)
+2026-11-06 12:38:22 skip courses-flat-learned-b0-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-reach-learned-b1-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-reach-learned-b1-matched (done earlier)
+2026-11-06 12:38:22 skip courses-flat-learned-b1-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-reach-learned-b2-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-reach-learned-b2-matched (done earlier)
+2026-11-06 12:38:22 skip courses-flat-learned-b2-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-reach-learned-b3-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-reach-learned-b3-matched (done earlier)
+2026-11-06 12:38:22 skip courses-flat-learned-b3-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-reach-learned-b4-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-reach-learned-b4-matched (done earlier)
+2026-11-06 12:38:22 skip courses-flat-learned-b4-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-reach-learned-b5-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-reach-learned-b5-matched (done earlier)
+2026-11-06 12:38:22 skip courses-flat-learned-b5-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-reach-learned-b6-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-reach-learned-b6-matched (done earlier)
+2026-11-06 12:38:22 skip courses-flat-learned-b6-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-reach-learned-b7-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-reach-learned-b7-matched (done earlier)
+2026-11-06 12:38:22 skip courses-flat-learned-b7-matched (done earlier)
+2026-11-06 12:38:22 skip repeat-reach-learned-b0-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-reach3d-reference (done earlier)
+2026-11-06 12:38:22 skip heldout-reach3d-hold (done earlier)
+2026-11-06 12:38:22 skip autopilot-reach3d (done earlier)
+2026-11-06 12:38:22 skip repeat-reach3d-reference (done earlier)
+2026-11-06 12:38:22 skip heldout-reach3d-learned-b0-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-reach3d-learned-b0-matched (done earlier)
+2026-11-06 12:38:22 skip courses-3d-learned-b0-matched (done earlier)
+2026-11-06 12:38:22 skip splits-learned-b0-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-reach3d-learned-b1-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-reach3d-learned-b1-matched (done earlier)
+2026-11-06 12:38:22 skip courses-3d-learned-b1-matched (done earlier)
+2026-11-06 12:38:22 skip splits-learned-b1-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-reach3d-learned-b2-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-reach3d-learned-b2-matched (done earlier)
+2026-11-06 12:38:22 skip courses-3d-learned-b2-matched (done earlier)
+2026-11-06 12:38:22 skip splits-learned-b2-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-reach3d-learned-b3-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-reach3d-learned-b3-matched (done earlier)
+2026-11-06 12:38:22 skip courses-3d-learned-b3-matched (done earlier)
+2026-11-06 12:38:22 skip splits-learned-b3-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-reach3d-learned-b4-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-reach3d-learned-b4-matched (done earlier)
+2026-11-06 12:38:22 skip courses-3d-learned-b4-matched (done earlier)
+2026-11-06 12:38:22 skip splits-learned-b4-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-reach3d-learned-b5-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-reach3d-learned-b5-matched (done earlier)
+2026-11-06 12:38:22 skip courses-3d-learned-b5-matched (done earlier)
+2026-11-06 12:38:22 skip splits-learned-b5-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-reach3d-learned-b6-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-reach3d-learned-b6-matched (done earlier)
+2026-11-06 12:38:22 skip courses-3d-learned-b6-matched (done earlier)
+2026-11-06 12:38:22 skip splits-learned-b6-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-reach3d-learned-b7-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-reach3d-learned-b7-matched (done earlier)
+2026-11-06 12:38:22 skip courses-3d-learned-b7-matched (done earlier)
+2026-11-06 12:38:22 skip splits-learned-b7-matched (done earlier)
+2026-11-06 12:38:22 skip repeat-reach3d-learned-b0-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-avoid-reference (done earlier)
+2026-11-06 12:38:22 skip heldout-avoid-hold (done earlier)
+2026-11-06 12:38:22 skip repeat-avoid-reference (done earlier)
+2026-11-06 12:38:22 skip heldout-avoid-learned-0 (done earlier)
+2026-11-06 12:38:22 skip disturb-avoid-learned-0 (done earlier)
+2026-11-06 12:38:22 skip heldout-avoid-learned-1 (done earlier)
+2026-11-06 12:38:22 skip disturb-avoid-learned-1 (done earlier)
+2026-11-06 12:38:22 skip heldout-avoid-learned-2 (done earlier)
+2026-11-06 12:38:22 skip disturb-avoid-learned-2 (done earlier)
+2026-11-06 12:38:22 skip heldout-avoid-learned-3 (done earlier)
+2026-11-06 12:38:22 skip disturb-avoid-learned-3 (done earlier)
+2026-11-06 12:38:22 skip heldout-avoid-learned-4 (done earlier)
+2026-11-06 12:38:22 skip disturb-avoid-learned-4 (done earlier)
+2026-11-06 12:38:22 skip repeat-avoid-learned-0 (done earlier)
+2026-11-06 12:38:22 skip heldout-orbit-reference (done earlier)
+2026-11-06 12:38:22 skip heldout-orbit-hold (done earlier)
+2026-11-06 12:38:22 skip autopilot-orbit (done earlier)
+2026-11-06 12:38:22 skip repeat-orbit-reference (done earlier)
+2026-11-06 12:38:22 skip heldout-orbit-learned-0 (done earlier)
+2026-11-06 12:38:22 skip disturb-orbit-learned-0 (done earlier)
+2026-11-06 12:38:22 skip heldout-orbit-learned-1 (done earlier)
+2026-11-06 12:38:22 skip disturb-orbit-learned-1 (done earlier)
+2026-11-06 12:38:22 skip heldout-orbit-learned-2 (done earlier)
+2026-11-06 12:38:22 skip disturb-orbit-learned-2 (done earlier)
+2026-11-06 12:38:22 skip heldout-orbit-learned-3 (done earlier)
+2026-11-06 12:38:22 skip disturb-orbit-learned-3 (done earlier)
+2026-11-06 12:38:22 skip heldout-orbit-learned-4 (done earlier)
+2026-11-06 12:38:22 skip disturb-orbit-learned-4 (done earlier)
+2026-11-06 12:38:22 skip repeat-orbit-learned-0 (done earlier)
+2026-11-06 12:38:22 skip heldout-land-reference (done earlier)
+2026-11-06 12:38:22 skip heldout-land-hold (done earlier)
+2026-11-06 12:38:22 skip autopilot-land (done earlier)
+2026-11-06 12:38:22 skip repeat-land-reference (done earlier)
+2026-11-06 12:38:22 skip heldout-land-learned-b0-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-land-learned-b0-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-land-learned-b1-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-land-learned-b1-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-land-learned-b2-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-land-learned-b2-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-land-learned-b3-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-land-learned-b3-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-land-learned-b4-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-land-learned-b4-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-land-learned-b5-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-land-learned-b5-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-land-learned-b6-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-land-learned-b6-matched (done earlier)
+2026-11-06 12:38:22 skip heldout-land-learned-b7-matched (done earlier)
+2026-11-06 12:38:22 skip disturb-land-learned-b7-matched (done earlier)
+2026-11-06 12:38:22 skip repeat-land-learned-b0-matched (done earlier)
+2026-11-06 12:38:22 skip gazebo-reference (done earlier)
+2026-11-06 12:38:22 skip gazebo-learned-b0-matched (done earlier)
+2026-11-06 12:38:22 skip gazebo-learned-b1-matched (done earlier)
+2026-11-06 12:38:22 skip gazebo-learned-b2-matched (done earlier)
+2026-11-06 12:38:22 skip gazebo-learned-b3-matched (done earlier)
+2026-11-06 12:38:22 skip gazebo-learned-b4-matched (done earlier)
+2026-11-06 12:38:22 skip gazebo-learned-b5-matched (done earlier)
+2026-11-06 12:38:22 skip gazebo-learned-b6-matched (done earlier)
+2026-11-06 12:38:22 start gazebo-learned-b7-matched on instance None
+2026-11-06 12:44:56 end gazebo-learned-b7-matched on instance None
+2026-11-06 12:44:56 analysis into analysis
+2026-11-06 12:49:53 finished; phases needing a decision: none

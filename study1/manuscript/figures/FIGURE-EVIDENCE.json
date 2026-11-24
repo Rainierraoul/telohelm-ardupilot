@@ -1,0 +1,39 @@
+{
+  "selection": "reach; lowest pair 0; lowest scheduled shared seed, chosen before inspecting paths",
+  "seed": 44001,
+  "seeds_sha256": "ae768ac3ae70d1b5991f0f0ad8ce9c1aa3842fdcf56e6a6f492b1ed7a1196b0f",
+  "zone_north_east_radius": [
+    24.9,
+    26.0,
+    8.1
+  ],
+  "target_north_east": [
+    32.7,
+    34.1
+  ],
+  "activation_step": 4,
+  "flights": {
+    "threat": {
+      "source": "runs/scored-2/threat-reach-b0-threat/flights/threat-44001/outcome.json",
+      "sha256": "3379c6bad950e0ea0b229e41520451116e43601a8517d773b71abfe91612158a",
+      "samples": 23,
+      "end_reason": "held",
+      "ended_at": 23,
+      "goal_met": true,
+      "first_visible_step": 5
+    },
+    "matched": {
+      "source": "runs/scored-2/threat-reach-b0-matched/flights/threat-44001/outcome.json",
+      "sha256": "e5ae4703bff95916c6bc09bcf0f48832b09506075f6d71813087ce6c8ab15fa2",
+      "samples": 90,
+      "end_reason": "timed_out",
+      "ended_at": 90,
+      "goal_met": false,
+      "first_visible_step": 5
+    }
+  },
+  "margin_m": 14.1,
+  "margin_source": "runs/scored-2/learn-reach-b0-matched/run/library/content/e793c0beda02fe55816c3efee01fc772a2dddab999a76f8506e4cbfd5f411d30.json",
+  "margin_source_sha256": "e793c0beda02fe55816c3efee01fc772a2dddab999a76f8506e4cbfd5f411d30",
+  "script_sha256": "8ad141cdc2b6e5331ed699f77c3f2ecacc8a997b36f7bd217986cb16450a4164"
+}

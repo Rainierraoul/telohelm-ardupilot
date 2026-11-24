@@ -1,0 +1,5407 @@
+[
+ {
+  "task": "reach",
+  "N": 0,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3000001",
+     "threat-middle-3000002",
+     "threat-wide-3000003"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3000001",
+     "threat-middle-3000002",
+     "threat-wide-3000003"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 1,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3000101",
+     "threat-middle-3000102",
+     "threat-wide-3000103"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3000101",
+     "threat-middle-3000102",
+     "threat-wide-3000103"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "entered_threat",
+     "timed_out"
+    ],
+    "eps": [
+     "threat-close-3000101",
+     "threat-middle-3000102",
+     "threat-wide-3000103"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 2,
+  "adopted": true,
+  "cid": "c0",
+  "c0_zone_qualified": true,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3000201",
+     "threat-middle-3000202",
+     "threat-wide-3000203"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 3,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3000301",
+     "threat-middle-3000302",
+     "threat-wide-3000303"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3000301",
+     "threat-middle-3000302",
+     "threat-wide-3000303"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3000301",
+     "threat-middle-3000302",
+     "threat-wide-3000303"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 4,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [],
+    "eps": []
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3000401",
+     "threat-middle-3000402",
+     "threat-wide-3000403"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "held",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3000401",
+     "threat-middle-3000402",
+     "threat-wide-3000403"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 5,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3000501",
+     "threat-middle-3000502",
+     "threat-wide-3000503"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3000501",
+     "threat-middle-3000502",
+     "threat-wide-3000503"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 6,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3000601",
+     "threat-middle-3000602",
+     "threat-wide-3000603"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "held",
+     "held",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3000601",
+     "threat-middle-3000602",
+     "threat-wide-3000603"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3000601",
+     "threat-middle-3000602",
+     "threat-wide-3000603"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 7,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3000701",
+     "threat-middle-3000702",
+     "threat-wide-3000703"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "held",
+     "entered_threat",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3000701",
+     "threat-middle-3000702",
+     "threat-wide-3000703"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3000701",
+     "threat-middle-3000702",
+     "threat-wide-3000703"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 8,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "held",
+     "held",
+     "timed_out"
+    ],
+    "eps": [
+     "threat-close-3000801",
+     "threat-middle-3000802",
+     "threat-wide-3000803"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3000801",
+     "threat-middle-3000802",
+     "threat-wide-3000803"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3000801",
+     "threat-middle-3000802",
+     "threat-wide-3000803"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 9,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [],
+    "eps": []
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3000901",
+     "threat-middle-3000902",
+     "threat-wide-3000903"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 10,
+  "adopted": true,
+  "cid": "c0",
+  "c0_zone_qualified": true,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3001001",
+     "threat-middle-3001002",
+     "threat-wide-3001003"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 11,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3001101",
+     "threat-middle-3001102",
+     "threat-wide-3001103"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "held",
+     "held",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3001101",
+     "threat-middle-3001102",
+     "threat-wide-3001103"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3001101",
+     "threat-middle-3001102",
+     "threat-wide-3001103"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 12,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3001201",
+     "threat-middle-3001202",
+     "threat-wide-3001203"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3001201",
+     "threat-middle-3001202",
+     "threat-wide-3001203"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3001201",
+     "threat-middle-3001202",
+     "threat-wide-3001203"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 13,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "timed_out"
+    ],
+    "eps": [
+     "threat-close-3001301",
+     "threat-middle-3001302",
+     "threat-wide-3001303"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3001301",
+     "threat-middle-3001302",
+     "threat-wide-3001303"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3001301",
+     "threat-middle-3001302",
+     "threat-wide-3001303"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 14,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "entered_threat",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3001401",
+     "threat-middle-3001402",
+     "threat-wide-3001403"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3001401",
+     "threat-middle-3001402",
+     "threat-wide-3001403"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 15,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [],
+    "eps": []
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3001501",
+     "threat-middle-3001502",
+     "threat-wide-3001503"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3001501",
+     "threat-middle-3001502",
+     "threat-wide-3001503"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 16,
+  "adopted": true,
+  "cid": "c0",
+  "c0_zone_qualified": true,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3001601",
+     "threat-middle-3001602",
+     "threat-wide-3001603"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 17,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3001701",
+     "threat-middle-3001702",
+     "threat-wide-3001703"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "timed_out"
+    ],
+    "eps": [
+     "threat-close-3001701",
+     "threat-middle-3001702",
+     "threat-wide-3001703"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3001701",
+     "threat-middle-3001702",
+     "threat-wide-3001703"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 18,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3001801",
+     "threat-middle-3001802",
+     "threat-wide-3001803"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3001801",
+     "threat-middle-3001802",
+     "threat-wide-3001803"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 19,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3001901",
+     "threat-middle-3001902",
+     "threat-wide-3001903"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [],
+    "eps": []
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3001901",
+     "threat-middle-3001902",
+     "threat-wide-3001903"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 20,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3002001",
+     "threat-middle-3002002",
+     "threat-wide-3002003"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3002001",
+     "threat-middle-3002002",
+     "threat-wide-3002003"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3002001",
+     "threat-middle-3002002",
+     "threat-wide-3002003"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 21,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3002101",
+     "threat-middle-3002102",
+     "threat-wide-3002103"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "held",
+     "held",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3002101",
+     "threat-middle-3002102",
+     "threat-wide-3002103"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3002101",
+     "threat-middle-3002102",
+     "threat-wide-3002103"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 22,
+  "adopted": true,
+  "cid": "c0",
+  "c0_zone_qualified": true,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3002201",
+     "threat-middle-3002202",
+     "threat-wide-3002203"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 23,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3002301",
+     "threat-middle-3002302",
+     "threat-wide-3002303"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3002301",
+     "threat-middle-3002302",
+     "threat-wide-3002303"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 24,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3002401",
+     "threat-middle-3002402",
+     "threat-wide-3002403"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3002401",
+     "threat-middle-3002402",
+     "threat-wide-3002403"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 25,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3002501",
+     "threat-middle-3002502",
+     "threat-wide-3002503"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3002501",
+     "threat-middle-3002502",
+     "threat-wide-3002503"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 26,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3002601",
+     "threat-middle-3002602",
+     "threat-wide-3002603"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3002601",
+     "threat-middle-3002602",
+     "threat-wide-3002603"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 27,
+  "adopted": true,
+  "cid": "c0",
+  "c0_zone_qualified": true,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3002701",
+     "threat-middle-3002702",
+     "threat-wide-3002703"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 28,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3002801",
+     "threat-middle-3002802",
+     "threat-wide-3002803"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3002801",
+     "threat-middle-3002802",
+     "threat-wide-3002803"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 29,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3002901",
+     "threat-middle-3002902",
+     "threat-wide-3002903"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "held",
+     "held",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3002901",
+     "threat-middle-3002902",
+     "threat-wide-3002903"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3002901",
+     "threat-middle-3002902",
+     "threat-wide-3002903"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 30,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "timed_out",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003001",
+     "threat-middle-3003002",
+     "threat-wide-3003003"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003001",
+     "threat-middle-3003002",
+     "threat-wide-3003003"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 31,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003101",
+     "threat-middle-3003102",
+     "threat-wide-3003103"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "timed_out"
+    ],
+    "eps": [
+     "threat-close-3003101",
+     "threat-middle-3003102",
+     "threat-wide-3003103"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003101",
+     "threat-middle-3003102",
+     "threat-wide-3003103"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 32,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3003201",
+     "threat-middle-3003202",
+     "threat-wide-3003203"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003201",
+     "threat-middle-3003202",
+     "threat-wide-3003203"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003201",
+     "threat-middle-3003202",
+     "threat-wide-3003203"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 33,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003301",
+     "threat-middle-3003302",
+     "threat-wide-3003303"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003301",
+     "threat-middle-3003302",
+     "threat-wide-3003303"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 34,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3003401",
+     "threat-middle-3003402",
+     "threat-wide-3003403"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003401",
+     "threat-middle-3003402",
+     "threat-wide-3003403"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003401",
+     "threat-middle-3003402",
+     "threat-wide-3003403"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 35,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003501",
+     "threat-middle-3003502",
+     "threat-wide-3003503"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003501",
+     "threat-middle-3003502",
+     "threat-wide-3003503"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003501",
+     "threat-middle-3003502",
+     "threat-wide-3003503"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 36,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003601",
+     "threat-middle-3003602",
+     "threat-wide-3003603"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003601",
+     "threat-middle-3003602",
+     "threat-wide-3003603"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003601",
+     "threat-middle-3003602",
+     "threat-wide-3003603"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 37,
+  "adopted": true,
+  "cid": "c0",
+  "c0_zone_qualified": true,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003701",
+     "threat-middle-3003702",
+     "threat-wide-3003703"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 38,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3003801",
+     "threat-middle-3003802",
+     "threat-wide-3003803"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003801",
+     "threat-middle-3003802",
+     "threat-wide-3003803"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach",
+  "N": 39,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "timed_out",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003901",
+     "threat-middle-3003902",
+     "threat-wide-3003903"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003901",
+     "threat-middle-3003902",
+     "threat-wide-3003903"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3003901",
+     "threat-middle-3003902",
+     "threat-wide-3003903"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 0,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3010001",
+     "threat-middle-3010002",
+     "threat-wide-3010003"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3010001",
+     "threat-middle-3010002",
+     "threat-wide-3010003"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 1,
+  "adopted": true,
+  "cid": "c0",
+  "c0_zone_qualified": true,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3010101",
+     "threat-middle-3010102",
+     "threat-wide-3010103"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 2,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3010201",
+     "threat-middle-3010202",
+     "threat-wide-3010203"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "held",
+     "held",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3010201",
+     "threat-middle-3010202",
+     "threat-wide-3010203"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3010201",
+     "threat-middle-3010202",
+     "threat-wide-3010203"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 3,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3010301",
+     "threat-middle-3010302",
+     "threat-wide-3010303"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3010301",
+     "threat-middle-3010302",
+     "threat-wide-3010303"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 4,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3010401",
+     "threat-middle-3010402",
+     "threat-wide-3010403"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3010401",
+     "threat-middle-3010402",
+     "threat-wide-3010403"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3010401",
+     "threat-middle-3010402",
+     "threat-wide-3010403"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 5,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3010501",
+     "threat-middle-3010502",
+     "threat-wide-3010503"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3010501",
+     "threat-middle-3010502",
+     "threat-wide-3010503"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 6,
+  "adopted": true,
+  "cid": "c0",
+  "c0_zone_qualified": true,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3010601",
+     "threat-middle-3010602",
+     "threat-wide-3010603"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 7,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3010701",
+     "threat-middle-3010702",
+     "threat-wide-3010703"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3010701",
+     "threat-middle-3010702",
+     "threat-wide-3010703"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 8,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3010801",
+     "threat-middle-3010802",
+     "threat-wide-3010803"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3010801",
+     "threat-middle-3010802",
+     "threat-wide-3010803"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 9,
+  "adopted": true,
+  "cid": "c0",
+  "c0_zone_qualified": true,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3010901",
+     "threat-middle-3010902",
+     "threat-wide-3010903"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 10,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011001",
+     "threat-middle-3011002",
+     "threat-wide-3011003"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "timed_out"
+    ],
+    "eps": [
+     "threat-close-3011001",
+     "threat-middle-3011002",
+     "threat-wide-3011003"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011001",
+     "threat-middle-3011002",
+     "threat-wide-3011003"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 11,
+  "adopted": true,
+  "cid": "c0",
+  "c0_zone_qualified": true,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011101",
+     "threat-middle-3011102",
+     "threat-wide-3011103"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 12,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011201",
+     "threat-middle-3011202",
+     "threat-wide-3011203"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011201",
+     "threat-middle-3011202",
+     "threat-wide-3011203"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011201",
+     "threat-middle-3011202",
+     "threat-wide-3011203"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 13,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "held",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3011301",
+     "threat-middle-3011302",
+     "threat-wide-3011303"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011301",
+     "threat-middle-3011302",
+     "threat-wide-3011303"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 14,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011401",
+     "threat-middle-3011402",
+     "threat-wide-3011403"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "held",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3011401",
+     "threat-middle-3011402",
+     "threat-wide-3011403"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011401",
+     "threat-middle-3011402",
+     "threat-wide-3011403"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 15,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011501",
+     "threat-middle-3011502",
+     "threat-wide-3011503"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011501",
+     "threat-middle-3011502",
+     "threat-wide-3011503"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 16,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3011601",
+     "threat-middle-3011602",
+     "threat-wide-3011603"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "timed_out",
+     "timed_out"
+    ],
+    "eps": [
+     "threat-close-3011601",
+     "threat-middle-3011602",
+     "threat-wide-3011603"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011601",
+     "threat-middle-3011602",
+     "threat-wide-3011603"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 17,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011701",
+     "threat-middle-3011702",
+     "threat-wide-3011703"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011701",
+     "threat-middle-3011702",
+     "threat-wide-3011703"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 18,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011801",
+     "threat-middle-3011802",
+     "threat-wide-3011803"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011801",
+     "threat-middle-3011802",
+     "threat-wide-3011803"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 19,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011901",
+     "threat-middle-3011902",
+     "threat-wide-3011903"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3011901",
+     "threat-middle-3011902",
+     "threat-wide-3011903"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 20,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012001",
+     "threat-middle-3012002",
+     "threat-wide-3012003"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012001",
+     "threat-middle-3012002",
+     "threat-wide-3012003"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 21,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "timed_out"
+    ],
+    "eps": [
+     "threat-close-3012101",
+     "threat-middle-3012102",
+     "threat-wide-3012103"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012101",
+     "threat-middle-3012102",
+     "threat-wide-3012103"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012101",
+     "threat-middle-3012102",
+     "threat-wide-3012103"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 22,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012201",
+     "threat-middle-3012202",
+     "threat-wide-3012203"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012201",
+     "threat-middle-3012202",
+     "threat-wide-3012203"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 23,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [],
+    "eps": []
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012301",
+     "threat-middle-3012302",
+     "threat-wide-3012303"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012301",
+     "threat-middle-3012302",
+     "threat-wide-3012303"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 24,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012401",
+     "threat-middle-3012402",
+     "threat-wide-3012403"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012401",
+     "threat-middle-3012402",
+     "threat-wide-3012403"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 25,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012501",
+     "threat-middle-3012502",
+     "threat-wide-3012503"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012501",
+     "threat-middle-3012502",
+     "threat-wide-3012503"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 26,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012601",
+     "threat-middle-3012602",
+     "threat-wide-3012603"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3012601",
+     "threat-middle-3012602",
+     "threat-wide-3012603"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012601",
+     "threat-middle-3012602",
+     "threat-wide-3012603"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 27,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012701",
+     "threat-middle-3012702",
+     "threat-wide-3012703"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012701",
+     "threat-middle-3012702",
+     "threat-wide-3012703"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 28,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012801",
+     "threat-middle-3012802",
+     "threat-wide-3012803"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012801",
+     "threat-middle-3012802",
+     "threat-wide-3012803"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012801",
+     "threat-middle-3012802",
+     "threat-wide-3012803"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 29,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012901",
+     "threat-middle-3012902",
+     "threat-wide-3012903"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3012901",
+     "threat-middle-3012902",
+     "threat-wide-3012903"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 30,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3013001",
+     "threat-middle-3013002",
+     "threat-wide-3013003"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "timed_out"
+    ],
+    "eps": [
+     "threat-close-3013001",
+     "threat-middle-3013002",
+     "threat-wide-3013003"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013001",
+     "threat-middle-3013002",
+     "threat-wide-3013003"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 31,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013101",
+     "threat-middle-3013102",
+     "threat-wide-3013103"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013101",
+     "threat-middle-3013102",
+     "threat-wide-3013103"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 32,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013201",
+     "threat-middle-3013202",
+     "threat-wide-3013203"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013201",
+     "threat-middle-3013202",
+     "threat-wide-3013203"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 33,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013301",
+     "threat-middle-3013302",
+     "threat-wide-3013303"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013301",
+     "threat-middle-3013302",
+     "threat-wide-3013303"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 34,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "held",
+     "timed_out",
+     "timed_out"
+    ],
+    "eps": [
+     "threat-close-3013401",
+     "threat-middle-3013402",
+     "threat-wide-3013403"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013401",
+     "threat-middle-3013402",
+     "threat-wide-3013403"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 35,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013501",
+     "threat-middle-3013502",
+     "threat-wide-3013503"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013501",
+     "threat-middle-3013502",
+     "threat-wide-3013503"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 36,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013601",
+     "threat-middle-3013602",
+     "threat-wide-3013603"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013601",
+     "threat-middle-3013602",
+     "threat-wide-3013603"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013601",
+     "threat-middle-3013602",
+     "threat-wide-3013603"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 37,
+  "adopted": true,
+  "cid": "c0",
+  "c0_zone_qualified": true,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013701",
+     "threat-middle-3013702",
+     "threat-wide-3013703"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 38,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3013801",
+     "threat-middle-3013802",
+     "threat-wide-3013803"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "held",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013801",
+     "threat-middle-3013802",
+     "threat-wide-3013803"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "reach3d",
+  "N": 39,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "held",
+     "entered_threat",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013901",
+     "threat-middle-3013902",
+     "threat-wide-3013903"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "held",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013901",
+     "threat-middle-3013902",
+     "threat-wide-3013903"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "held",
+     "entered_threat",
+     "held"
+    ],
+    "eps": [
+     "threat-close-3013901",
+     "threat-middle-3013902",
+     "threat-wide-3013903"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 0,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3020001",
+     "threat-middle-3020002",
+     "threat-wide-3020003"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3020001",
+     "threat-middle-3020002",
+     "threat-wide-3020003"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "landed",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3020001",
+     "threat-middle-3020002",
+     "threat-wide-3020003"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 1,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3020101",
+     "threat-middle-3020102",
+     "threat-wide-3020103"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "hard_landing",
+     "hard_landing"
+    ],
+    "eps": [
+     "threat-close-3020101",
+     "threat-middle-3020102",
+     "threat-wide-3020103"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3020101",
+     "threat-middle-3020102",
+     "threat-wide-3020103"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 2,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3020201",
+     "threat-middle-3020202",
+     "threat-wide-3020203"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "landed",
+     "hard_landing",
+     "hard_landing"
+    ],
+    "eps": [
+     "threat-close-3020201",
+     "threat-middle-3020202",
+     "threat-wide-3020203"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "entered_threat",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3020201",
+     "threat-middle-3020202",
+     "threat-wide-3020203"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 3,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "landed_off_point",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3020301",
+     "threat-middle-3020302",
+     "threat-wide-3020303"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3020301",
+     "threat-middle-3020302",
+     "threat-wide-3020303"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3020301",
+     "threat-middle-3020302",
+     "threat-wide-3020303"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 4,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3020401",
+     "threat-middle-3020402",
+     "threat-wide-3020403"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3020401",
+     "threat-middle-3020402",
+     "threat-wide-3020403"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 5,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3020501",
+     "threat-middle-3020502",
+     "threat-wide-3020503"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3020501",
+     "threat-middle-3020502",
+     "threat-wide-3020503"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "hard_landing",
+     "hard_landing"
+    ],
+    "eps": [
+     "threat-close-3020501",
+     "threat-middle-3020502",
+     "threat-wide-3020503"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 6,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3020601",
+     "threat-middle-3020602",
+     "threat-wide-3020603"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3020601",
+     "threat-middle-3020602",
+     "threat-wide-3020603"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3020601",
+     "threat-middle-3020602",
+     "threat-wide-3020603"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 7,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3020701",
+     "threat-middle-3020702",
+     "threat-wide-3020703"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "hard_landing",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3020701",
+     "threat-middle-3020702",
+     "threat-wide-3020703"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3020701",
+     "threat-middle-3020702",
+     "threat-wide-3020703"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 8,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3020801",
+     "threat-middle-3020802",
+     "threat-wide-3020803"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "timed_out",
+     "timed_out"
+    ],
+    "eps": [
+     "threat-close-3020801",
+     "threat-middle-3020802",
+     "threat-wide-3020803"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3020801",
+     "threat-middle-3020802",
+     "threat-wide-3020803"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 9,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3020901",
+     "threat-middle-3020902",
+     "threat-wide-3020903"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3020901",
+     "threat-middle-3020902",
+     "threat-wide-3020903"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3020901",
+     "threat-middle-3020902",
+     "threat-wide-3020903"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 10,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "landed_off_point",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3021001",
+     "threat-middle-3021002",
+     "threat-wide-3021003"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3021001",
+     "threat-middle-3021002",
+     "threat-wide-3021003"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 11,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3021101",
+     "threat-middle-3021102",
+     "threat-wide-3021103"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3021101",
+     "threat-middle-3021102",
+     "threat-wide-3021103"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "landed",
+     "landed",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3021101",
+     "threat-middle-3021102",
+     "threat-wide-3021103"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 12,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3021201",
+     "threat-middle-3021202",
+     "threat-wide-3021203"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "landed",
+     "landed",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3021201",
+     "threat-middle-3021202",
+     "threat-wide-3021203"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "timed_out",
+     "timed_out"
+    ],
+    "eps": [
+     "threat-close-3021201",
+     "threat-middle-3021202",
+     "threat-wide-3021203"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 13,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3021301",
+     "threat-middle-3021302",
+     "threat-wide-3021303"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3021301",
+     "threat-middle-3021302",
+     "threat-wide-3021303"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3021301",
+     "threat-middle-3021302",
+     "threat-wide-3021303"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 14,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3021401",
+     "threat-middle-3021402",
+     "threat-wide-3021403"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3021401",
+     "threat-middle-3021402",
+     "threat-wide-3021403"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 15,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3021501",
+     "threat-middle-3021502",
+     "threat-wide-3021503"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3021501",
+     "threat-middle-3021502",
+     "threat-wide-3021503"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3021501",
+     "threat-middle-3021502",
+     "threat-wide-3021503"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 16,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3021601",
+     "threat-middle-3021602",
+     "threat-wide-3021603"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3021601",
+     "threat-middle-3021602",
+     "threat-wide-3021603"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3021601",
+     "threat-middle-3021602",
+     "threat-wide-3021603"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 17,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3021701",
+     "threat-middle-3021702",
+     "threat-wide-3021703"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3021701",
+     "threat-middle-3021702",
+     "threat-wide-3021703"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 18,
+  "adopted": true,
+  "cid": "c0",
+  "c0_zone_qualified": true,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3021801",
+     "threat-middle-3021802",
+     "threat-wide-3021803"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 19,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "hard_landing",
+     "timed_out"
+    ],
+    "eps": [
+     "threat-close-3021901",
+     "threat-middle-3021902",
+     "threat-wide-3021903"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3021901",
+     "threat-middle-3021902",
+     "threat-wide-3021903"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 20,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3022001",
+     "threat-middle-3022002",
+     "threat-wide-3022003"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022001",
+     "threat-middle-3022002",
+     "threat-wide-3022003"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022001",
+     "threat-middle-3022002",
+     "threat-wide-3022003"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 21,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "hard_landing",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022101",
+     "threat-middle-3022102",
+     "threat-wide-3022103"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "landed",
+     "entered_threat",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022101",
+     "threat-middle-3022102",
+     "threat-wide-3022103"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022101",
+     "threat-middle-3022102",
+     "threat-wide-3022103"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 22,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3022201",
+     "threat-middle-3022202",
+     "threat-wide-3022203"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3022201",
+     "threat-middle-3022202",
+     "threat-wide-3022203"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022201",
+     "threat-middle-3022202",
+     "threat-wide-3022203"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 23,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "timed_out"
+    ],
+    "eps": [
+     "threat-close-3022301",
+     "threat-middle-3022302",
+     "threat-wide-3022303"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "landed",
+     "landed",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3022301",
+     "threat-middle-3022302",
+     "threat-wide-3022303"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022301",
+     "threat-middle-3022302",
+     "threat-wide-3022303"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 24,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3022401",
+     "threat-middle-3022402",
+     "threat-wide-3022403"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022401",
+     "threat-middle-3022402",
+     "threat-wide-3022403"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022401",
+     "threat-middle-3022402",
+     "threat-wide-3022403"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 25,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022501",
+     "threat-middle-3022502",
+     "threat-wide-3022503"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022501",
+     "threat-middle-3022502",
+     "threat-wide-3022503"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022501",
+     "threat-middle-3022502",
+     "threat-wide-3022503"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 26,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022601",
+     "threat-middle-3022602",
+     "threat-wide-3022603"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022601",
+     "threat-middle-3022602",
+     "threat-wide-3022603"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022601",
+     "threat-middle-3022602",
+     "threat-wide-3022603"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 27,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022701",
+     "threat-middle-3022702",
+     "threat-wide-3022703"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022701",
+     "threat-middle-3022702",
+     "threat-wide-3022703"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022701",
+     "threat-middle-3022702",
+     "threat-wide-3022703"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 28,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022801",
+     "threat-middle-3022802",
+     "threat-wide-3022803"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022801",
+     "threat-middle-3022802",
+     "threat-wide-3022803"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 29,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3022901",
+     "threat-middle-3022902",
+     "threat-wide-3022903"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3022901",
+     "threat-middle-3022902",
+     "threat-wide-3022903"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "landed",
+     "landed",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3022901",
+     "threat-middle-3022902",
+     "threat-wide-3022903"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 30,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3023001",
+     "threat-middle-3023002",
+     "threat-wide-3023003"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023001",
+     "threat-middle-3023002",
+     "threat-wide-3023003"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 31,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3023101",
+     "threat-middle-3023102",
+     "threat-wide-3023103"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023101",
+     "threat-middle-3023102",
+     "threat-wide-3023103"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023101",
+     "threat-middle-3023102",
+     "threat-wide-3023103"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 32,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023201",
+     "threat-middle-3023202",
+     "threat-wide-3023203"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023201",
+     "threat-middle-3023202",
+     "threat-wide-3023203"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023201",
+     "threat-middle-3023202",
+     "threat-wide-3023203"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 33,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023301",
+     "threat-middle-3023302",
+     "threat-wide-3023303"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023301",
+     "threat-middle-3023302",
+     "threat-wide-3023303"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023301",
+     "threat-middle-3023302",
+     "threat-wide-3023303"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 34,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023401",
+     "threat-middle-3023402",
+     "threat-wide-3023403"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023401",
+     "threat-middle-3023402",
+     "threat-wide-3023403"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 35,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3023501",
+     "threat-middle-3023502",
+     "threat-wide-3023503"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023501",
+     "threat-middle-3023502",
+     "threat-wide-3023503"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 36,
+  "adopted": true,
+  "cid": "rC2",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3023601",
+     "threat-middle-3023602",
+     "threat-wide-3023603"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023601",
+     "threat-middle-3023602",
+     "threat-wide-3023603"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023601",
+     "threat-middle-3023602",
+     "threat-wide-3023603"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 37,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "landed_off_point",
+     "entered_threat",
+     "entered_threat"
+    ],
+    "eps": [
+     "threat-close-3023701",
+     "threat-middle-3023702",
+     "threat-wide-3023703"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023701",
+     "threat-middle-3023702",
+     "threat-wide-3023703"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023701",
+     "threat-middle-3023702",
+     "threat-wide-3023703"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 38,
+  "adopted": true,
+  "cid": "rC1",
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "timed_out",
+     "timed_out",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023801",
+     "threat-middle-3023802",
+     "threat-wide-3023803"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": true,
+    "ends": [
+     "landed",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023801",
+     "threat-middle-3023802",
+     "threat-wide-3023803"
+    ]
+   }
+  ]
+ },
+ {
+  "task": "land",
+  "N": 39,
+  "adopted": false,
+  "cid": null,
+  "c0_zone_qualified": false,
+  "trials": [
+   {
+    "cid": "c0",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023901",
+     "threat-middle-3023902",
+     "threat-wide-3023903"
+    ]
+   },
+   {
+    "cid": "rC1",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "entered_threat",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023901",
+     "threat-middle-3023902",
+     "threat-wide-3023903"
+    ]
+   },
+   {
+    "cid": "rC2",
+    "list": "threat",
+    "passed": false,
+    "ends": [
+     "landed_off_point",
+     "landed",
+     "landed"
+    ],
+    "eps": [
+     "threat-close-3023901",
+     "threat-middle-3023902",
+     "threat-wide-3023903"
+    ]
+   }
+  ]
+ }
+]

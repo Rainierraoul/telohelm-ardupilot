@@ -1,0 +1,698 @@
+{
+ "reach:D-A:close": {
+  "estimate": 0.375,
+  "ci95": [
+   -0.375,
+   1.0
+  ],
+  "ci90": [
+   -0.25,
+   1.0
+  ],
+  "classification": {
+   "class": "unresolved",
+   "direction": "not_detected",
+   "different_from_zero": false,
+   "equivalent_within_margin": false,
+   "margin": 0.2,
+   "useful_gain": false,
+   "useful_loss": false
+  },
+  "sensitivity_margin_0_10": {
+   "class": "unresolved",
+   "direction": "not_detected",
+   "different_from_zero": false,
+   "equivalent_within_margin": false,
+   "margin": 0.1,
+   "useful_gain": false,
+   "useful_loss": false
+  },
+  "zero_width_bootstrap": false,
+  "interval_method": "pointwise percentile crossed bootstrap; linear quantiles"
+ },
+ "reach:D-A:middle-wide": {
+  "estimate": 0.0,
+  "ci95": [
+   -0.5625,
+   0.6875
+  ],
+  "ci90": [
+   -0.5,
+   0.5
+  ],
+  "classification": {
+   "class": "unresolved",
+   "direction": "not_detected",
+   "different_from_zero": false,
+   "equivalent_within_margin": false,
+   "margin": 0.2,
+   "useful_gain": false,
+   "useful_loss": false
+  },
+  "sensitivity_margin_0_10": {
+   "class": "unresolved",
+   "direction": "not_detected",
+   "different_from_zero": false,
+   "equivalent_within_margin": false,
+   "margin": 0.1,
+   "useful_gain": false,
+   "useful_loss": false
+  },
+  "zero_width_bootstrap": false,
+  "interval_method": "pointwise percentile crossed bootstrap; linear quantiles"
+ },
+ "reach3d:D-A:close": {
+  "estimate": 0.5,
+  "ci95": [
+   -0.5,
+   1.0
+  ],
+  "ci90": [
+   0.0,
+   1.0
+  ],
+  "classification": {
+   "class": "unresolved",
+   "direction": "not_detected",
+   "different_from_zero": false,
+   "equivalent_within_margin": false,
+   "margin": 0.2,
+   "useful_gain": false,
+   "useful_loss": false
+  },
+  "sensitivity_margin_0_10": {
+   "class": "unresolved",
+   "direction": "not_detected",
+   "different_from_zero": false,
+   "equivalent_within_margin": false,
+   "margin": 0.1,
+   "useful_gain": false,
+   "useful_loss": false
+  },
+  "zero_width_bootstrap": false,
+  "interval_method": "pointwise percentile crossed bootstrap; linear quantiles"
+ },
+ "reach3d:D-A:middle-wide": {
+  "estimate": 0.125,
+  "ci95": [
+   -0.625,
+   0.75
+  ],
+  "ci90": [
+   -0.5,
+   0.75
+  ],
+  "classification": {
+   "class": "unresolved",
+   "direction": "not_detected",
+   "different_from_zero": false,
+   "equivalent_within_margin": false,
+   "margin": 0.2,
+   "useful_gain": false,
+   "useful_loss": false
+  },
+  "sensitivity_margin_0_10": {
+   "class": "unresolved",
+   "direction": "not_detected",
+   "different_from_zero": false,
+   "equivalent_within_margin": false,
+   "margin": 0.1,
+   "useful_gain": false,
+   "useful_loss": false
+  },
+  "zero_width_bootstrap": false,
+  "interval_method": "pointwise percentile crossed bootstrap; linear quantiles"
+ },
+ "land:D-A:close": {
+  "estimate": 0.625,
+  "ci95": [
+   0.125,
+   1.0
+  ],
+  "ci90": [
+   0.25,
+   1.0
+  ],
+  "classification": {
+   "class": "different_not_equivalent",
+   "direction": "gain",
+   "different_from_zero": true,
+   "equivalent_within_margin": false,
+   "margin": 0.2,
+   "useful_gain": false,
+   "useful_loss": false
+  },
+  "sensitivity_margin_0_10": {
+   "class": "different_not_equivalent",
+   "direction": "gain",
+   "different_from_zero": true,
+   "equivalent_within_margin": false,
+   "margin": 0.1,
+   "useful_gain": true,
+   "useful_loss": false
+  },
+  "zero_width_bootstrap": false,
+  "interval_method": "pointwise percentile crossed bootstrap; linear quantiles"
+ },
+ "land:D-A:middle-wide": {
+  "estimate": 0.5,
+  "ci95": [
+   -0.5,
+   1.0
+  ],
+  "ci90": [
+   -0.5,
+   1.0
+  ],
+  "classification": {
+   "class": "unresolved",
+   "direction": "not_detected",
+   "different_from_zero": false,
+   "equivalent_within_margin": false,
+   "margin": 0.2,
+   "useful_gain": false,
+   "useful_loss": false
+  },
+  "sensitivity_margin_0_10": {
+   "class": "unresolved",
+   "direction": "not_detected",
+   "different_from_zero": false,
+   "equivalent_within_margin": false,
+   "margin": 0.1,
+   "useful_gain": false,
+   "useful_loss": false
+  },
+  "zero_width_bootstrap": false,
+  "interval_method": "pointwise percentile crossed bootstrap; linear quantiles"
+ },
+ "pooled:C-B": {
+  "estimate": 0.666666666667,
+  "ci95": [
+   0.416666666667,
+   0.916666666667
+  ],
+  "ci90": [
+   0.416666666667,
+   0.833333333333
+  ],
+  "classification": {
+   "class": "different_not_equivalent",
+   "direction": "gain",
+   "different_from_zero": true,
+   "equivalent_within_margin": false,
+   "margin": 0.2,
+   "useful_gain": true,
+   "useful_loss": false
+  },
+  "sensitivity_margin_0_10": {
+   "class": "different_not_equivalent",
+   "direction": "gain",
+   "different_from_zero": true,
+   "equivalent_within_margin": false,
+   "margin": 0.1,
+   "useful_gain": true,
+   "useful_loss": false
+  },
+  "zero_width_bootstrap": false,
+  "interval_method": "pointwise percentile crossed bootstrap; linear quantiles",
+  "task_dependent": false,
+  "per_task": {
+   "reach": {
+    "estimate": 0.75,
+    "ci95": [
+     0.25,
+     1.0
+    ],
+    "ci90": [
+     0.5,
+     1.0
+    ],
+    "classification": {
+     "class": "different_not_equivalent",
+     "direction": "gain",
+     "different_from_zero": true,
+     "equivalent_within_margin": false,
+     "margin": 0.2,
+     "useful_gain": true,
+     "useful_loss": false
+    },
+    "sensitivity_margin_0_10": {
+     "class": "different_not_equivalent",
+     "direction": "gain",
+     "different_from_zero": true,
+     "equivalent_within_margin": false,
+     "margin": 0.1,
+     "useful_gain": true,
+     "useful_loss": false
+    },
+    "zero_width_bootstrap": false,
+    "interval_method": "pointwise percentile crossed bootstrap; linear quantiles"
+   },
+   "reach3d": {
+    "estimate": 0.75,
+    "ci95": [
+     0.25,
+     1.0
+    ],
+    "ci90": [
+     0.5,
+     1.0
+    ],
+    "classification": {
+     "class": "different_not_equivalent",
+     "direction": "gain",
+     "different_from_zero": true,
+     "equivalent_within_margin": false,
+     "margin": 0.2,
+     "useful_gain": true,
+     "useful_loss": false
+    },
+    "sensitivity_margin_0_10": {
+     "class": "different_not_equivalent",
+     "direction": "gain",
+     "different_from_zero": true,
+     "equivalent_within_margin": false,
+     "margin": 0.1,
+     "useful_gain": true,
+     "useful_loss": false
+    },
+    "zero_width_bootstrap": false,
+    "interval_method": "pointwise percentile crossed bootstrap; linear quantiles"
+   },
+   "land": {
+    "estimate": 0.5,
+    "ci95": [
+     0.0,
+     1.0
+    ],
+    "ci90": [
+     0.0,
+     1.0
+    ],
+    "classification": {
+     "class": "unresolved",
+     "direction": "not_detected",
+     "different_from_zero": false,
+     "equivalent_within_margin": false,
+     "margin": 0.2,
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "sensitivity_margin_0_10": {
+     "class": "unresolved",
+     "direction": "not_detected",
+     "different_from_zero": false,
+     "equivalent_within_margin": false,
+     "margin": 0.1,
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "zero_width_bootstrap": false,
+    "interval_method": "pointwise percentile crossed bootstrap; linear quantiles"
+   }
+  },
+  "pooled_class_used": true,
+  "weight_per_named_task": 0.3333333333333333,
+  "blocks_counted": "blocks of the three tasks added up",
+  "answer": {
+   "result": "different_not_equivalent",
+   "signs": {
+    "reach": "+",
+    "reach3d": "+",
+    "land": "+"
+   },
+   "signs_differ": false,
+   "per_task": [
+    {
+     "task": "reach",
+     "estimate": 0.75,
+     "ci95": [
+      0.25,
+      1.0
+     ],
+     "name": "different_not_equivalent"
+    },
+    {
+     "task": "reach3d",
+     "estimate": 0.75,
+     "ci95": [
+      0.25,
+      1.0
+     ],
+     "name": "different_not_equivalent"
+    },
+    {
+     "task": "land",
+     "estimate": 0.5,
+     "ci95": [
+      0.0,
+      1.0
+     ],
+     "name": "unresolved"
+    }
+   ],
+   "status": "answered",
+   "text": "A pooled gain over these three tasks."
+  }
+ },
+ "pooled:B-A": {
+  "estimate": -0.25,
+  "ci95": [
+   -0.430555555556,
+   -0.083333333333
+  ],
+  "ci90": [
+   -0.402777777778,
+   -0.111111111111
+  ],
+  "classification": {
+   "class": "different_not_equivalent",
+   "direction": "loss",
+   "different_from_zero": true,
+   "equivalent_within_margin": false,
+   "margin": 0.2,
+   "useful_gain": false,
+   "useful_loss": false
+  },
+  "sensitivity_margin_0_10": {
+   "class": "different_not_equivalent",
+   "direction": "loss",
+   "different_from_zero": true,
+   "equivalent_within_margin": false,
+   "margin": 0.1,
+   "useful_gain": false,
+   "useful_loss": false
+  },
+  "zero_width_bootstrap": false,
+  "interval_method": "pointwise percentile crossed bootstrap; linear quantiles",
+  "task_dependent": false,
+  "per_task": {
+   "reach": {
+    "estimate": -0.333333333333,
+    "ci95": [
+     -0.666666666667,
+     0.0
+    ],
+    "ci90": [
+     -0.666666666667,
+     0.0
+    ],
+    "classification": {
+     "class": "unresolved",
+     "direction": "not_detected",
+     "different_from_zero": false,
+     "equivalent_within_margin": false,
+     "margin": 0.2,
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "sensitivity_margin_0_10": {
+     "class": "unresolved",
+     "direction": "not_detected",
+     "different_from_zero": false,
+     "equivalent_within_margin": false,
+     "margin": 0.1,
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "zero_width_bootstrap": false,
+    "interval_method": "pointwise percentile crossed bootstrap; linear quantiles"
+   },
+   "reach3d": {
+    "estimate": -0.25,
+    "ci95": [
+     -0.5,
+     0.0
+    ],
+    "ci90": [
+     -0.5,
+     0.0
+    ],
+    "classification": {
+     "class": "unresolved",
+     "direction": "not_detected",
+     "different_from_zero": false,
+     "equivalent_within_margin": false,
+     "margin": 0.2,
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "sensitivity_margin_0_10": {
+     "class": "unresolved",
+     "direction": "not_detected",
+     "different_from_zero": false,
+     "equivalent_within_margin": false,
+     "margin": 0.1,
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "zero_width_bootstrap": false,
+    "interval_method": "pointwise percentile crossed bootstrap; linear quantiles"
+   },
+   "land": {
+    "estimate": -0.166666666667,
+    "ci95": [
+     -0.5,
+     0.0
+    ],
+    "ci90": [
+     -0.341666666667,
+     0.0
+    ],
+    "classification": {
+     "class": "unresolved",
+     "direction": "not_detected",
+     "different_from_zero": false,
+     "equivalent_within_margin": false,
+     "margin": 0.2,
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "sensitivity_margin_0_10": {
+     "class": "unresolved",
+     "direction": "not_detected",
+     "different_from_zero": false,
+     "equivalent_within_margin": false,
+     "margin": 0.1,
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "zero_width_bootstrap": false,
+    "interval_method": "pointwise percentile crossed bootstrap; linear quantiles"
+   }
+  },
+  "pooled_class_used": true,
+  "weight_per_named_task": 0.3333333333333333,
+  "blocks_counted": "blocks of the three tasks added up",
+  "answer": {
+   "result": "different_not_equivalent",
+   "signs": {
+    "reach": "-",
+    "reach3d": "-",
+    "land": "-"
+   },
+   "signs_differ": false,
+   "per_task": [
+    {
+     "task": "reach",
+     "estimate": -0.333333333333,
+     "ci95": [
+      -0.666666666667,
+      0.0
+     ],
+     "name": "unresolved"
+    },
+    {
+     "task": "reach3d",
+     "estimate": -0.25,
+     "ci95": [
+      -0.5,
+      0.0
+     ],
+     "name": "unresolved"
+    },
+    {
+     "task": "land",
+     "estimate": -0.166666666667,
+     "ci95": [
+      -0.5,
+      0.0
+     ],
+     "name": "unresolved"
+    }
+   ],
+   "status": "answered",
+   "text": "A pooled loss over these three tasks."
+  }
+ },
+ "pooled:D-C": {
+  "estimate": -0.111111111111,
+  "ci95": [
+   -0.347222222222,
+   0.125
+  ],
+  "ci90": [
+   -0.305555555556,
+   0.083333333333
+  ],
+  "classification": {
+   "class": "unresolved",
+   "direction": "not_detected",
+   "different_from_zero": false,
+   "equivalent_within_margin": false,
+   "margin": 0.2,
+   "useful_gain": false,
+   "useful_loss": false
+  },
+  "sensitivity_margin_0_10": {
+   "class": "unresolved",
+   "direction": "not_detected",
+   "different_from_zero": false,
+   "equivalent_within_margin": false,
+   "margin": 0.1,
+   "useful_gain": false,
+   "useful_loss": false
+  },
+  "zero_width_bootstrap": false,
+  "interval_method": "pointwise percentile crossed bootstrap; linear quantiles",
+  "task_dependent": false,
+  "per_task": {
+   "reach": {
+    "estimate": -0.291666666667,
+    "ci95": [
+     -0.75,
+     0.0
+    ],
+    "ci90": [
+     -0.75,
+     0.0
+    ],
+    "classification": {
+     "class": "unresolved",
+     "direction": "not_detected",
+     "different_from_zero": false,
+     "equivalent_within_margin": false,
+     "margin": 0.2,
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "sensitivity_margin_0_10": {
+     "class": "unresolved",
+     "direction": "not_detected",
+     "different_from_zero": false,
+     "equivalent_within_margin": false,
+     "margin": 0.1,
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "zero_width_bootstrap": false,
+    "interval_method": "pointwise percentile crossed bootstrap; linear quantiles"
+   },
+   "reach3d": {
+    "estimate": -0.25,
+    "ci95": [
+     -0.75,
+     0.0
+    ],
+    "ci90": [
+     -0.5,
+     0.0
+    ],
+    "classification": {
+     "class": "unresolved",
+     "direction": "not_detected",
+     "different_from_zero": false,
+     "equivalent_within_margin": false,
+     "margin": 0.2,
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "sensitivity_margin_0_10": {
+     "class": "unresolved",
+     "direction": "not_detected",
+     "different_from_zero": false,
+     "equivalent_within_margin": false,
+     "margin": 0.1,
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "zero_width_bootstrap": false,
+    "interval_method": "pointwise percentile crossed bootstrap; linear quantiles"
+   },
+   "land": {
+    "estimate": 0.208333333333,
+    "ci95": [
+     0.0,
+     0.625
+    ],
+    "ci90": [
+     0.0,
+     0.5
+    ],
+    "classification": {
+     "class": "unresolved",
+     "direction": "not_detected",
+     "different_from_zero": false,
+     "equivalent_within_margin": false,
+     "margin": 0.2,
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "sensitivity_margin_0_10": {
+     "class": "unresolved",
+     "direction": "not_detected",
+     "different_from_zero": false,
+     "equivalent_within_margin": false,
+     "margin": 0.1,
+     "useful_gain": false,
+     "useful_loss": false
+    },
+    "zero_width_bootstrap": false,
+    "interval_method": "pointwise percentile crossed bootstrap; linear quantiles"
+   }
+  },
+  "pooled_class_used": true,
+  "weight_per_named_task": 0.3333333333333333,
+  "blocks_counted": "blocks of the three tasks added up",
+  "answer": {
+   "result": "unresolved",
+   "signs": {
+    "reach": "-",
+    "reach3d": "-",
+    "land": "+"
+   },
+   "signs_differ": true,
+   "per_task": [
+    {
+     "task": "reach",
+     "estimate": -0.291666666667,
+     "ci95": [
+      -0.75,
+      0.0
+     ],
+     "name": "unresolved"
+    },
+    {
+     "task": "reach3d",
+     "estimate": -0.25,
+     "ci95": [
+      -0.75,
+      0.0
+     ],
+     "name": "unresolved"
+    },
+    {
+     "task": "land",
+     "estimate": 0.208333333333,
+     "ci95": [
+      0.0,
+      0.625
+     ],
+     "name": "unresolved"
+    }
+   ],
+   "status": "unresolved",
+   "text": "Unresolved. The per-task signs are: reach -, reach3d -, land +."
+  }
+ }
+}

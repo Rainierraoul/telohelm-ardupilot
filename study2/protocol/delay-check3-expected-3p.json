@@ -1,0 +1,593 @@
+{
+ "cases": {
+  "land": {
+   "first": {
+    "threat-close-4020001": {
+     "basis": "the on-time flights agree",
+     "end_reason": "hard_landing",
+     "ended": {
+      "hard_landing": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-middle-4020002": {
+     "basis": "the on-time flights agree",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-wide-4020003": {
+     "basis": "the on-time flights agree",
+     "end_reason": "hard_landing",
+     "ended": {
+      "hard_landing": 7
+     },
+     "flights": 7,
+     "late": 0
+    }
+   },
+   "reference": {
+    "calm-4220001": {
+     "basis": "the no-delay file",
+     "end_reason": "landed",
+     "ended": {
+      "landed": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "calm-4220002": {
+     "basis": "the no-delay file",
+     "end_reason": "landed",
+     "ended": {
+      "landed": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-close-4120001": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-close-4120002": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-middle-4120101": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-middle-4120102": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-wide-4120201": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-wide-4120202": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "wind-4220101": {
+     "basis": "the no-delay file",
+     "end_reason": "landed",
+     "ended": {
+      "landed": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "wind-4220102": {
+     "basis": "the no-delay file",
+     "end_reason": "landed",
+     "ended": {
+      "landed": 7
+     },
+     "flights": 7,
+     "late": 0
+    }
+   },
+   "second": {
+    "matched-close-4020001": {
+     "basis": "the on-time flights agree",
+     "end_reason": "landed",
+     "ended": {
+      "landed": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "matched-middle-4020002": {
+     "basis": "the on-time flights agree",
+     "end_reason": "landed",
+     "ended": {
+      "landed": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "matched-wide-4020003": {
+     "basis": "the on-time flights agree",
+     "end_reason": "landed",
+     "ended": {
+      "landed": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-close-4020001": {
+     "basis": "the on-time flights agree",
+     "end_reason": "landed",
+     "ended": {
+      "landed": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-middle-4020002": {
+     "basis": "the on-time flights agree",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-wide-4020003": {
+     "basis": "the on-time flights agree",
+     "end_reason": "landed",
+     "ended": {
+      "landed": 7
+     },
+     "flights": 7,
+     "late": 0
+    }
+   }
+  },
+  "reach": {
+   "first": {
+    "threat-close-4000001": {
+     "basis": "the on-time flights agree",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-middle-4000002": {
+     "basis": "the on-time flights agree",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-wide-4000003": {
+     "basis": "the on-time flights agree",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    }
+   },
+   "reference": {
+    "calm-4200001": {
+     "basis": "the no-delay file",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "calm-4200002": {
+     "basis": "the no-delay file",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-close-4100001": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-close-4100002": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-middle-4100101": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-middle-4100102": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-wide-4100201": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-wide-4100202": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "wind-4200101": {
+     "basis": "the no-delay file",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "wind-4200102": {
+     "basis": "the no-delay file",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    }
+   },
+   "second": {
+    "matched-close-4000001": {
+     "basis": "the on-time flights agree",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "matched-middle-4000002": {
+     "basis": "the on-time flights agree",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "matched-wide-4000003": {
+     "basis": "the on-time flights agree",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-close-4000001": {
+     "basis": "the on-time flights agree",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-middle-4000002": {
+     "basis": "the on-time flights agree",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-wide-4000003": {
+     "basis": "the on-time flights agree",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    }
+   }
+  },
+  "reach3d": {
+   "first": {
+    "threat-close-4010001": {
+     "basis": "flights ended {'entered_threat': 1, 'held': 6}",
+     "end_reason": null,
+     "ended": {
+      "entered_threat": 1,
+      "held": 6
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-middle-4010002": {
+     "basis": "the on-time flights agree",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-wide-4010003": {
+     "basis": "the on-time flights agree",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    }
+   },
+   "reference": {
+    "calm-4210001": {
+     "basis": "the no-delay file",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "calm-4210002": {
+     "basis": "the no-delay file",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-close-4110001": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-close-4110002": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-middle-4110101": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-middle-4110102": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-wide-4110201": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-wide-4110202": {
+     "basis": "the no-delay file",
+     "end_reason": "entered_threat",
+     "ended": {
+      "entered_threat": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "wind-4210101": {
+     "basis": "the no-delay file",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "wind-4210102": {
+     "basis": "the no-delay file",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    }
+   },
+   "second": {
+    "matched-close-4010001": {
+     "basis": "the on-time flights agree",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "matched-middle-4010002": {
+     "basis": "the on-time flights agree",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "matched-wide-4010003": {
+     "basis": "the on-time flights agree",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-close-4010001": {
+     "basis": "the on-time flights agree",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-middle-4010002": {
+     "basis": "the on-time flights agree",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    },
+    "threat-wide-4010003": {
+     "basis": "the on-time flights agree",
+     "end_reason": "held",
+     "ended": {
+      "held": 7
+     },
+     "flights": 7,
+     "late": 0
+    }
+   }
+  }
+ },
+ "delay_periods": 3,
+ "earlier_records": [
+  {
+   "path": "runs/cluster-20261118/chain-4802065/runs/delay-check3-20261118-Z2/delay-check.json",
+   "seeds_sha256": "39a9d9727b446c5a939a2d9ce0895ce724657fd31582772f8d233d553fe38ef4",
+   "sha256": "4f7a7fa18cb6830a14793f497328f9b4db3ef326dfd2b08bde57ac05d469ebe3",
+   "source_fingerprint": "cf270a5dbb6aa8bae5ee8badf6203a29822a8f1acf3569d1893182d90d410bfc"
+  },
+  {
+   "path": "runs/cluster-20261119/chain-4802829/runs/delay-check3-20261118-R2/delay-check.json",
+   "seeds_sha256": "39a9d9727b446c5a939a2d9ce0895ce724657fd31582772f8d233d553fe38ef4",
+   "sha256": "637d6f1d99e29f14ea235ebf1a96475cfb6230cab53e73df5d55a2699cff29b2",
+   "source_fingerprint": "cf270a5dbb6aa8bae5ee8badf6203a29822a8f1acf3569d1893182d90d410bfc"
+  },
+  {
+   "path": "runs/cluster-20261118/chain-4802069/runs/delay-check3-20261118-Z1/delay-check.json",
+   "seeds_sha256": "39a9d9727b446c5a939a2d9ce0895ce724657fd31582772f8d233d553fe38ef4",
+   "sha256": "ed63fcf6ddf3bbb2e041cf9e970976999b68f135a9b269c1d51f8c293d26a607",
+   "source_fingerprint": "cf270a5dbb6aa8bae5ee8badf6203a29822a8f1acf3569d1893182d90d410bfc"
+  }
+ ],
+ "made_by": "protocol/delay_check3.py expected-at-delay",
+ "records": [
+  "3a7e5ac9633c54f21217e4f482c050a22392594a2a7fce6c4d53e19b9b2b1e74",
+  "4eba90cf07e8d022a3740ea0054deb040d4acce141025d575d8322f341da1d37",
+  "6f2d2367a974c2cfa7fac76d4bd092ca14b76706fe188d45c8ed4d7c87e4074a",
+  "d0f5f3f66c5df510cba642419c9f033505af8f54a7d30a3e5cfcf765ede6efe5"
+ ],
+ "reference_expected_sha256": "e75ba5c46bb8bbf07a61ad8e4c87385c14b0ef6af348c23139b36bdbcacdd9ca",
+ "route": "netns-per-process+keyring-per-call/2",
+ "rule": "notes/TAKEOVER-20261111.md, round five, ruling 21: a scripted case ends as its on-time flights in these records agree, and has none when a flight was late or they differ; the reference controllers keep the no-delay file",
+ "seeds_sha256": "1d39a62cf7ee7d23076b2c2878162457d555a86cd965ab7d7e17a312b876a64c",
+ "source_fingerprint_of_records": "8700e012b2d85b7f57bfd8c5d2958aa80edcfd9ab3e515527ae7f3de60563afa",
+ "source_sha256": {
+  "land": {
+   "first": "3728568cff12dedcd444cefccc7721ee51ef7d3b6a8a14735281c6165e9ab969",
+   "reference": "2400c5532559d191c336125af66877dfa8bc33f276787cbc21ab12bcb33a85cb",
+   "second": "a23b11bb8ef8bcf38c99bd2f4d916fa430e4bfb07d2bd9e1b34a6fd1be19ad0e"
+  },
+  "reach": {
+   "first": "e1922807b0041e8a030bfa720d23f26dd48c7e5c161b0d840bdefb8196d37031",
+   "reference": "b5eef34ccfebbcef0cb2701eec690e09cd841198d318d024ed7d49e0bce0f72e",
+   "second": "43dbb9386bca53327538dbce50f5027bccc0a1792f80fc225f16418cb0c4e9be"
+  },
+  "reach3d": {
+   "first": "fa391fd14ad8c0f1d10bb170b0b9a0044ba004a9fd096b86ca747a6e475f6207",
+   "reference": "0f9af4795bcef4e71df88e941a8fd034187f67216f5f3287cc228429918f0fca",
+   "second": "12de1a4121d0b0a3fc41fab9cfbad78da357655d4ba56c7837963e8b4c7d92e6"
+  }
+ },
+ "wheel_sha256": "36d36b86028643cdec9c3bbc5c90b6e6abe5dcdf31e5877367c38df995ab34b5"
+}
